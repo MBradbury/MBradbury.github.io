@@ -12,6 +12,8 @@ An event was held at the University of Warwick on the 21st of February to demons
 
 Research from this project was demonstrated at the Living in the Internet of Things conference hosted by the IET on the 1st to 2nd of May 2019 and also at the House of Lords in February 2019.
 
+![Project Team](/images/iot-tram-team.jpg)
+
 # Videos of Two Techniques
 
 Two of the implemented techniques were tested at Millbrook Proving Ground during this project. A visualisation of these techniques can be seen below. Stationary RSUs were included to simulated roadside infrastructure for some experiments, but were used as stationary vehicles in the two videos below.
