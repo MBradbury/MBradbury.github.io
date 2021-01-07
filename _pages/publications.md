@@ -5,9 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-## Publications
-
-#### 2021
+## 2021
 
  
  *  **Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Trust Assessment in 32 KiB of RAM: Multi-application Trust-based Task Offloading for Resource-constrained IoT Nodes. In *The 36th ACM/SIGAPP Symposium on Applied Computing*, SAC'21, 1–10. Virtual Event, Republic of Korea, 22–26 March 2021. ACM. To Appear. [doi:10.1145/3412841.3441898](https://doi.org/10.1145/3412841.3441898).  
@@ -15,7 +13,7 @@ author_profile: true
  *  **Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Trust Trackers for Computation Offloading in Edge-Based IoT Networks. In *IEEE INFOCOM*, 1–10. Virtual Event, Canada, 10–13 May 2021. IEEE. To Appear.  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2021_TrustTrackersComputation.bib)] 
  
-#### 2020
+## 2020
 
  
  *  Carsten Maple, **Matthew Bradbury**, Hu Yuan, Marie Farrell, Clare Dixon, Michael Fisher, and Uger Ilker Atmaca. Security-Minded Verification of Space Systems. In *IEEE Aerospace Conference*. Big Sky, Montana, USA, 7–14 March 2020. IEEE. [doi:10.1109/AERO47225.2020.9172563](https://doi.org/10.1109/AERO47225.2020.9172563).  
@@ -27,7 +25,7 @@ author_profile: true
  *  **Matthew Bradbury**, Phillip Taylor, Ugur Ilker Atmaca, Carsten Maple, and Nathan Griffiths. Privacy Challenges with Protecting Live Vehicular Location Context. *IEEE Access*, 8:207465–207484, 2020. [doi:10.1109/ACCESS.2020.3038533](https://doi.org/10.1109/ACCESS.2020.3038533).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2020_PrivacyChallengesProtecting.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/Access2020.pdf)] 
  
-#### 2019
+## 2019
 
  
  *  **Matthew Bradbury**, Arshad Jhumka, and Carsten Maple. The Impact of Decreasing Transmit Power Levels on FlockLab To Achieve a Sparse Network. In *Proceedings of the 2nd Workshop on Benchmarking Cyber-Physical Systems and Internet of Things*, CPS-IoTBench '19, 7–12. New York, NY, USA, April 2019. ACM. [doi:10.1145/3312480.3313171](https://doi.org/10.1145/3312480.3313171).  
@@ -43,7 +41,7 @@ author_profile: true
  *  Chen Gu, **Matthew Bradbury**, and Arshad Jhumka. Phantom walkabouts: A customisable source location privacy aware routing protocol for wireless sensor networks. *Concurrency and Computation: Practice and Experience*, 31(20):e5304, 2019. [doi:10.1002/cpe.5304](https://doi.org/10.1002/cpe.5304).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Gu_2019_Phantomwalkabouts_customisable.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/CCPE2019.pdf)] 
  
-#### 2018
+## 2018
 
  
  *  Chen Gu, **Matthew Bradbury**, Jack Kirton, and Arshad Jhumka. A Decision Theoretic Framework for Selecting Source Location Privacy Aware Routing Protocols in Wireless Sensor Networks. *Future Generation Computing Systems*, 87:514–526, 2018. [doi:10.1016/j.future.2018.01.046](https://doi.org/10.1016/j.future.2018.01.046).  
@@ -53,7 +51,7 @@ author_profile: true
  *  Jack Kirton, **Matthew Bradbury**, and Arshad Jhumka. Towards optimal source location privacy-aware TDMA schedules in wireless sensor networks. *Computer Networks*, 146:125–137, 2018. [doi:10.1016/j.comnet.2018.09.010](https://doi.org/10.1016/j.comnet.2018.09.010).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Kirton_2018_Towardsoptimalsource.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/COMNET2018.pdf)] 
  
-#### 2017
+## 2017
 
  
  *  **Matthew Bradbury** and Arshad Jhumka. A Near-Optimal Source Location Privacy Scheme for Wireless Sensor Networks. In *16th IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)*, 409–416. August 2017. [doi:10.1109/Trustcom/BigDataSE/ICESS.2017.265](https://doi.org/10.1109/Trustcom/BigDataSE/ICESS.2017.265).  
@@ -67,13 +65,13 @@ author_profile: true
  *  **Matthew Bradbury** and Arshad Jhumka. Understanding Source Location Privacy Protocols in Sensor Networks via Perturbation of Time Series. In *IEEE INFOCOM*, 1611–1619. May 2017. [doi:10.1109/INFOCOM.2017.8057122](https://doi.org/10.1109/INFOCOM.2017.8057122).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2017_UnderstandingSourceLocation.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/InfoCom2017.pdf)] [[presentation](https://github.com/MBradbury/publications/raw/master/presentations/InfoCom2017.pdf)] 
  
-#### 2016
+## 2016
 
  
  *  Joanna F. Laikin, **Matthew Bradbury**, Chen Gu, and Matthew Leeke. Towards Fake Sources for Source Location Privacy in Wireless Sensor Networks with Multiple Sources. In *15th IEEE International Conference on Communication Systems (ICCS'16)*, 1–6. December 2016. [doi:10.1109/ICCS.2016.7833572](https://doi.org/10.1109/ICCS.2016.7833572).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Laikin_2016_TowardsFakeSources.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/ICCS2016.pdf)] 
  
-#### 2015
+## 2015
 
  
  *  **Matthew Bradbury**, Matthew Leeke, and Arshad Jhumka. A Dynamic Fake Source Algorithm for Source Location Privacy in Wireless Sensor Networks. In *14th IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)*, 531–538. August 2015. [doi:10.1109/Trustcom.2015.416](https://doi.org/10.1109/Trustcom.2015.416).  
@@ -83,19 +81,19 @@ author_profile: true
  *  Arshad Jhumka, **Matthew Bradbury**, and Matthew Leeke. Fake source-based source location privacy in wireless sensor networks. *Concurrency and Computation: Practice and Experience*, 27(12):2999–3020, 2015. [doi:10.1002/cpe.3242](https://doi.org/10.1002/cpe.3242).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Jhumka_2015_Fakesourcebased.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/CCPE2015.pdf)] 
  
-#### 2014
+## 2014
 
  
  *  Arshad Jhumka, **Matthew Bradbury**, and Sain Saginbekov. Efficient fault-tolerant collision-free data aggregation scheduling for wireless sensor networks. *Journal of Parallel and Distributed Computing*, 74(1):1789–1801, 2014. [doi:10.1016/j.jpdc.2013.09.011](https://doi.org/10.1016/j.jpdc.2013.09.011).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Jhumka_2014_Efficientfaulttolerant.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/JPDC2014.pdf)] 
  
-#### 2013
+## 2013
 
  
  *  Alasdair Thomason, Matthew Leeke, **Matthew Bradbury**, and Arshad Jhumka. Evaluating the Impact of Broadcast Rates and Collisions on Fake Source Protocols for Source Location Privacy. In *12th IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)*, 667–674. July 2013. [doi:10.1109/TrustCom.2013.81](https://doi.org/10.1109/TrustCom.2013.81).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Thomason_2013_EvaluatingImpactBroadcast.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/TrustCom2013.pdf)] 
  
-#### 2012
+## 2012
 
  
  *  Arshad Jhumka, **Matthew Bradbury**, and Matthew Leeke. Towards Understanding Source Location Privacy in Wireless Sensor Networks through Fake Sources. In *11th IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)*, 760–768. June 2012. [doi:10.1109/TrustCom.2012.281](https://doi.org/10.1109/TrustCom.2012.281).  
