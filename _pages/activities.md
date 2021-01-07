@@ -23,7 +23,7 @@ author_profile: true
 
 ## Programme Committees
 
- * IEEE Security and Privacy (IEEE S\&P) Shadow PC [2020]
+ * IEEE Security and Privacy (IEEE S&P) Shadow PC [2020]
  * Formal Methods for Autonomous Systems Workshop (FMAS) [2019]
 
 ## Reviewed For
