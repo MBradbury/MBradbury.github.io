@@ -3,7 +3,7 @@ title: "How To Stop Poachers Stealing Your Pandas"
 collection: talks
 type: "Talk"
 permalink: /talks/2018-05-15-Pint-of-Science
-venue: "Coventry, UK"
+venue: "Shop Front Theatre"
 date: 2018-05-15
 location: "Coventry, UK"
 ---
