@@ -41,6 +41,6 @@ author_profile: true
 
 Liased between staff and postgraduate students to resolve issues in the [PGR SSLC](https://warwick.ac.uk/fac/sci/dcs/research/doctoralstudies/pgr-intranet/pgrsslc).
 
- * Secretary (14/15)
- * Co-Chair (15/16)
- * Representative (16/17, 17/18)
+ * Secretary (2014/15)
+ * Co-Chair (2015/16)
+ * Representative (2016/17, 2017/18)
