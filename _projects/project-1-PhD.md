@@ -16,7 +16,7 @@ In typical sensor network applications a single node in the network will want to
 
 It has been shown that when a message is flooded though a network that an attacker who is listening to the messages can follow the transmission path back to the source of the message. The attacker does this by looking at the wireless signal strengths. When the attacker is facing in the direction a message is sent it can see the signal strength is higher and when facing away it is lower. Using this strategy the attacker determines the direction to travel in. This is why we need to provide source location privacy as flooding provides none.
 
-![SLP Protectionless](/images/slp-network1.png) ![SLP Protectionless Animated](/images/slp-protectionless.gif)
+![SLP Protectionless Animated](/images/slp-protectionless.gif)
 
 An adversary can detect the direction that a message arrived from using a directional antenna.
 
@@ -28,7 +28,7 @@ One solution to provide source location privacy is to allocate some nodes in the
 
 The image below shows what happens when an algorithm that allocates fake sources in a sensor network. Instead of the attacker being lured towards the source, the attacker is instead drawn to the fake sources (in brown) that are flooding the network with fake messages.
 
-![SLP Adaptive](/images/slp-network2.png) ![SLP Adaptive Animated](/images/slp-adaptive.gif)
+![SLP Adaptive Animated](/images/slp-adaptive.gif)
 
 ## Using Diversionary Routes (ILP Inspired)
 
