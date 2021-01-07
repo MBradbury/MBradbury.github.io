@@ -1,6 +1,6 @@
 ---
-title: "CAPRI [April 2018 - September 2018]"
-excerpt: "Reference architecture for attack surface analysis of connected autonomous vehicles."
+title: "CAPRI"
+excerpt: "Reference architecture for attack surface analysis of connected autonomous vehicles.<br/>Duration: April 2018 - September 2018"
 collection: projects
 ---
 

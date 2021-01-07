@@ -1,6 +1,6 @@
 ---
-title: "IoT Transport and Mobility Demonstrator [August 2018 - May 2019]"
-excerpt: "Demonstrating security and privacy techniques for connected autonomous vehicles in a real-world environment."
+title: "IoT Transport and Mobility Demonstrator"
+excerpt: "Demonstrating security and privacy techniques for connected autonomous vehicles in a real-world environment.<br/>Duration: August 2018 - May 2019"
 collection: projects
 ---
 
@@ -8,7 +8,7 @@ With the intent for connected autonomous vehicles (CAVs) to be deployed on UK ro
 
 Testing was performed on the campuses of the University of Warwick, University of Surrey and at Millbrook Proving Ground.
 
-An event was held at the University of Warwick on the 21st of February to demonstrate these four privacy and security techniques for vehicle-to-vehicle communication working in a real-world environment.
+An event was held at the University of Warwick on the 21st of February 2019 to demonstrate these four privacy and security techniques for vehicle-to-vehicle communication working in a real-world environment.
 
 Research from this project was demonstrated at the Living in the Internet of Things conference hosted by the IET on the 1st to 2nd of May 2019 and also at the House of Lords in February 2019.
 

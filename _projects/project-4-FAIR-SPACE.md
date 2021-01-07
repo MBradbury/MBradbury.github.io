@@ -1,6 +1,6 @@
 ---
-title: "FAIR-SPACE [October 2018 - December 2019]"
-excerpt: "Investigating cyber security of space systems."
+title: "FAIR-SPACE"
+excerpt: "Investigating cyber security of space systems.<br/>Duration: October 2018 - December 2019"
 collection: projects
 ---
 
