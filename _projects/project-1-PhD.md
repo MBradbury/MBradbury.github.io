@@ -18,6 +18,10 @@ It has been shown that when a message is flooded though a network that an attack
 
 ![SLP Protectionless](/images/slp-network1.png) ![SLP Protectionless Animated](/images/slp-protectionless.gif)
 
+An adversary can detect the direction that a message arrived from using a directional antenna.
+
+![Panda with an Antenna](/images/panda-antenna.jpg)
+
 ## Using Fake Sources
 
 One solution to provide source location privacy is to allocate some nodes in the network to be fake sources. These fake sources will flood the network with messages that are indistinguishable from the regular messages in the network, but their location will be away from the real source. So, instead of an attacker being lured to the real source the attacker is lured to the fake source.
