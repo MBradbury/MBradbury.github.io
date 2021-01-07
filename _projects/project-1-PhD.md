@@ -18,7 +18,7 @@ It has been shown that when a message is flooded though a network that an attack
 
 ![SLP Protectionless Animated](/images/slp-protectionless.gif)
 
-An adversary can detect the direction that a message arrived from using a directional antenna.
+An adversary can detect the direction that a message arrived from using a directional antenna. In the picture below a directional antenna is picking up signals sent from a 433MHz transmitter. A cheap commercial-off-the-shelf digital TV dongle is used with [SDRSharp](https://www.rtl-sdr.com/tag/sdrsharp/) to receive and visualise the signal.
 
 ![Panda with an Antenna](/images/panda-antenna.jpg)
 
