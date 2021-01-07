@@ -1,5 +1,5 @@
 ---
-title: "Evaluating Trustworthiness of Edge-Based Multi-Tenanted IoT Devices"
+title: "Evaluating Trustworthiness of Edge-Based Multi-Tenanted IoT Devices [March 2020 - March 2021]"
 excerpt: "Investigating how to perform trust-based task offloading from resource-constrained devices."
 collection: projects
 ---

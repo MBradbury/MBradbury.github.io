@@ -1,5 +1,5 @@
 ---
-title: "PNT Cyber Resilience: a Lab2Live Observer Based Approach"
+title: "PNT Cyber Resilience: a Lab2Live Observer Based Approach [January 2020 - March 2020]"
 excerpt: "Live testing of vehicular PNT systems."
 collection: projects
 ---

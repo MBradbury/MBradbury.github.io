@@ -1,5 +1,5 @@
 ---
-title: "IoT Transport and Mobility Demonstrator"
+title: "IoT Transport and Mobility Demonstrator [August 2018 - May 2019]"
 excerpt: "Demonstrating security and privacy techniques for connected autonomous vehicles in a real-world environment."
 collection: projects
 ---
