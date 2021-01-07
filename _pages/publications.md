@@ -5,4 +5,4 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% include https://github.com/MBradbury/publications/blob/master/README.md %}
+{% include_relative https://github.com/MBradbury/publications/blob/master/README.md %}
