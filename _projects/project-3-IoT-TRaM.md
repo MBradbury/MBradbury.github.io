@@ -22,16 +22,13 @@ Two of the implemented techniques were tested at Millbrook Proving Ground during
 
 In this video a priority value is calculated for each messages received. These received messages are then inserted into a priority queue, and messages with a higher priority have their digital signature verified first.
 
-<iframe width="100%" src="https://warwick.ac.uk/fac/sci/dcs/people/matthew_bradbury/projects/iot-tram/millbrook-oppauth-2019-04-12-am-txrx.webm" frameborder="0">&nbsp;</iframe>
-
-
 <video controls="" style="max-width: 100%; max-height: 100%;"><source src="https://warwick.ac.uk/fac/sci/dcs/people/matthew_bradbury/projects/iot-tram/millbrook-oppauth-2019-04-12-am-txrx.webm" type="video/webm"/></video>
 
 ## Group Signatures
 
 In this video a privacy preserving group signature scheme is shown. Group signatures are useful in certain applications (such as platoons of autonomous vehicles) where vehicles need to be able to check that a message arrived from a vehicle within that group. However, there are privacy issued with such a technique as the group signature would contain a public key that allows the group to be tracked over time. In order to mitigate this, the signature can be created with time or location varying information that remains the same for all members of the group. In this example, a timestamp that changes periodically is used to provide a unique signature and thus long-term untraceability. The change in identity is represented by a change in colour of the vehicles.
 
-<iframe width="100%" src="https://warwick.ac.uk/fac/sci/dcs/people/matthew_bradbury/projects/iot-tram/millbrook-grpsig-2019-04-12-pm-txrx.mp4" frameborder="0">&nbsp;</iframe>
+<video controls="" style="max-width: 100%; max-height: 100%;"><source src="https://warwick.ac.uk/fac/sci/dcs/people/matthew_bradbury/projects/iot-tram/millbrook-grpsig-2019-04-12-pm-txrx.mp4" type="video/mp4"/></video>
 
 # Technical Reports
 
