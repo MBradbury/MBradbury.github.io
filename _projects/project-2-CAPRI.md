@@ -1,10 +1,10 @@
 ---
 title: "CAPRI"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+excerpt: "Reference architecture for attack surface analysis of connected autonomous vehicles."
 collection: projects
 ---
 
-As part of the (CAPRI project)[https://caprimobility.com/about/support] I worked on developing a reference architecture for connected and autonomous vehicles to be used to perform an attack surface analysis of a highly complex system.
+As part of the [CAPRI project](https://caprimobility.com/about/support) I worked on developing a reference architecture for connected autonomous vehicles to be used to perform an attack surface analysis of a highly complex system.
 
 ![A reference architecture for Connected Autonomous Vehicles](/images/reference-model.svg)
 
