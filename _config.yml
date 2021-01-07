@@ -71,8 +71,8 @@ social:
 
 
 # Analytics
-#analytics:
-#  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+analytics:
+  provider               :  false # false (default), "google", "google-universal", "custom"
 #  google:
 #    tracking_id          :
 
@@ -86,7 +86,7 @@ author:
   employer         : "The University of Warwick"
   pubmed           :
   googlescholar    : "https://scholar.google.co.uk/citations?user=U1KPCasAAAAJ"
-  email            :
+  email            : M.Bradbury@warwick.ac.uk
   researchgate     : "https://www.researchgate.net/profile/Matthew_Bradbury2"
   uri              : "https://warwick.ac.uk/matthewbradbury"
   bitbucket        : 
