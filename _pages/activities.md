@@ -8,7 +8,7 @@ author_profile: true
 ## Awards and Nominations
 
  * Received the Early Career Researcher of the Year award at the [WMG Star Awards](https://warwick.ac.uk/fac/sci/wmg/people/athena_swan/starawards/) 2019
- * Received best-in-session presentation award at InfoCom 2017
+ * Received best-in-session presentation award at [InfoCom 2017](https://infocom2017.ieee-infocom.org/)
  * Nominated for [WATE PGR](https://warwick.ac.uk/services/od/academic-development/wate/watepgrinfo/) 2014/15 and 2016/17
 
 ## Events
