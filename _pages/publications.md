@@ -5,6 +5,23 @@ permalink: /publications/
 author_profile: true
 ---
 
+## Featured Articles
+
+<table>
+	<tbody>
+		<tr>
+			<td style="width: 33%;"><a href="https://github.com/MBradbury/publications/raw/master/papers/InfoCom2021.pdf"><img src="/images/page-1-of-InfoCom2021.pdf.png" alt="InfoCom21"></a></td>
+			<td style="width: 33%;"><a href="https://github.com/MBradbury/publications/raw/master/papers/InfoCom2021.pdf"><img src="/images/page-1-of-InfoCom2021.pdf.png" alt="InfoCom21"></a></td>
+			<td style="width: 33%;"><a href="https://github.com/MBradbury/publications/raw/master/papers/InfoCom2021.pdf"><img src="/images/page-1-of-InfoCom2021.pdf.png" alt="InfoCom21"></a></td>
+		</tr>
+		<tr>
+			<td style="width: 33%;">Trust Trackers for Computation Offloading in Edge-Based IoT Networks. In IEEE INFOCOM 2021.</td>
+			<td style="width: 33%;">Trust Trackers for Computation Offloading in Edge-Based IoT Networks. In IEEE INFOCOM 2021.</td>
+			<td style="width: 33%;">Trust Trackers for Computation Offloading in Edge-Based IoT Networks. In IEEE INFOCOM 2021.</td>
+		</tr>
+	</tbody>
+</table>
+
 ## 2021
 
  
