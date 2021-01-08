@@ -12,7 +12,7 @@ location: "Coventry, UK"
 
 <!-- readmore -->
 
-The presentation is available [here](https://mbradbury.github.io/files/MBradbury_pint18.pptx).
+The presentation is available [here](https://mbradbury.github.io/downloads/MBradbury_pint18.pptx).
 
 ![Pint of Science Website](/images/pint-of-science-Website.png)
 
