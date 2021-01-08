@@ -34,7 +34,7 @@ The image below shows what happens when an algorithm that allocates fake sources
 
 An alternative to fake sources is to use diversionary paths to increase the time it would take for the attacker to reach the source. These paths travel through different areas of the network to ensure that the attacker does not always receive that message. The messages also delay their travel, so that multiple messages will reach the same distance from the source at a specific time. This allows the attacker to make less positive movement towards the source.
 
-[Video](https://warwick.ac.uk/fac/sci/dcs/people/matthew_bradbury/projects/slp/ilprouting_group_4.mp4)
+<video controls="" style="max-width: 100%; max-height: 100%;"><source src="/videos/ilprouting_group_4.mp4" type="video/mp4"/></video>
 
 ## Why "Protecting Your Panda"?
 
