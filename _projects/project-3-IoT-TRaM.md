@@ -33,10 +33,13 @@ In this video a privacy preserving group signature scheme is shown. Group signat
 # Information
 
 Role: Research Fellow
+
 Duration: August 2018 - May 2019
+
 People:
  * [Prof. Carsten Maple](https://warwick.ac.uk/fac/sci/wmg/people/profile/?wmgid=1102) (PI)
  * [Dr. Haitham Cruickshank](https://www.surrey.ac.uk/people/haitham-cruickshank) (CoI)
+
 Links:
  * [WMG News Article](https://warwick.ac.uk/fac/sci/wmg/mediacentre/news/newsitem?id=8a1785d86d3ece05016d3f4743ed0da2&tag=Carsten%20Maple)
  * [Trials Press Release](https://warwick.ac.uk/newsandevents/pressreleases/cyber_security_of/)

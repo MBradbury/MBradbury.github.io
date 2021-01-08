@@ -9,18 +9,19 @@ Internet of Things (IoT) systems are expected to be deployed as solutions to pro
 # Information
 
 Role: Research Fellow
+
 Duration: March 2020 - March 2021
+
 People:
  * [Dr. Arshad Jhumka](https://warwick.ac.uk/fac/sci/dcs/people/arshad_jhumka/) (PI)
  * [Prof. Tim Watson](https://warwick.ac.uk/fac/sci/wmg/people/profile/?wmgid=1077) (CoI)
+
 Links:
  * [PETRAS Project Page](https://petras-iot.org/project/evaluating-trustworthiness-of-edge-based-multi-tenanted-iot-devices-team/)
  * [Funding Announcement News Article](https://warwick.ac.uk/fac/sci/dcs/news/?newsItem=8a1785d8721768f401723d62f6e13f9f)
  * [Source Code](https://github.com/MBradbury/iot-trust-task-alloc)
 
 # Publications
-
-## 2021
  
  *  **Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Trust Assessment in 32 KiB of RAM: Multi-application Trust-based Task Offloading for Resource-constrained IoT Nodes. In *The 36th ACM/SIGAPP Symposium on Applied Computing*, SAC'21, 1–10. Virtual Event, Republic of Korea, 22–26 March 2021. ACM. To Appear. [doi:10.1145/3412841.3441898](https://doi.org/10.1145/3412841.3441898).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2021_TrustAssessment32.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/SAC-DADS2021.pdf)] 

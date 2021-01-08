@@ -11,13 +11,16 @@ For PNT Cyber Resilience, WMG researchers, led by [Dr Matthew Higgins](https://w
 # Information
 
 Role: Research Fellow
+
 Duration: January 2020 - March 2020
+
 People:
  * [Dr. Matthew Higgins](https://warwick.ac.uk/fac/sci/wmg/people/profile/?wmgid=1279) (PI)
  * [Prof. Paul Jennings](https://warwick.ac.uk/fac/sci/wmg/people/profile/?wmgid=125) (CoI)
  * [Prof. Tim Watson](https://warwick.ac.uk/fac/sci/wmg/people/profile/?wmgid=1077) (CoI)
  * [Dr. Erik Kampter](https://warwick.ac.uk/fac/sci/wmg/people/profile/?wmgid=1431) (RCoI)
  * [Dr. Elijah Adegoke](https://warwick.ac.uk/fac/sci/wmg/people/profile/?wmgid=1645) (RCoI)
+
 Links:
  * [Warwick News Article](https://warwick.ac.uk/fac/sci/wmg/mediacentre/news/newsitem?id=8a17841b6fc76720016fd24767765e12&tag=Intelligent%20Vehicles)
  * [Zenzic News Article](https://zenzic.io/news/winners-of-1-2-million-self-driving-vehicle-cyber-security-feasibility-studies-funding-announced/)
