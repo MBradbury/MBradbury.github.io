@@ -11,11 +11,14 @@ The [FAIR-SPACE](http://fairspacehub.org/) hub aimed to further the use of AI an
 # Information
 
 Role: Research Fellow
+
 Duration: October 2018 - December 2019
+
 People:
  * [Prof. Carsten Maple](https://warwick.ac.uk/fac/sci/wmg/people/profile/?wmgid=1102)
  * [Dr. Hu Yuan]
  * [Dr. Sara Cannizzaro](https://warwick.ac.uk/fac/sci/dcs/people/sara_cannizzaro/)
+
 Links:
  * [FAIR-SPACE Theme 5](https://www.fairspacehub.org/research-themes#yui_3_17_2_1_1586180734370_502)
  * [AeroConf News 30/03/2020](https://www.fairspacehub.org/news/2020/2/13/hk1ygjcyjrgmpdqoehbazkrxygshty)

@@ -43,7 +43,9 @@ This problem is usually introduced as the panda-hunter game. Where a wireless se
 # Information
 
 Role: PhD Student
+
 Duration: September 2014 - April 2018
+
 Supervisor: [Dr. Arshad Jhumka](https://warwick.ac.uk/fac/sci/dcs/people/arshad_jhumka/)
 
 # Publications

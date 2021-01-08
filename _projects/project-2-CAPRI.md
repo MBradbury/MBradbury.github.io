@@ -11,14 +11,14 @@ As part of the [CAPRI project](https://caprimobility.com/about/support) I worked
 # Information
 
 Role: Research Fellow
+
 Duration: April 2018 - September 2018
+
 People:
  * [Prof. Carsten Maple](https://warwick.ac.uk/fac/sci/wmg/people/profile/?wmgid=1102)
  * [Dr. Ahn Tuan Le](https://warwick.ac.uk/fac/sci/wmg/people/profile/?wmgid=1530)
 
 # Publications
-
-## 2019
  
  *  Carsten Maple, **Matthew Bradbury**, Anh Tuan Le, and Kevin Ghirardello. A Connected and Autonomous Vehicle Reference Architecture for Attack Surface Analysis. *Applied Sciences*, 9(23):5101, November 2019. [doi:10.3390/app9235101](https://doi.org/10.3390/app9235101).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Maple_2019_ConnectedAutonomousVehicle.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/AppSci2019.pdf)] 
