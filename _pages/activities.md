@@ -40,7 +40,6 @@ author_profile: true
 ## Student-Staff Liason Committee (University of Warwick)
 
 Liased between staff and postgraduate students to resolve issues in the [PGR SSLC](https://warwick.ac.uk/fac/sci/dcs/research/doctoralstudies/pgr-intranet/pgrsslc).
-
- * Secretary (2014/15)
- * Co-Chair (2015/16)
  * Representative (2016/17, 2017/18)
+ * Co-Chair (2015/16)
+ * Secretary (2014/15)
