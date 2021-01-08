@@ -48,9 +48,12 @@ Duration: September 2014 - April 2018
 
 Supervisor: [Dr. Arshad Jhumka](https://warwick.ac.uk/fac/sci/dcs/people/arshad_jhumka/)
 
+Links:
+ * [Source Code](https://github.com/MBradbury/slp)
+ * [Datasets](https://zenodo.org/communities/warwickdcsslp/?page=1&size=20)
+
 # Publications
 
-The source code for the SLP algorithms presented in several of these papers can be found on [GitHub](https://github.com/MBradbury/slp). Also included are instructions on how to reproduce the results.
 
 ## 2020
 
