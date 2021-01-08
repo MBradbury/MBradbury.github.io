@@ -33,13 +33,13 @@ layout: default
 
           <p class="page__date">
             {% if page.modified %}
-              <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%d %B %Y" }}</time></p>
+              <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%d %B %Y" }}</time>
             {% elsif page.date %}
               <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %B %Y" }}</time>
             {% endif %}
             <br />
             {% if page.type %}
-              <i class="fa fa-fw fa-map-marker" aria-hidden="true" /><strong>{{page.type}}</strong> at {{ page.venue }}, {{page.location}}
+              <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i><strong>{{page.type}}</strong> at {{ page.venue }}, {{page.location}}
             {% endif %}
           </p>
 
