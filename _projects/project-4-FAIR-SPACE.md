@@ -16,7 +16,7 @@ Duration: October 2018 - December 2019
 
 People:
  * [Prof. Carsten Maple](https://warwick.ac.uk/fac/sci/wmg/people/profile/?wmgid=1102)
- * [Dr. Hu Yuan]
+ * [Dr. Hu Yuan](https://www.linkedin.com/in/hu-yuan-88206875)
  * [Dr. Sara Cannizzaro](https://warwick.ac.uk/fac/sci/dcs/people/sara_cannizzaro/)
 
 Links:
