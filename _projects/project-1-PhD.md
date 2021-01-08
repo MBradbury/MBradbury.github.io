@@ -40,6 +40,12 @@ An alternative to fake sources is to use diversionary paths to increase the time
 
 This problem is usually introduced as the panda-hunter game. Where a wireless sensor network is deployed to monitor panda habitat. When a panda is detected by a node it becomes the source node and informs the sink node about the panda. At the sink node are conservationists who analyse the data. The attacker is a poacher who want to capture the panda by using the network to find the location.
 
+# Information
+
+Role: PhD Student
+Duration: September 2014 - April 2018
+Supervisor: [Dr. Arshad Jhumka](https://warwick.ac.uk/fac/sci/dcs/people/arshad_jhumka/)
+
 # Publications
 
 The source code for the SLP algorithms presented in several of these papers can be found on [GitHub](https://github.com/MBradbury/slp). Also included are instructions on how to reproduce the results.

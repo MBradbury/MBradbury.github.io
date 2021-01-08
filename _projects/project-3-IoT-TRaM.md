@@ -30,6 +30,17 @@ In this video a privacy preserving group signature scheme is shown. Group signat
 
 <video controls="" style="max-width: 100%; max-height: 100%;"><source src="https://warwick.ac.uk/fac/sci/dcs/people/matthew_bradbury/projects/iot-tram/millbrook-grpsig-2019-04-12-pm-txrx.mp4" type="video/mp4"/></video>
 
+# Information
+
+Role: Research Fellow
+Duration: August 2018 - May 2019
+People:
+ * [Prof. Carsten Maple](https://warwick.ac.uk/fac/sci/wmg/people/profile/?wmgid=1102) (PI)
+ * [Dr. Haitham Cruickshank](https://www.surrey.ac.uk/people/haitham-cruickshank) (CoI)
+Links:
+ * [WMG News Article](https://warwick.ac.uk/fac/sci/wmg/mediacentre/news/newsitem?id=8a1785d86d3ece05016d3f4743ed0da2&tag=Carsten%20Maple)
+ * [Trials Press Release](https://warwick.ac.uk/newsandevents/pressreleases/cyber_security_of/)
+
 # Technical Reports
 
  *  Carsten Maple, **Matthew Bradbury**, Miles Elsden, Haitham Cruickshank, Hu Yuan, Chen Gu, and Phillip Asuquo. IoT Transport and Mobility Demonstrator: Cyber Security Testing on National Infrastructure. Technical Report, University of Warwick, Coventry, UK, May 2019.  

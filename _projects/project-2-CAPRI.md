@@ -8,6 +8,14 @@ As part of the [CAPRI project](https://caprimobility.com/about/support) I worked
 
 ![A reference architecture for Connected Autonomous Vehicles](/images/reference-model.svg)
 
+# Information
+
+Role: Research Fellow
+Duration: April 2018 - September 2018
+People:
+ * [Prof. Carsten Maple](https://warwick.ac.uk/fac/sci/wmg/people/profile/?wmgid=1102)
+ * [Dr. Ahn Tuan Le](https://warwick.ac.uk/fac/sci/wmg/people/profile/?wmgid=1530)
+
 # Publications
 
 ## 2019

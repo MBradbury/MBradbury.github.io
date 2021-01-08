@@ -8,6 +8,21 @@ The [FAIR-SPACE](http://fairspacehub.org/) hub aimed to further the use of AI an
 
 ![A methodology for security-minded verification](/images/goodsecver.svg)
 
+# Information
+
+Role: Research Fellow
+Duration: October 2018 - December 2019
+People:
+ * [Prof. Carsten Maple](https://warwick.ac.uk/fac/sci/wmg/people/profile/?wmgid=1102)
+ * [Dr. Hu Yuan]
+ * [Dr. Sara Cannizzaro](https://warwick.ac.uk/fac/sci/dcs/people/sara_cannizzaro/)
+Links:
+ * [FAIR-SPACE Theme 5](https://www.fairspacehub.org/research-themes#yui_3_17_2_1_1586180734370_502)
+ * [AeroConf News 30/03/2020](https://www.fairspacehub.org/news/2020/2/13/hk1ygjcyjrgmpdqoehbazkrxygshty)
+ * [Royal Holloway Cyber Security Hackathon 11/06/2019](https://www.fairspacehub.org/news/2019/6/11/royal-holloway-ethical-hackathon)
+ * [Space Security Scoping Workshop 23/01/2019](https://www.fairspacehub.org/news/2019/1/23/space-security-scoping-workshop)
+
+
 # Publications
 
 ## 2020
