@@ -37,6 +37,18 @@ author_profile: true
  * MDPI Sensors and MDPI Electronics
  * IEEE Transactions on Industrial Informatics
 
+{% comment %}
+## Outreach
+
+ * Creative Coding Workshops at [Warwick Slice of Science](https://warwick.ac.uk/newsandevents/pressreleases/warwick_is_slicing/) (2020)
+ * Local school events, teaching programming and presenting research (2015 - 2017)
+ * Warwick Computer Science open days, practical demonstration of my research (2010 - 2017)
+ * Warwick [Headstart](https://warwickcsdmheadstart.wordpress.com/page/4/), practical demonstration of my research (2015)
+ * Cheltenham Science Festival, practical demonstration of my research (2015)
+ * Assisted running a [Royal Institution Summer School](https://www.rigb.org/whats-on/events-2015/august/summer-school-2015-making-robots-robots) (2015)
+ * [Cyber Games 3.0](https://warwick.ac.uk/fac/sci/dcs/news/?newsItem=094d43454aca447a014acf964ec958f5) (featured on [BBC Newsround](https://www.bbc.co.uk/newsround/30780263)), developed a cyber-security challenge (2014)
+{% endcomment %}
+
 ## Student-Staff Liason Committee (University of Warwick)
 
 Liased between staff and postgraduate students to resolve issues in the [PGR SSLC](https://warwick.ac.uk/fac/sci/dcs/research/doctoralstudies/pgr-intranet/pgrsslc).
