@@ -6,6 +6,8 @@ collection: projects
 
 Internet of Things (IoT) systems are expected to be deployed as solutions to problems in a wide variety of contexts, from building management, to smart city monitoring and to provide support to emergency services. However, many IoT devices are resource constrained and lack the capability or information to compute results for tasks that the IoT devices may be requested to perform. Instead these tasks will need to be offloaded to a server at the Edge of the network for a quick response. As these networks will have multiple organisations providing multiple IoT nodes and Edge nodes with different capabilities, the IoT devices need to know which Edge server they trust to return a timely response to a task. As these networks will support critical services, they also need to be resilient to attack.
 
+<video controls="" style="max-width: 100%; max-height: 100%;"><source src="/videos/PETRAS-URB.mp4" type="video/mp4"/></video>
+
 # Information
 
 Role: Research Fellow
