@@ -8,7 +8,7 @@ Internet of Things (IoT) systems are expected to be deployed as solutions to pro
 
 <video controls="" style="max-width: 100%; max-height: 100%;"><source src="/videos/PETRAS-URB.mp4" type="video/mp4"/></video>
 
-# Information
+## Information
 
 Role: Research Fellow
 
@@ -23,7 +23,7 @@ Links:
  * [Funding Announcement News Article](https://warwick.ac.uk/fac/sci/dcs/news/?newsItem=8a1785d8721768f401723d62f6e13f9f)
  * [Source Code](https://github.com/MBradbury/iot-trust-task-alloc)
 
-# Publications
+## Publications
  
  *  **Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Trust Assessment in 32 KiB of RAM: Multi-application Trust-based Task Offloading for Resource-constrained IoT Nodes. In *The 36th ACM/SIGAPP Symposium on Applied Computing*, SAC'21, 1–10. Virtual Event, Republic of Korea, 22–26 March 2021. ACM. To Appear. [doi:10.1145/3412841.3441898](https://doi.org/10.1145/3412841.3441898).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2021_TrustAssessment32.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/SAC-DADS2021.pdf)] 
