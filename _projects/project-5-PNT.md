@@ -8,7 +8,7 @@ For PNT Cyber Resilience, WMG researchers, led by [Dr Matthew Higgins](https://w
 
 ![The research team](/images/pntteam.jpg)
 
-# Information
+## Information
 
 Role: Research Fellow
 
@@ -27,7 +27,7 @@ Links:
  * [Zenzic Cyber Feasibility Report](http://zenzic.io/cybersecurity/)
  * [Success Story](https://warwick.ac.uk/fac/sci/wmg/business/success-stories/cyber-resilience/)
 
-# Technical Reports
+## Technical Reports
 
  *  Elijah Adegoke, **Matthew Bradbury**, Erik Kampert, Matthew Higgins, Tim Watson, Paul Jennings, Colin Ford, Guy Buesnel, and Steve Hickling. PNT Cyber Resilience: a Lab2Live Observer Based Approach, Report 1: GNSS Resilience and Identified Vulnerabilities. Technical Report 1, University of Warwick, Coventry, UK, April 2020. Version 1.0. URL: <http://wrap.warwick.ac.uk/139519/>.  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Adegoke_2020_PntCyberResilience.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/PNTReport1.pdf)] 
