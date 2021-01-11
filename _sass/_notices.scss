@@ -70,30 +70,30 @@
 
 /* Primary notice */
 
-.notice--primary {
+.notice__primary {
   @include notice($primary-color);
 }
 
 /* Info notice */
 
-.notice--info {
+.notice__info {
   @include notice($info-color);
 }
 
 /* Warning notice */
 
-.notice--warning {
+.notice__warning {
   @include notice($warning-color);
 }
 
 /* Success notice */
 
-.notice--success {
+.notice__success {
   @include notice($success-color);
 }
 
 /* Danger notice */
 
-.notice--danger {
+.notice__danger {
   @include notice($danger-color);
 }
