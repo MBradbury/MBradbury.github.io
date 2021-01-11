@@ -9,7 +9,7 @@ author_profile: true
 
  * Received the Early Career Researcher of the Year award at the [WMG Star Awards](https://warwick.ac.uk/fac/sci/wmg/people/athena_swan/starawards/) 2019
  * Received best-in-session presentation award at [InfoCom 2017](https://infocom2017.ieee-infocom.org/)
- * Nominated for [WATE PGR](https://warwick.ac.uk/services/od/academic-development/wate/watepgrinfo/) 2014/15 and 2016/17
+ * Nominated for [Warwick Awards for Teaching Excellence PGR](https://warwick.ac.uk/services/od/academic-development/wate/watepgrinfo/) 2014/15 and 2016/17
 
 ## Events
 
@@ -46,7 +46,7 @@ author_profile: true
  * Warwick [Headstart](https://warwickcsdmheadstart.wordpress.com/page/4/), practical demonstration of my research (2015)
  * Cheltenham Science Festival, practical demonstration of my research (2015)
  * Assisted running a [Royal Institution Summer School](https://www.rigb.org/whats-on/events-2015/august/summer-school-2015-making-robots-robots) (2015)
- * [Cyber Games 3.0](https://warwick.ac.uk/fac/sci/dcs/news/?newsItem=094d43454aca447a014acf964ec958f5) (featured on [BBC Newsround](https://www.bbc.co.uk/newsround/30780263)), developed a cyber-security challenge (2014)
+ * [Cyber Games 3.0](https://warwick.ac.uk/fac/sci/dcs/news/?newsItem=094d43454aca447a014acf964ec958f5) (featured on [BBC Newsround](https://www.bbc.co.uk/newsround/30780263)), developed a cyber-security challenge (2014) [[code](https://github.com/WarwickDCSiLab/arduino-morse-code)]
 {% endcomment %}
 
 ## Student-Staff Liason Committee (University of Warwick)
