@@ -11,10 +11,12 @@ author_profile: true
  * Received best-in-session presentation award at [InfoCom 2017](https://infocom2017.ieee-infocom.org/)
  * Nominated for [Warwick Awards for Teaching Excellence PGR](https://warwick.ac.uk/services/od/academic-development/wate/watepgrinfo/) 2014/15 and 2016/17
 
+{% comment %}
 ## Events
 
  * Organised the [6th Competitive Advantage in the Digital Economy (CADE 2019)](https://warwick.ac.uk/cade19)
  * Organised [WPCCS'16](http://warwick.ac.uk/wpccs16), the Warwick Computer Science postgraduate student-led conference, and assisted with the organisation of [WPCCS'17](http://warwick.ac.uk/wpccs17) and [WPCCS'18](http://warwick.ac.uk/wpccs18).
+{% endcomment %}
 
 ## Guest Editor
 
