@@ -9,6 +9,7 @@ author_profile: true
 
 ## University of Warwick, UK
 
+Seminar and lab tutor for:
  - 2014-2018 [CS347 Fault-Tolerant Systems](http://www2.warwick.ac.uk/fac/sci/dcs/teaching/modules/cs347/)
  - 2014-2018 [CS412 Formal Systems Development](http://www2.warwick.ac.uk/fac/sci/dcs/teaching/modules/cs412)
  - 2014-2018 [CS118 Programming for Computer Scientists](http://www2.warwick.ac.uk/fac/sci/dcs/teaching/modules/cs118)
