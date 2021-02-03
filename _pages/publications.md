@@ -22,6 +22,8 @@ author_profile: true
 	</tbody>
 </table>
 
+The bibtex for all these publications is available from [here](https://raw.githubusercontent.com/MBradbury/publications/master/self.bib).
+
 ## 2021
 
  
