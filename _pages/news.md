@@ -5,7 +5,7 @@ permalink: /news/
 author_profile: true
 ---
 
- * <i class="fas fa-fw fa-var-briefcase" aria-hidden="true" /> (April 2021) New job: Lecturer at [Lancaster University](https://www.lancaster.ac.uk/) in the [Systems and Security Group](https://ssg.lancs.ac.uk/) of [School of Computing and Communications](https://www.lancaster.ac.uk/scc/)
+ * <i class="fas fa-fw fa-briefcase" aria-hidden="true" /> (April 2021) New job: Lecturer at [Lancaster University](https://www.lancaster.ac.uk/) in the [Systems and Security Group](https://ssg.lancs.ac.uk/) of [School of Computing and Communications](https://www.lancaster.ac.uk/scc/)
  * <i class="fas fa-fw fa-file" aria-hidden="true" /> (Dec 2020) New paper [[file](https://github.com/MBradbury/publications/raw/master/papers/InfoCom2021.pdf)]: 
    Trust Trackers for Computation Offloading in Edge-Based IoT Networks. In *IEEE INFOCOM* 
  * <i class="fas fa-fw fa-file" aria-hidden="true" /> (Dec 2020) New paper [[file](https://github.com/MBradbury/publications/raw/master/papers/SAC-DADS2021.pdf)]:
