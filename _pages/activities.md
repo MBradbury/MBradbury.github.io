@@ -22,6 +22,7 @@ author_profile: true
 
  * MDPI Electronics Special Issue on "[Cyber Security for Internet of Things](https://www.mdpi.com/journal/electronics/special_issues/cyber_security_iot)"
  * MDPI Sensors Special Issue "[Dependability of Wireless Sensor Networks](https://www.mdpi.com/journal/sensors/special_issues/Dependability_WSN)"
+ * MDPI Electronics Special Issue on "[Design and Evaluation of Secure Diagnosis and Control Benchmarks and Test-Scenarios for Cyber-Physical Systems](https://www.mdpi.com/journal/electronics/special_issues/design_evaluation_cyber-physical)"
 
 ## Programme Committees
 
