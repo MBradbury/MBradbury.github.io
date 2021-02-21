@@ -1,0 +1,15 @@
+{% comment %}
+Based off https://github.com/MihajloNesic/jekyll-pdf-embed/blob/master/lib/jekyll-pdf-embed.rb
+{% endcomment %}
+
+{% if include.link | split: "." | last == "pdf" %}
+
+<div class='pdf-embed-container'><iframe title="PDF file" width="640" height="390" src="{{ include.link }}" frameborder="0" allowfullscreen></iframe></div>
+
+{% elsif include.link | split: "." | last == "ppt" or include.link | split: "." | last == "pptx" %}
+
+<div class='pdf-embed-container'><iframe title="PDF file" width="640" height="390" src="https://view.officeapps.live.com/op/embed.aspx?src={{ include.link }}" frameborder="0" allowfullscreen></iframe></div>
+
+{% else %}
+<p>Download the presentation at <a href="{{ include.link }}">{{ include.link }}</a></p>
+{% endif %}

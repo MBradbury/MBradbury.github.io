@@ -65,7 +65,8 @@ layout: default
 
           {% capture fixed_presentation_link %}{{ page.presentation | replace_first:"https://raw.githubusercontent.com","https://rawcdn.githack.com" }}{% endcapture %}
 
-          {% pdf {{ fixed_presentation_link }} no_link %}
+          {% include embed-presentation link=fixed_presentation_link %}
+
         {% endif %}
       </section>
 
