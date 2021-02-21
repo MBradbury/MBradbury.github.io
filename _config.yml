@@ -19,32 +19,6 @@ breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-comments:
-  provider               : false # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
-  disqus:
-    shortname            :
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
@@ -70,7 +44,8 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-
+   - "https://twitter.com/MattBradbury_"
+   - "https://www.linkedin.com/in/matthewstephenbradbury"
 
 # Analytics
 analytics:
@@ -152,7 +127,6 @@ exclude:
   - vendor
 keep_files:
   - .git
-  - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
@@ -203,8 +177,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: false
-      share: true
       related: true
   # _pages
   - scope:
@@ -220,8 +192,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: false
-      comment: false
   # _publications
   - scope:
       path: ""
@@ -229,8 +199,6 @@ defaults:
     values:
       layout: single-publication
       author_profile: true
-      share: false
-      comment: false
   # _talks
   - scope:
       path: ""
@@ -238,7 +206,6 @@ defaults:
     values:
       layout: talk
       author_profile: true
-      share: false
 
 # Sass/SCSS
 sass:
