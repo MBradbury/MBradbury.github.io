@@ -10,9 +10,9 @@ author_profile: true
 <table style="width:100%;" class="page__table-no-border">
 	<tbody>
 		<tr>
-			<td style="width: 33%;"><a href="https://github.com/MBradbury/publications/raw/master/papers/InfoCom2021.pdf"><img src="/images/page-1-of-InfoCom2021.pdf.png" alt="InfoCom21" style="width:80%" class="page__image-center"></a></td>
-			<td style="width: 33%;"><a href="https://github.com/MBradbury/publications/raw/master/papers/Access2020.pdf"><img src="/images/page-1-of-Access2020.pdf.png" alt="Access2020" style="width:80%" class="page__image-center"></a></td>
-			<td style="width: 33%;"><a href="https://github.com/MBradbury/publications/raw/master/papers/TrustCom2017.pdf"><img src="/images/page-1-of-TrustCom2017.pdf.png" alt="TrustCom2017" style="width:80%" class="page__image-center"></a></td>
+			<td style="width: 33%;"><a href="https://github.com/MBradbury/publications/raw/master/papers/InfoCom2021.pdf"><img src="https://raw.githubusercontent.com/MBradbury/publications/master/firstpages/InfoCom2021.png" alt="InfoCom21" style="width:80%" class="page__image-center"></a></td>
+			<td style="width: 33%;"><a href="https://github.com/MBradbury/publications/raw/master/papers/Access2020.pdf"><img src="https://raw.githubusercontent.com/MBradbury/publications/master/firstpages/Access2020.png" alt="Access2020" style="width:80%" class="page__image-center"></a></td>
+			<td style="width: 33%;"><a href="https://github.com/MBradbury/publications/raw/master/papers/TrustCom2017.pdf"><img src="https://raw.githubusercontent.com/MBradbury/publications/master/firstpages/InfoCom2017.png" alt="TrustCom2017" style="width:80%" class="page__image-center"></a></td>
 		</tr>
 		<tr>
 			<td style="width: 33%;">Trust Trackers for Computation Offloading in Edge-Based IoT Networks. In IEEE INFOCOM 2021.</td>
