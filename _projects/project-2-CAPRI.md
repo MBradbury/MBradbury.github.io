@@ -1,6 +1,8 @@
 ---
 title: "CAPRI"
-excerpt: "Reference architecture for attack surface analysis of connected autonomous vehicles.<br/>Duration: April 2018 - September 2018"
+excerpt: "Reference architecture for attack surface analysis of connected autonomous vehicles."
+duration: "April 2018 - September 2018"
+location: "WMG, University of Warwick"
 collection: projects
 ---
 

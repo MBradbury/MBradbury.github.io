@@ -1,6 +1,8 @@
 ---
 title: "FAIR-SPACE"
-excerpt: "Investigating cyber security of space systems.<br/>Duration: October 2018 - December 2019"
+excerpt: "Investigating cyber security of space systems."
+duration: "October 2018 - December 2019"
+location: "WMG, University of Warwick"
 collection: projects
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: "IoT Transport and Mobility Demonstrator"
-excerpt: "Demonstrating security and privacy techniques for connected autonomous vehicles in a real-world environment.<br/>Duration: August 2018 - May 2019"
+excerpt: "Demonstrating security and privacy techniques for connected autonomous vehicles in a real-world environment."
+duration: "August 2018 - May 2019"
+location: "WMG, University of Warwick"
 collection: projects
 ---
 

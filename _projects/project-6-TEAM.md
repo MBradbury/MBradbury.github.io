@@ -1,6 +1,8 @@
 ---
 title: "Evaluating Trustworthiness of Edge-Based Multi-Tenanted IoT Devices"
-excerpt: "Investigating how to perform trust-based task offloading from resource-constrained devices.<br/>Duration: March 2020 - March 2021"
+excerpt: "Investigating how to perform trust-based task offloading from resource-constrained devices."
+duration: "March 2020 - March 2021"
+location: "Department of Computer Science, University of Warwick"
 collection: projects
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: "PNT Cyber Resilience: a Lab2Live Observer Based Approach"
-excerpt: "Live testing of vehicular PNT systems.<br/>Duration: January 2020 - March 2020"
+excerpt: "Live testing of vehicular PNT systems."
+duration: "January 2020 - March 2020"
+location: "WMG, University of Warwick"
 collection: projects
 ---
 

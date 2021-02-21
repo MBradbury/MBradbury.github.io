@@ -1,6 +1,8 @@
 ---
 title: "Source Location Privacy for Wirless Sensor Networks"
-excerpt: "Researche undertaken before and during my PhD on delaying an adversary discovering the location of a message source in a wireless sensor network.<br/>Duration: September 2014 - April 2018"
+excerpt: "Research undertaken before and during my PhD on delaying an adversary discovering the location of a message source in a wireless sensor network."
+duration: "September 2014 - April 2018"
+location: "Department of Computer Science, University of Warwick"
 collection: projects
 ---
 
