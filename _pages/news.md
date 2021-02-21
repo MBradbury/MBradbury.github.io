@@ -6,6 +6,7 @@ author_profile: true
 ---
 
  * <i class="fas fa-fw fa-briefcase" aria-hidden="true" /> (April 2021) New job: Lecturer at [Lancaster University](https://www.lancaster.ac.uk/) in the [Systems and Security Group](https://ssg.lancs.ac.uk/) of [School of Computing and Communications](https://www.lancaster.ac.uk/scc/)
+ * <i class="fas fa-fw fa-book" aria-hidden="true" /> (February 2021) New Special Issue [[link](https://www.mdpi.com/journal/electronics/special_issues/design_evaluation_cyber-physical)]: MDPI Electronics Special Issue on "Design and Evaluation of Secure Diagnosis and Control Benchmarks and Test-Scenarios for Cyber-Physical Systems"
  * <i class="fas fa-fw fa-file" aria-hidden="true" /> (Dec 2020) New paper [[file](https://github.com/MBradbury/publications/raw/master/papers/InfoCom2021.pdf)]: 
    Trust Trackers for Computation Offloading in Edge-Based IoT Networks. In *IEEE INFOCOM* 
  * <i class="fas fa-fw fa-file" aria-hidden="true" /> (Dec 2020) New paper [[file](https://github.com/MBradbury/publications/raw/master/papers/SAC-DADS2021.pdf)]:
