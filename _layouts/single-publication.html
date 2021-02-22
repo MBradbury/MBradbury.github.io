@@ -55,6 +55,16 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
+        {% if page.extended_by %}
+          <h2>Extended By</h2>
+          An extended version of the article has been <a href="/publications/{{ page.extended_by }}">published</a>, so should be referred to instead.
+        {% endif %}
+
+        {% if page.extends %}
+          <h2>Extendeds</h2>
+          This paper extends a previous shorter <a href="/publications/{{ page.extends }}">paper</a>.
+        {% endif %}
+
         {% if page.presentation %}
           <h2>Presentation</h2>
 

@@ -4,6 +4,7 @@ citation: "**Matthew Bradbury**, Matthew Leeke, and Arshad Jhumka. A Dynamic Fak
 file: https://raw.githubusercontent.com/MBradbury/publications/master/papers/TrustCom2015.pdf
 presentation: https://raw.githubusercontent.com/MBradbury/publications/master/presentations/TrustCom2015.pdf
 bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/Bradbury_2015_DynamicFakeSource.bib
+extended_by: Bradbury_2018_HybridOnlineProtocols
 ---
 
 ## Summary
@@ -11,5 +12,3 @@ bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/B
 ## Importance
 
 ## Perspectives
-
-

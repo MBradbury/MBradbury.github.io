@@ -4,6 +4,7 @@ citation: "Arshad Jhumka, **Matthew Bradbury**, and Matthew Leeke. Towards Under
 file: https://raw.githubusercontent.com/MBradbury/publications/master/papers/TrustCom2012.pdf
 presentation: https://raw.githubusercontent.com/MBradbury/publications/master/presentations/TrustCom2012.pdf
 bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/Jhumka_2012_TowardsUnderstandingSource.bib
+extended_by: Jhumka_2015_Fakesourcebased
 ---
 
 ## Summary
@@ -11,5 +12,3 @@ bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/J
 ## Importance
 
 ## Perspectives
-
-
