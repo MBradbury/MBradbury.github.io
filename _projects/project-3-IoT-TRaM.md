@@ -1,8 +1,9 @@
 ---
 title: "IoT Transport and Mobility Demonstrator"
-excerpt: "Demonstrating security and privacy techniques for connected autonomous vehicles in a real-world environment."
+excerpt: "With the vehicle-to-vehicle communications being used to facilitated new functionality, there is a need for new security mechanisms to protect this communication. Much work has already been undertaken to develop these mechanisms, but they are rarely tested in real-world environments. This project took existing security and privacy technqiues and performed a deployment at three sites in the UK to test their efficacy."
 duration: "August 2018 - May 2019"
 location: "WMG, University of Warwick"
+image: /images/Millbook-testing.jpg
 collection: projects
 ---
 

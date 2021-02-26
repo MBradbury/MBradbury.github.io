@@ -65,6 +65,7 @@ layout: default
           This paper extends a previous shorter <a href="/publications/{{ page.extends }}">paper</a>.
         {% endif %}
 
+        {% comment %}
         {% if page.presentation %}
           <h2>Presentation</h2>
 
@@ -78,6 +79,7 @@ layout: default
           {% include embed-presentation link=fixed_presentation_link %}
 
         {% endif %}
+        {% endcomment %}
       </section>
 
       <footer class="page__meta">
