@@ -1,7 +1,7 @@
 ---
 title: "PNT Cyber Resilience: a Lab2Live Observer Based Approach"
 excerpt: "Vehicular position, navigation, and timing (PNT) systems are of vital importance to current vehicles, future autonomous vehicles and infrastructure depending on time synchronisation. Existing GNSS infrastructure has limited mitigation to prevent a variety of attacks. This project performed a short feasibility study on practical attacks against a vehicle's PNT system using a PNT attack emulator."
-duration: "January 2020 - March 2020"
+duration: "January 2020 &ndash; March 2020"
 location: "WMG, University of Warwick"
 image: /images/GPS.svg
 collection: projects
@@ -15,7 +15,7 @@ For PNT Cyber Resilience, WMG researchers, led by [Dr Matthew Higgins](https://w
 
 Role: Research Fellow
 
-Duration: January 2020 - March 2020
+Duration: {{ page.duration }}
 
 People:
  * [Dr. Matthew Higgins](https://warwick.ac.uk/fac/sci/wmg/people/profile/?wmgid=1279) (PI)

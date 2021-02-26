@@ -1,7 +1,7 @@
 ---
 title: "IoT Transport and Mobility Demonstrator"
 excerpt: "With the vehicle-to-vehicle communications being used to facilitated new functionality, there is a need for new security mechanisms to protect this communication. Much work has already been undertaken to develop these mechanisms, but they are rarely tested in real-world environments. This project took existing security and privacy technqiues and performed a deployment at three sites in the UK to test their efficacy."
-duration: "August 2018 - May 2019"
+duration: "August 2018 &ndash; May 2019"
 location: "WMG, University of Warwick"
 image: /images/Millbook-testing.jpg
 collection: projects
@@ -37,7 +37,7 @@ In this video a privacy preserving group signature scheme is shown. Group signat
 
 Role: Research Fellow
 
-Duration: August 2018 - May 2019
+Duration: {{ page.duration }}
 
 People:
  * [Prof. Carsten Maple](https://warwick.ac.uk/fac/sci/wmg/people/profile/?wmgid=1102) (PI)

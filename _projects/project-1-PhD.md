@@ -1,7 +1,7 @@
 ---
 title: "Source Location Privacy for Wirless Sensor Networks"
 excerpt: "Wireless sensor networks are useful for monitoring events over large areas for example, tracking the location of endangered species. However, by deploying this network to obtain data for conservation, it also reveals context information to an adversary about where the animals are. My PhD involved developing routing algorithms to delay an adversary in their attempt to locate the source of messages in such a network."
-duration: "September 2014 - April 2018"
+duration: "September 2014 &ndash; April 2018"
 location: "Department of Computer Science, University of Warwick"
 image: /images/panda-antenna.jpg
 collection: projects
@@ -47,7 +47,7 @@ This problem is usually introduced as the panda-hunter game. Where a wireless se
 
 Role: PhD Student
 
-Duration: September 2014 - April 2018
+Duration: {{ page.duration }}
 
 Supervisor: [Dr. Arshad Jhumka](https://warwick.ac.uk/fac/sci/dcs/people/arshad_jhumka/)
 

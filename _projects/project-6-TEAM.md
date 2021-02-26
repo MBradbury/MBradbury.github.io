@@ -1,7 +1,7 @@
 ---
 title: "Evaluating Trustworthiness of Edge-Based Multi-Tenanted IoT Devices"
 excerpt: "Resource-constrained IoT devices have typically been used to perform sensing and actuation, however, there is increasing interest in those devices performing decision making. However, if these tasks are computationally or memory intensive, then the IoT devices will not have insufficient resources to execute the tasks. One solution is to offload the tasks from resource-constrained IoT devices to resource-rich Edge nodes. For redundancy multiple Edge nodes should be provisioned, but this raises the question of which Edge node should be selected to perform a task. This project investigated building a middleware to perform task offloading based on a measure of behavioural trust with limited resources (e.g., 32 KiB of RAM)."
-duration: "March 2020 - March 2021"
+duration: "March 2020 &ndash; March 2021"
 location: "Department of Computer Science, University of Warwick"
 image: /images/PiandZolertia.jpg
 collection: projects
@@ -15,7 +15,7 @@ Internet of Things (IoT) systems are expected to be deployed as solutions to pro
 
 Role: Research Fellow
 
-Duration: March 2020 - March 2021
+Duration: {{ page.duration }}
 
 People:
  * [Dr. Arshad Jhumka](https://warwick.ac.uk/fac/sci/dcs/people/arshad_jhumka/) (PI)
