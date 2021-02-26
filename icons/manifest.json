@@ -1,5 +1,8 @@
 {
-	"name": "Minimal Mistakes",
+	"name": "Dr. Matthew Bradbury",
+	"short_name": "Dr. Matthew Bradbury",
+	"description": "Information on Matthew Bradbury's research and academic activities",
+	"lang": "en",
 	"icons": [
 		{
 			"src": "\/icons\/android-chrome-36x36.png",
