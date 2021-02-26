@@ -32,8 +32,8 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-    {% if post.date %}<p class="page__meta"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>{{ post.date | date: '%d %B %Y' }}</p>{% endif %}
-    {% if post.venue %}<p class="page__meta" itemprop="description"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>{{post.type}}, {{ post.venue }}, {{post.location}}</p>{% endif %}
+    {% if post.date %}<p class="page__meta"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ post.date | date: '%d %B %Y' }}</p>{% endif %}
+    {% if post.venue %}<p class="page__meta" itemprop="description"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{post.type}}, {{ post.venue }}, {{post.location}}</p>{% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>{% endif %}
   </article>
 </div>
