@@ -1,0 +1,12 @@
+
+<script type="module">
+
+import define from "/assets/pub-map/index.js";
+import {Runtime, Library, Inspector} from "/assets/pub-map/runtime.js";
+
+const runtime = new Runtime();
+const main = runtime.module(define, Inspector.into("#observablehq-publication-map"));
+
+</script>
+
+<div id="observablehq-publication-map"></div>
