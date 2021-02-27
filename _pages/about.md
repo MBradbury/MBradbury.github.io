@@ -1,11 +1,11 @@
 ---
 permalink: /
 title: "Dr. Matthew Bradbury"
-excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+sitemap: true
 ---
 
 I am a Research Fellow in the [Department of Computer Science](https://warwick.ac.uk/fac/sci/dcs) at the [University of Warwick](https://warwick.ac.uk) and will shortly be joining the [Security Systems Research Group](https://www.lancaster.ac.uk/scc/research/security/) of the [Lancaster University](https://www.lancaster.ac.uk) [School of Computing and Communications](https://www.lancaster.ac.uk/scc/).
