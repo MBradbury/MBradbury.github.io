@@ -1,0 +1,140 @@
+{
+  "publications": [
+    {
+      "ident": "TrustCom12",
+      "family": "Source Location Privacy",
+      "link": "/publications/Jhumka_2012_TowardsUnderstandingSource"
+    },
+    {
+      "ident": "TrustCom13",
+      "family": "Source Location Privacy"
+    },
+    {
+      "ident": "JPDC14",
+      "family": "Data Aggregation Scheduling"
+    },
+    {
+      "ident": "CCPE15",
+      "family": "Source Location Privacy"
+    },
+    {
+      "ident": "PRDC15",
+      "family": "Source Location Privacy"
+    },
+    {
+      "ident": "TrustCom15",
+      "family": "Source Location Privacy"
+    },
+    {
+      "ident": "ICCS16",
+      "family": "Source Location Privacy"
+    },
+    {
+      "ident": "TrustCom17",
+      "family": "Source Location Privacy"
+    },
+    {
+      "ident": "SAC-DADS17",
+      "family": "Source Location Privacy"
+    },
+    {
+      "ident": "SAC-NET17",
+      "family": "Source Location Privacy"
+    },
+    {
+      "ident": "ICDCS17",
+      "family": "Source Location Privacy"
+    },
+    {
+      "ident": "INFOCOM17",
+      "family": "Source Location Privacy"
+    },
+    {
+      "ident": "ComNet18",
+      "family": "Source Location Privacy"
+    },
+    {
+      "ident": "JPDC18",
+      "family": "Source Location Privacy"
+    },
+    {
+      "ident": "FGCS18",
+      "family": "Source Location Privacy"
+    },
+    {
+      "ident": "CCPE19",
+      "family": "Source Location Privacy"
+    },
+    {
+      "ident": "AppSci19",
+      "family": "Vehicle Security"
+    },
+    {
+      "ident": "VTC-Fall19",
+      "family": "Vehicle Security"
+    },
+    {
+      "ident": "SEFM19",
+      "family": "Vehicle Security"
+    },
+    {
+      "ident": "EDCC19",
+      "family": "Wireless Sensor Networks Routing"
+    },
+    {
+      "ident": "CPS-IoTBench19",
+      "family": "Wireless Sensor Networks Testing"
+    },
+    {
+      "ident": "PhD Thesis",
+      "family": "Source Location Privacy"
+    },
+    {
+      "ident": "Access20",
+      "family": "Vehicle Security"
+    },
+    {
+      "ident": "SAC-DADS21",
+      "family": "IoT Task Offloading"
+    },
+    {
+      "ident": "INFOCOM21",
+      "family": "IoT Task Offloading"
+    },
+    {
+      "ident": "TIoT21",
+      "family": "Source Location Privacy"
+    }
+  ],
+
+  "relations": [
+    { "target": "TrustCom12", "source": "TrustCom13", "type": "Based On" },
+    { "target": "TrustCom12", "source": "CCPE15", "type": "Extends" },
+    { "target": "CCPE15", "source": "PRDC15", "type": "Relates To" },
+    { "target": "CCPE15", "source": "TrustCom15", "type": "Based On" },
+    { "target": "TrustCom15", "source": "ICCS16", "type": "Based On" },
+    { "target": "TrustCom15", "source": "TrustCom17", "type": "Based On" },
+    { "target": "TrustCom17", "source": "SAC-DADS17", "type": "Based On" },
+    { "target": "SAC-NET17", "source": "SAC-DADS17", "type": "Based On" },
+    { "target": "PRDC15", "source": "SAC-NET17", "type": "Based On" },
+    { "target": "JPDC14", "source": "ICDCS17", "type": "Relates To" },
+    { "target": "SAC-DADS17", "source": "INFOCOM17", "type": "Based On" },
+    { "target": "ICDCS17", "source": "ComNet18", "type": "Extends" },
+    { "target": "TrustCom17", "source": "JPDC18", "type": "Extends" },
+    { "target": "SAC-NET17", "source": "FGCS18", "type": "Based On" },
+    { "target": "TrustCom17", "source": "FGCS18", "type": "Based On" },
+    { "target": "SAC-NET17", "source": "CCPE19", "type": "Extends" },
+
+
+    { "target": "JPDC18", "source": "CPS-IoTBench19", "type": "Related To" },
+
+    { "target": "JPDC18", "source": "TIoT21", "type": "Based On" },
+
+    { "target": "SAC-DADS21", "source": "INFOCOM21", "type": "Based On" },
+
+
+    { "target": "JPDC18", "source": "PhD Thesis", "type": "Includes" },
+    { "target": "INFOCOM17", "source": "PhD Thesis", "type": "Includes" },
+    { "target": "TIoT21", "source": "PhD Thesis", "type": "Includes" }
+  ]
+}

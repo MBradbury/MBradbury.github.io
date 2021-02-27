@@ -1,0 +1,31 @@
+source,target,type,family
+TrustCom13,TrustCom12,Based On,Source Location Privacy
+JPDC14,JPDC14,Independant
+CCPE15,TrustCom12,Extends
+TrustCom15,CCPE15,Based On
+ICCS16,TrustCom15,Based On
+
+
+TrustCom17,TrustCom15,Based On
+SAC-DADS17,TrustCom15,Based On
+InfoCom17,TrustCom15,Based On
+TrustCom17,TrustCom15,Based On
+SAC-NET17,PRDC15,Based On
+
+
+
+JPDC18,TrustCom15,Extends
+
+PhD Thesis,InfoCom17,Includes
+PhD Thesis,TIoT21,Includes
+PhD Thesis,JPDC18,Includes
+
+
+
+
+ComNet18,ICDCS17,Extends
+
+
+
+
+INFOCOM21,SAC21,Based On
