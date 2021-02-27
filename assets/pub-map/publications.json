@@ -186,8 +186,9 @@
     { "target": "JPDC 2018", "source": "PhD Thesis", "type": "Includes" },
     { "target": "INFOCOM 2017", "source": "PhD Thesis", "type": "Includes" },
     { "target": "TIoT 2021", "source": "PhD Thesis", "type": "Includes" },
+    { "target": "TrustCom 2017", "source": "PhD Thesis", "type": "Includes" },
 
-    { "target": "SEFM 2019", "source": "AerospaceSMV 2020", "type": "Related To" },
+    { "target": "SEFM 2019", "source": "AerospaceSMV 2020", "type": "Based On" },
     { "target": "AerospaceSMV 2020", "source": "AerospaceASA 2020", "type": "Related To" },
 
     { "target": "AppSci 2019", "source": "AerospaceASA 2020", "type": "Related To" },

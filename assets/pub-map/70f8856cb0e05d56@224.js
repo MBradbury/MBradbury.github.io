@@ -23,11 +23,11 @@ export default function define(runtime, observer) {
             .force("charge", d3.forceManyBody().strength(-400))
             .force("x", d3.forceX())
             .force("y", d3.forceY())
-            .force('collide', d3.forceCollide().radius(65).iterations(3));
+            .force('collide', d3.forceCollide().radius(70).iterations(3));
 
         const svg = d3.create("svg")
             .attr("viewBox", [-width / 2, -height / 2, width, height])
-            .style("font", "17px sans-serif")
+            .style("font", "18px sans-serif")
             .attr("xlink", "http://www.w3.org/1999/xlink");
 
         // Per-type markers, as they don't inherit styles.
@@ -66,18 +66,19 @@ export default function define(runtime, observer) {
         node.append("a")
             .attr("xlink:href", d => "#" + publications.filter(p => p.ident == d.id).map(p => p.key))
             .append("text")
-            .attr("x", 8)
-            .attr("y", "0.31em")
+            //.attr("x", 0)
+            //.attr("y", "0.31em")
+            .style("text-anchor", "middle")
             .text(d => d.id)
             .clone(true).lower()
             .attr("fill", "none")
             .attr("stroke", "white")
-            .attr("stroke-width", 15);
+            .attr("stroke-width", 5);
 
-        node.append("circle")
+        /*node.append("circle")
             .attr("stroke", "white")
             .attr("stroke-width", 1.5)
-            .attr("r", 6);
+            .attr("r", 10);*/
 
         simulation.on("tick", () => {
             link.attr("d", linkArc);
