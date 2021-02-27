@@ -23,7 +23,7 @@ export default function define(runtime, observer) {
             .force("charge", d3.forceManyBody().strength(-400))
             .force("x", d3.forceX())
             .force("y", d3.forceY())
-            .force('collide',d3.forceCollide().radius(65).iterations(3));
+            .force('collide', d3.forceCollide().radius(65).iterations(3));
 
         const svg = d3.create("svg")
             .attr("viewBox", [-width / 2, -height / 2, width, height])
@@ -64,7 +64,7 @@ export default function define(runtime, observer) {
             .call(drag(simulation));
 
         node.append("a")
-            .attr("xlink:href", d => publications.filter(p => p.ident == d.id).map(p => p.link))
+            .attr("xlink:href", d => "#" + publications.filter(p => p.ident == d.id).map(p => p.key))
             .append("text")
             .attr("x", 8)
             .attr("y", "0.31em")
@@ -103,7 +103,7 @@ export default function define(runtime, observer) {
         };
     });
     main.variable().define("height", function() {
-        return 1000;
+        return 900;
     });
     main.variable().define("color", ["d3", "types"], function(d3, types) {
         return d3.scaleOrdinal(types, d3.schemeCategory10);
@@ -119,32 +119,34 @@ export default function define(runtime, observer) {
             }
         )
     });
-    main.variable().define("drag", ["d3"], function(d3){return(
-simulation => {
-  
-  function dragstarted(event, d) {
-    if (!event.active) simulation.alphaTarget(0.3).restart();
-    d.fx = d.x;
-    d.fy = d.y;
-  }
-  
-  function dragged(event, d) {
-    d.fx = event.x;
-    d.fy = event.y;
-  }
-  
-  function dragended(event, d) {
-    if (!event.active) simulation.alphaTarget(0);
-    d.fx = null;
-    d.fy = null;
-  }
-  
-  return d3.drag()
-      .on("start", dragstarted)
-      .on("drag", dragged)
-      .on("end", dragended);
-}
-)});
+    main.variable().define("drag", ["d3"], function(d3) {
+        return (
+            simulation => {
+              
+              function dragstarted(event, d) {
+                if (!event.active) simulation.alphaTarget(0.3).restart();
+                d.fx = d.x;
+                d.fy = d.y;
+              }
+              
+              function dragged(event, d) {
+                d.fx = event.x;
+                d.fy = event.y;
+              }
+              
+              function dragended(event, d) {
+                if (!event.active) simulation.alphaTarget(0);
+                d.fx = null;
+                d.fy = null;
+              }
+              
+              return d3.drag()
+                  .on("start", dragstarted)
+                  .on("drag", dragged)
+                  .on("end", dragended);
+            }
+        );
+    });
     main.variable().define("d3", ["require"], function(require) {
         return require("d3@6");
     });

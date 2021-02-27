@@ -1,140 +1,201 @@
 {
   "publications": [
     {
-      "ident": "TrustCom12",
+      "ident": "TrustCom 2012",
       "family": "Source Location Privacy",
-      "link": "/publications/Jhumka_2012_TowardsUnderstandingSource"
+      "key": "Jhumka_2012_TowardsUnderstandingSource"
     },
     {
-      "ident": "TrustCom13",
-      "family": "Source Location Privacy"
+      "ident": "TrustCom 2013",
+      "family": "Source Location Privacy",
+      "key": "Thomason_2013_EvaluatingImpactBroadcast"
     },
     {
-      "ident": "JPDC14",
-      "family": "Data Aggregation Scheduling"
+      "ident": "JPDC 2014",
+      "family": "Data Aggregation Scheduling",
+      "key": "Jhumka_2014_Efficientfaulttolerant"
     },
     {
-      "ident": "CCPE15",
-      "family": "Source Location Privacy"
+      "ident": "CCPE 2015",
+      "family": "Source Location Privacy",
+      "key": "Jhumka_2015_Fakesourcebased"
     },
     {
-      "ident": "PRDC15",
-      "family": "Source Location Privacy"
+      "ident": "PRDC 2015",
+      "family": "Source Location Privacy",
+      "key": "Gu_2015_AssessingPerformancePhantom"
     },
     {
-      "ident": "TrustCom15",
-      "family": "Source Location Privacy"
+      "ident": "TrustCom 2015",
+      "family": "Source Location Privacy",
+      "key": "Bradbury_2015_DynamicFakeSource"
     },
     {
-      "ident": "ICCS16",
-      "family": "Source Location Privacy"
+      "ident": "ICCS 2016",
+      "family": "Source Location Privacy",
+      "key": "Laikin_2016_TowardsFakeSources"
     },
     {
-      "ident": "TrustCom17",
-      "family": "Source Location Privacy"
+      "ident": "TrustCom 2017",
+      "family": "Source Location Privacy",
+      "key": "Bradbury_2017_OptimalSourceLocation"
     },
     {
-      "ident": "SAC-DADS17",
-      "family": "Source Location Privacy"
+      "ident": "SAC-DADS 2017",
+      "family": "Source Location Privacy",
+      "key": "Jhumka_2017_DeconstructingSourceLocation"
     },
     {
-      "ident": "SAC-NET17",
-      "family": "Source Location Privacy"
+      "ident": "SAC-NET 2017",
+      "family": "Source Location Privacy",
+      "key": "Gu_2017_PhantomWalkaboutsWireless"
     },
     {
-      "ident": "ICDCS17",
-      "family": "Source Location Privacy"
+      "ident": "ICDCS 2017",
+      "family": "Source Location Privacy",
+      "key": "Kirton_2017_SourceLocationPrivacy"
     },
     {
-      "ident": "INFOCOM17",
-      "family": "Source Location Privacy"
+      "ident": "INFOCOM 2017",
+      "family": "Source Location Privacy",
+      "key": "Bradbury_2017_UnderstandingSourceLocation"
     },
     {
-      "ident": "ComNet18",
-      "family": "Source Location Privacy"
+      "ident": "ComNet 2018",
+      "family": "Source Location Privacy",
+      "key": "Kirton_2018_Towardsoptimalsource"
     },
     {
-      "ident": "JPDC18",
-      "family": "Source Location Privacy"
+      "ident": "JPDC 2018",
+      "family": "Source Location Privacy",
+      "key": "Bradbury_2018_HybridOnlineProtocols"
     },
     {
-      "ident": "FGCS18",
-      "family": "Source Location Privacy"
+      "ident": "FGCS 2018",
+      "family": "Source Location Privacy",
+      "key": "Gu_2018_ADecisionTheoretic"
     },
     {
-      "ident": "CCPE19",
-      "family": "Source Location Privacy"
+      "ident": "CCPE 2019",
+      "family": "Source Location Privacy",
+      "key": "Gu_2019_Phantomwalkabouts_customisable"
     },
     {
-      "ident": "AppSci19",
-      "family": "Vehicle Security"
+      "ident": "AppSci 2019",
+      "family": "Vehicle Security",
+      "key": "Maple_2019_ConnectedAutonomousVehicle"
     },
     {
-      "ident": "VTC-Fall19",
-      "family": "Vehicle Security"
+      "ident": "VTC-Fall 2019",
+      "family": "Vehicle Security",
+      "key": "Yuan_2019_ThroughputAwareAuthentication"
     },
     {
-      "ident": "SEFM19",
-      "family": "Vehicle Security"
+      "ident": "SEFM 2019",
+      "family": "Vehicle Security",
+      "key": "Farrell_2019_UsingThreatAnalysis"
     },
     {
-      "ident": "EDCC19",
-      "family": "Wireless Sensor Networks Routing"
+      "ident": "EDCC 2019",
+      "family": "Wireless Sensor Networks Routing",
+      "key": "Grosso_2019_ReliableManyMany"
     },
     {
-      "ident": "CPS-IoTBench19",
-      "family": "Wireless Sensor Networks Testing"
+      "ident": "CPS-IoTBench 2019",
+      "family": "Wireless Sensor Networks Testing",
+      "key": "Bradbury_2019_ImpactDecreasingTransmit"
     },
     {
       "ident": "PhD Thesis",
-      "family": "Source Location Privacy"
+      "family": "Source Location Privacy",
+      "key": "Bradbury_2018_NearOptimalRouting"
     },
     {
-      "ident": "Access20",
-      "family": "Vehicle Security"
+      "ident": "Access 2020",
+      "family": "Vehicle Security",
+      "key": "Bradbury_2020_PrivacyChallengesProtecting"
     },
     {
-      "ident": "SAC-DADS21",
-      "family": "IoT Task Offloading"
+      "ident": "AerospaceSMV 2020",
+      "family": "Vehicle Security",
+      "key": "Maple_2020_SecurityMindedVerification"
     },
     {
-      "ident": "INFOCOM21",
-      "family": "IoT Task Offloading"
+      "ident": "AerospaceASA 2020",
+      "family": "Vehicle Security",
+      "key": "Bradbury_2020_IdentifyingAttackSurfaces"
     },
     {
-      "ident": "TIoT21",
-      "family": "Source Location Privacy"
+      "ident": "SAC-DADS 2021",
+      "family": "IoT Task Offloading",
+      "key": "Bradbury_2021_TrustAssessment32"
+    },
+    {
+      "ident": "INFOCOM 2021",
+      "family": "IoT Task Offloading",
+      "key": "Bradbury_2021_TrustTrackersComputation"
+    },
+    {
+      "ident": "TIoT 2021",
+      "family": "Source Location Privacy",
+      "key": "Bradbury_2021_SpatialSourceLocation"
+    },
+    {
+      "ident": "PNT1 2020",
+      "family": "PNT",
+      "key": "Adegoke_2020_PntCyberResilience"
+    },
+    {
+      "ident": "PNT2 2020",
+      "family": "PNT",
+      "key": "Bradbury_2020_PntCyberResilience"
+    },
+    {
+      "ident": "IoT-TRaM 2019",
+      "family": "Vehicle Security",
+      "key": "Maple_2019_IoTTransportMobility"
     }
   ],
 
   "relations": [
-    { "target": "TrustCom12", "source": "TrustCom13", "type": "Based On" },
-    { "target": "TrustCom12", "source": "CCPE15", "type": "Extends" },
-    { "target": "CCPE15", "source": "PRDC15", "type": "Relates To" },
-    { "target": "CCPE15", "source": "TrustCom15", "type": "Based On" },
-    { "target": "TrustCom15", "source": "ICCS16", "type": "Based On" },
-    { "target": "TrustCom15", "source": "TrustCom17", "type": "Based On" },
-    { "target": "TrustCom17", "source": "SAC-DADS17", "type": "Based On" },
-    { "target": "SAC-NET17", "source": "SAC-DADS17", "type": "Based On" },
-    { "target": "PRDC15", "source": "SAC-NET17", "type": "Based On" },
-    { "target": "JPDC14", "source": "ICDCS17", "type": "Relates To" },
-    { "target": "SAC-DADS17", "source": "INFOCOM17", "type": "Based On" },
-    { "target": "ICDCS17", "source": "ComNet18", "type": "Extends" },
-    { "target": "TrustCom17", "source": "JPDC18", "type": "Extends" },
-    { "target": "SAC-NET17", "source": "FGCS18", "type": "Based On" },
-    { "target": "TrustCom17", "source": "FGCS18", "type": "Based On" },
-    { "target": "SAC-NET17", "source": "CCPE19", "type": "Extends" },
+    { "target": "TrustCom 2012", "source": "TrustCom 2013", "type": "Based On" },
+    { "target": "TrustCom 2012", "source": "CCPE 2015", "type": "Extends" },
+    { "target": "CCPE 2015", "source": "PRDC 2015", "type": "Relates To" },
+    { "target": "CCPE 2015", "source": "TrustCom 2015", "type": "Based On" },
+    { "target": "TrustCom 2015", "source": "ICCS 2016", "type": "Based On" },
+    { "target": "TrustCom 2015", "source": "TrustCom 2017", "type": "Based On" },
+    { "target": "TrustCom 2017", "source": "SAC-DADS 2017", "type": "Based On" },
+    { "target": "SAC-NET 2017", "source": "SAC-DADS 2017", "type": "Based On" },
+    { "target": "PRDC 2015", "source": "SAC-NET 2017", "type": "Based On" },
+    { "target": "JPDC 2014", "source": "ICDCS 2017", "type": "Relates To" },
+    { "target": "SAC-DADS 2017", "source": "INFOCOM 2017", "type": "Based On" },
+    { "target": "ICDCS 2017", "source": "ComNet 2018", "type": "Extends" },
+    { "target": "TrustCom 2017", "source": "JPDC 2018", "type": "Extends" },
+    { "target": "SAC-NET 2017", "source": "FGCS 2018", "type": "Based On" },
+    { "target": "TrustCom 2017", "source": "FGCS 2018", "type": "Based On" },
+    { "target": "SAC-NET 2017", "source": "CCPE 2019", "type": "Extends" },
 
 
-    { "target": "JPDC18", "source": "CPS-IoTBench19", "type": "Related To" },
+    { "target": "JPDC 2018", "source": "CPS-IoTBench 2019", "type": "Related To" },
 
-    { "target": "JPDC18", "source": "TIoT21", "type": "Based On" },
+    { "target": "JPDC 2018", "source": "TIoT 2021", "type": "Based On" },
 
-    { "target": "SAC-DADS21", "source": "INFOCOM21", "type": "Based On" },
+    { "target": "SAC-DADS 2021", "source": "INFOCOM 2021", "type": "Based On" },
 
 
-    { "target": "JPDC18", "source": "PhD Thesis", "type": "Includes" },
-    { "target": "INFOCOM17", "source": "PhD Thesis", "type": "Includes" },
-    { "target": "TIoT21", "source": "PhD Thesis", "type": "Includes" }
+    { "target": "JPDC 2018", "source": "PhD Thesis", "type": "Includes" },
+    { "target": "INFOCOM 2017", "source": "PhD Thesis", "type": "Includes" },
+    { "target": "TIoT 2021", "source": "PhD Thesis", "type": "Includes" },
+
+    { "target": "SEFM 2019", "source": "AerospaceSMV 2020", "type": "Related To" },
+    { "target": "AerospaceSMV 2020", "source": "AerospaceASA 2020", "type": "Related To" },
+
+    { "target": "AppSci 2019", "source": "AerospaceASA 2020", "type": "Related To" },
+
+    { "target": "PNT1 2020", "source": "PNT2 2020", "type": "Collection" },
+    { "target": "PNT2 2020", "source": "PNT1 2020", "type": "Collection" },
+
+    { "target": "IoT-TRaM 2019", "source": "VTC-Fall 2019", "type": "Related To" }
+
   ]
 }
