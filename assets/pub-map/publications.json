@@ -170,7 +170,7 @@
     { "target": "JPDC 2014", "source": "ICDCS 2017", "type": "Relates To" },
     { "target": "SAC-DADS 2017", "source": "INFOCOM 2017", "type": "Based On" },
     { "target": "ICDCS 2017", "source": "ComNet 2018", "type": "Extends" },
-    { "target": "TrustCom 2017", "source": "JPDC 2018", "type": "Extends" },
+    { "target": "TrustCom 2015", "source": "JPDC 2018", "type": "Extends" },
     { "target": "SAC-NET 2017", "source": "FGCS 2018", "type": "Based On" },
     { "target": "TrustCom 2017", "source": "FGCS 2018", "type": "Based On" },
     { "target": "SAC-NET 2017", "source": "CCPE 2019", "type": "Extends" },
