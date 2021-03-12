@@ -27,6 +27,7 @@ sitemap: true
 
 ## Programme Committees
 
+ * Location Privacy Workshop ([LPW21](http://security.ucc.ie/lpw21/)) co-hosted with [ARES](https://www.ares-conference.eu/) [2021]
  * IEEE Security and Privacy (IEEE S&P) Shadow PC [2020]
  * Formal Methods for Autonomous Systems Workshop (FMAS) [2019]
 
