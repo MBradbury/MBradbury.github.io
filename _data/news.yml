@@ -1,8 +1,23 @@
+
+- icon: fa-volume-up
+  month: May
+  year: 2021
+  name: "Conference Presentation"
+  link: /talks/2021-05-11-InfoCom
+  description: 'Will present paper "Trust Trackers for Computation Offloading in Edge Based IoT Networks" at IEEE INFOCOM'
+
 - icon: fa-briefcase
   month: April
   year: 2021
   name: "New job"
   description: 'Lecturer at <a href="https://www.lancaster.ac.uk/">Lancaster University</a> in the <a href="https://ssg.lancs.ac.uk/">Systems and Security Group</a> of <a href="https://www.lancaster.ac.uk/scc/">School of Computing and Communications</a>'
+
+- icon: fa-volume-up
+  month: March
+  year: 2021
+  name: "Conference Presentation"
+  link: /talks/2021-03-22-SAC
+  description: 'Will present paper "Trust Assessment in 32 KiB of RAM: Multi-application Trust-based Task Offloading for Resource-constrained IoT Nodes" at the ACM Symposium of Applied Computing'
 
 - icon: fa-book
   month: February
@@ -35,7 +50,7 @@
 - icon: fa-desktop
   month: May
   year: 2020
-  name: "Success Story"
+  name: "Funding Awarded"
   link: https://warwick.ac.uk/fac/sci/dcs/news/?newsItem=8a1785d8721768f401723d62f6e13f9f
   description: 'PETRAS SRF funding to investigate trust-based task offloading in IoT systems'
 

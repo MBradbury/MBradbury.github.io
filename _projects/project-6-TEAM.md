@@ -13,7 +13,7 @@ Internet of Things (IoT) systems are expected to be deployed as solutions to pro
 
 ## Information
 
-Role: Research Fellow
+Role: Research Co-Investigator
 
 Duration: {{ page.duration }}
 
@@ -26,9 +26,14 @@ Links:
  * [Funding Announcement News Article](https://warwick.ac.uk/fac/sci/dcs/news/?newsItem=8a1785d8721768f401723d62f6e13f9f)
  * [Source Code](https://github.com/MBradbury/iot-trust-task-alloc)
 
-## Publications
- 
- *  **Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Trust Assessment in 32 KiB of RAM: Multi-application Trust-based Task Offloading for Resource-constrained IoT Nodes. In *The 36th ACM/SIGAPP Symposium on Applied Computing*, SAC'21, 1–10. Virtual Event, Republic of Korea, 22–26 March 2021. ACM. To Appear. [doi:10.1145/3412841.3441898](https://doi.org/10.1145/3412841.3441898).  
-[[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2021_TrustAssessment32.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/SAC-DADS2021.pdf)] 
- *  **Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Trust Trackers for Computation Offloading in Edge-Based IoT Networks. In *IEEE INFOCOM*, 1–10. Virtual Event, Canada, 10–13 May 2021. IEEE. To Appear.  
-[[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2021_TrustTrackersComputation.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/InfoCom2021.pdf)] 
+<div class="publication-list">
+	<h2 id='Publications'>Publications</h2>
+	<ul>
+		<li class="publication" id="Bradbury_2021_TrustAssessment32">
+			<strong>Matthew Bradbury</strong>, Arshad Jhumka, and Tim Watson. <span class="bibtex-protected">Trust Assessment in 32 KiB of RAM: Multi-application Trust-based Task Offloading for Resource-constrained IoT Nodes</span>. In <em><span class="bibtex-protected">The 36th ACM/SIGAPP Symposium on Applied Computing</span></em>, SAC'21, 1–10. Virtual Event, Republic of Korea, 22–26 March 2021. ACM. <a href="https://doi.org/10.1145/3412841.3441898">doi:10.1145/3412841.3441898</a>.<br/>[<a href="https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2021_TrustAssessment32.bib">bibtex</a>] [<a href="https://github.com/MBradbury/publications/raw/master/papers/SAC-DADS2021.pdf">file</a>] [<a href="https://github.com/MBradbury/publications/raw/master/presentations/SAC-DADS2021.pdf">presentation</a>] [<a href="https://doi.org/10.5281/zenodo.4312801">dataset</a>]
+		</li>
+		<li class="publication" id="Bradbury_2021_TrustTrackersComputation">
+			<strong>Matthew Bradbury</strong>, Arshad Jhumka, and Tim Watson. <span class="bibtex-protected">Trust Trackers for Computation Offloading in Edge-Based IoT Networks</span>. In <em>IEEE INFOCOM</em>, 1–10. Virtual Event, Canada, 10–13 May 2021. IEEE.<br/>[<a href="https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2021_TrustTrackersComputation.bib">bibtex</a>] [<a href="https://github.com/MBradbury/publications/raw/master/papers/InfoCom2021.pdf">file</a>] [<a href="https://github.com/MBradbury/publications/raw/master/presentations/InfoCom2021.pdf">presentation</a>] [<a href="https://doi.org/10.5281/zenodo.4339398">dataset</a>]
+		</li>
+	</ul>
+</div>
