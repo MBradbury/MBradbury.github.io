@@ -19,14 +19,15 @@ export default function define(runtime, observer) {
         const publications = data.publications;
 
         const simulation = d3.forceSimulation(nodes)
-            .force("link", d3.forceLink(links).id(d => d.id))
+            .force("link", d3.forceLink(links).id(d => d.id).distance(150).strength(1))
             .force("charge", d3.forceManyBody().strength(-400))
             .force("x", d3.forceX())
             .force("y", d3.forceY())
-            .force('collide', d3.forceCollide().radius(70).iterations(3));
+            .force('collide', d3.forceCollide().radius(70).iterations(3))
+            .force("center", d3.forceCenter(width / 2, height / 2));
 
         const svg = d3.create("svg")
-            .attr("viewBox", [-width / 2, -height / 2, width, height])
+            .attr("viewBox", [0, 0, width, height])
             .style("font", "18px sans-serif")
             .attr("xlink", "http://www.w3.org/1999/xlink");
 
