@@ -13,7 +13,7 @@ Based off:
 {% elsif include.link contains "dropbox.com" %}
 
 <div class='pdf-embed-container'>
-	<video controls width="100%">
+	<video controls width="640">
 		<source src="{{ include.link }}" type="video/mp4">
 		Sorry, your browser doesn't support embedded videos.
 	</video>
