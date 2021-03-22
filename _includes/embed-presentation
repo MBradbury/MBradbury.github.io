@@ -10,6 +10,15 @@ Based off:
 	<iframe src="{{ include.link }}" allowfullscreen="" width="640" height="390" frameborder="0"></iframe>
 </div>
 
+{% elsif include.link contains "dropbox.com" %}
+
+<div class='pdf-embed-container'>
+	<video controls width="100%">
+		<source src="{{ include.link }}" type="video/mp4">
+		Sorry, your browser doesn't support embedded videos.
+	</video>
+</div>
+
 {% elsif include.link | split: "." | last == "pdf" %}
 
 <div class='pdf-embed-container'>
