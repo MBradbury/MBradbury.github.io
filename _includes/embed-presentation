@@ -2,11 +2,15 @@
 Based off:
  - https://github.com/MihajloNesic/jekyll-pdf-embed/blob/master/lib/jekyll-pdf-embed.rb
  - https://stackoverflow.com/questions/1244788/embed-vs-object?noredirect=1&lq=1
-
-<!--<iframe title="PDF file" width="640" height="390" src="{{ include.link }}" frameborder="0" allowfullscreen></iframe>-->
 {% endcomment %}
 
-{% if include.link | split: "." | last == "pdf" %}
+{% if include.link contains "drive.google.com" %}
+
+<div class='pdf-embed-container'>
+	<iframe src="{{ include.link }}" allowfullscreen="" width="640" height="390" frameborder="0"></iframe>
+</div>
+
+{% elsif include.link | split: "." | last == "pdf" %}
 
 <div class='pdf-embed-container'>
 	<object data="{{ include.link }}" type="application/pdf" width="640" height="390">
