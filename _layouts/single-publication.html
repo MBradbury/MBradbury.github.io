@@ -30,7 +30,7 @@ layout: default
         {% if page.citation %}
           <p>{{ page.citation | markdownify | remove: "<p>" | remove: "</p>" }}
 
-            {% if page.bibtex or page.file or page.presentation or page.dataset%}
+            {% if page.bibtex or page.file or page.presentation or page.dataset %}
               <br />
             {% endif %}
 
