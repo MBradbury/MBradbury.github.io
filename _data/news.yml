@@ -17,7 +17,7 @@
   year: 2021
   name: "Conference Presentation"
   link: /talks/2021-03-22-SAC
-  description: 'Will present paper "Trust Assessment in 32 KiB of RAM: Multi-application Trust-based Task Offloading for Resource-constrained IoT Nodes" at the ACM Symposium of Applied Computing'
+  description: 'Presented paper "Trust Assessment in 32 KiB of RAM: Multi-application Trust-based Task Offloading for Resource-constrained IoT Nodes" at the ACM Symposium of Applied Computing'
 
 - icon: fa-book
   month: February
