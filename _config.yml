@@ -10,7 +10,7 @@ locale                   : "en-GB"
 title                    : "Dr. Matthew Bradbury"
 title_separator          : "-"
 name                     : &name "Dr. Matthew Bradbury"
-description              : &description "Research Fellow at the University of Warwick"
+description              : &description "Lecturer at the Lancaster University"
 url                      : https://MBradbury.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "MBradbury/MBradbury.github.io"
@@ -51,15 +51,15 @@ social:
 author:
   name             : "Dr. Matthew Bradbury"
   avatar           : "profile.png"
-  bio              : "Matthew Bradbury is an academic conducting reseach into security, context privacy and trust assessment in resource-constrained systems."
+  bio              : "Matthew Bradbury is an Lecturer conducting reseach into security, context privacy and trust assessment in resource-constrained systems."
   location         : 
-  employer         : "The University of Warwick"
-  employer_url     : "https://warwick.ac.uk/fac/sci/dcs/"
+  employer         : "Lancaster University"
+  employer_url     : "https://www.lancaster.ac.uk/scc/research/security/"
   pubmed           :
   googlescholar    : "https://scholar.google.co.uk/citations?user=U1KPCasAAAAJ"
-  email            : M.Bradbury@warwick.ac.uk
+  email            : m.s.bradbury@lancaster.ac.uk
   researchgate     : "https://www.researchgate.net/profile/Matthew_Bradbury2"
-  uri              : "https://warwick.ac.uk/matthewbradbury"
+  #uri              : "https://warwick.ac.uk/matthewbradbury"
   microsoftacademic: "https://academic.microsoft.com/author/2128542392"
   semanticscholar  : "https://www.semanticscholar.org/author/M.-Bradbury/31941534"
   bitbucket        : 
