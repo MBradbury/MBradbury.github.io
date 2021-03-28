@@ -65,21 +65,18 @@ layout: default
           This paper extends a previous shorter <a href="/publications/{{ page.extends }}">paper</a>.
         {% endif %}
 
-        {% comment %}
-        {% if page.presentation %}
+        {% if page.presentation or page.video %}
           <h2>Presentation</h2>
+          {% if page.video %}
+            {% include embed-presentation link=page.video %}
+          {% endif %}
 
-          {% comment %}
-          https://webapps.stackexchange.com/questions/48061/can-i-trick-github-into-displaying-the-pdf-in-the-browser-instead-of-downloading
-          https://stackoverflow.com/questions/7780550/referencing-a-css-file-in-github-repo-as-stylesheet-in-a-html-file
-          {% endcomment %}
+          {% if page.presentation %}
+            {% capture fixed_presentation_link %}{{ page.presentation | replace_first:"https://raw.githubusercontent.com","https://rawcdn.githack.com" }}{% endcapture %}
 
-          {% capture fixed_presentation_link %}{{ page.presentation | replace_first:"https://raw.githubusercontent.com","https://rawcdn.githack.com" }}{% endcapture %}
-
-          {% include embed-presentation link=fixed_presentation_link %}
-
+            {% include embed-presentation link=fixed_presentation_link %}
+          {% endif %}
         {% endif %}
-        {% endcomment %}
       </section>
 
       <footer class="page__meta">
