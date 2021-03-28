@@ -3,7 +3,9 @@ title: "FAIR-SPACE"
 excerpt: "Access to space is becoming increasingly cheaper, meaning companies and organisations who were previously priced out of the market are now considering space-based deployments. These deployments may also include novel functionality such as debris collection. New entrants will lack the knowledge that well-established space organisations have about how to secure these systems and the new functionality will increase the ways in which these systems will be attacked. This project looked at ways in which these vulnerabilities could be identified and then formally proved to not be present."
 duration: "October 2018 &ndash; December 2019"
 location: "WMG, University of Warwick"
-image: /images/goodsecver.svg
+image:
+  src: /images/goodsecver.svg
+  alt: "A security-minded verification methodology showing how to fuse formal verification and threat modelling"
 collection: projects
 ---
 

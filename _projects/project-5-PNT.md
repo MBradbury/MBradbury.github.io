@@ -3,7 +3,9 @@ title: "PNT Cyber Resilience: a Lab2Live Observer Based Approach"
 excerpt: "Vehicular position, navigation, and timing (PNT) systems are of vital importance to current vehicles, future autonomous vehicles and infrastructure depending on time synchronisation. Existing GNSS infrastructure has limited mitigation to prevent a variety of attacks. This project performed a short feasibility study on practical attacks against a vehicle's PNT system using a PNT attack emulator."
 duration: "January 2020 &ndash; March 2020"
 location: "WMG, University of Warwick"
-image: /images/GPS.svg
+image:
+  src: /images/GPS.svg
+  alt: "The orbits of GPS satellites around Earth"
 collection: projects
 ---
 

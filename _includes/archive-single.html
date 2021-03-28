@@ -27,7 +27,20 @@
 
     </div>
 
-    <div class="archive__item-img-div">{% if post.image %}<a href="{{ base_path }}{{ post.url }}"><img src="{{ post.image }}" /></a>{% endif %}</div>
+    <div class="archive__item-img-div">
+      {% if post.image %}
+
+      {% if post.image.src %}
+        {% capture image_src %}{{ post.image.src }}{% endcapture %}
+      {% else %}
+        {% capture image_src %}{{ post.image }}{% endcapture %}
+      {% endif %}
+
+      <a href="{{ base_path }}{{ post.url }}">
+        <img src="{{ image_src }}" {% if post.image.alt %} alt="{{ post.image.alt }}" {% endif %} />
+      </a>
+      {% endif %}
+    </div>
 
   </article>
 </div>

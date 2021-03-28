@@ -3,7 +3,9 @@ title: "IoT Transport and Mobility Demonstrator"
 excerpt: "With the vehicle-to-vehicle communications being used to facilitated new functionality, there is a need for new security mechanisms to protect this communication. Much work has already been undertaken to develop these mechanisms, but they are rarely tested in real-world environments. This project took existing security and privacy technqiues and performed a deployment at three sites in the UK to test their efficacy."
 duration: "August 2018 &ndash; May 2019"
 location: "WMG, University of Warwick"
-image: /images/Millbook-testing.jpg
+image:
+  src: /images/Millbook-testing.jpg
+  alt: "An On-Board Unit of a vehicle is on the dashboard during testing while driving on a high-speed bowl emulating a motorway"
 collection: projects
 ---
 

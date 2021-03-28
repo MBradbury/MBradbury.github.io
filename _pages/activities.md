@@ -16,7 +16,7 @@ sitemap: true
 ## Events
 
  * Organised the [6th Competitive Advantage in the Digital Economy (CADE 2019)](https://warwick.ac.uk/cade19)
- * Organised [WPCCS'16](http://warwick.ac.uk/wpccs16), the Warwick Computer Science postgraduate student-led conference, and assisted with the organisation of [WPCCS'17](http://warwick.ac.uk/wpccs17) and [WPCCS'18](http://warwick.ac.uk/wpccs18).
+ * Organised [WPCCS'16](https://warwick.ac.uk/wpccs16), the Warwick Computer Science postgraduate student-led conference, and assisted with the organisation of [WPCCS'17](https://warwick.ac.uk/wpccs17) and [WPCCS'18](https://warwick.ac.uk/wpccs18).
 {% endcomment %}
 
 ## Guest Editor
@@ -54,9 +54,9 @@ sitemap: true
  * [Cyber Games 3.0](https://warwick.ac.uk/fac/sci/dcs/news/?newsItem=094d43454aca447a014acf964ec958f5) (featured on [BBC Newsround](https://www.bbc.co.uk/newsround/30780263)), developed a cyber-security challenge (2014) [[code](https://github.com/WarwickDCSiLab/arduino-morse-code)]
 {% endcomment %}
 
-## Student-Staff Liason Committee (University of Warwick)
+## Student-Staff Liaison Committee (University of Warwick)
 
-Liased between staff and postgraduate students to resolve issues in the [PGR SSLC](https://warwick.ac.uk/fac/sci/dcs/research/doctoralstudies/pgr-intranet/pgrsslc).
+Worked with staff and postgraduate students to resolve issues in the PGR Student-Staff Liaison Committee.
  * Representative (2016/17, 2017/18)
  * Co-Chair (2015/16)
  * Secretary (2014/15)
