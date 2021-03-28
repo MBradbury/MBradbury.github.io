@@ -6,6 +6,9 @@ permalink: /talks/2019-02-01-FAIR-SPACE-scoping-workshop
 venue: "University of Liverpool Campus in London"
 date: 2019-02-01
 location: "London, UK"
+image:
+  src: /images/SpaceSecurityWorkshop.JPG
+  alt: Workshop venue
 ---
 
 As part of the [FAIR-SPACE](/projects/project-4-FAIR-SPACE) project a workshop was held with members of academia and industry to identify cyber-security issue with robotic systems deployed in space and to scope out which of these issues were of high priority. [Dr. Marie Farell](https://www.research.manchester.ac.uk/portal/marie.farrell.html) and myself led the discussion with the attendees after introductory talks from [Prof. Michael Fisher](https://www.research.manchester.ac.uk/portal/michael.fisher.html) and [Prof. Carsten Maple](https://warwick.ac.uk/fac/sci/wmg/people/profile/?wmgid=1102).
@@ -22,4 +25,4 @@ A variety of interesting issues were highlighted including:
 
 A report of the issued highlighted during the workshop is available [here](https://static1.squarespace.com/static/5a6a02b0f6576ed25151ecfa/t/5c9ded139140b781bedc609a/1553853733673/WORKSHOP+REPORT_SPACE+SECURITY+SCOPING+February+2019.pdf) and a news article written for the FAIR-SPACE project is available [here](https://www.fairspacehub.org/news/2019/1/23/space-security-scoping-workshop).
 
-![Workshop Venue](https://images.squarespace-cdn.com/content/v1/5a6a02b0f6576ed25151ecfa/1550053850976-IRM6V2XHR1181W83QFN7/ke17ZwdGBToddI8pDm48kPzKArKmFyn6g6p7H1tgk94UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcF9HDZWYQINNv-lEYux9pAv-34F-PuvRBgqyq0f8vrco8lluvt9aiLi1mEP_XSS2i/Space+Security+Workshop.JPG?format=2500w)
+![Workshop Venue](/images/SpaceSecurityWorkshop.JPG)
