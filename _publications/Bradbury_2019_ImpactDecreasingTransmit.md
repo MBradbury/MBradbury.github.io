@@ -9,8 +9,14 @@ dataset: https://doi.org/10.5281/zenodo.2528757
 
 ## Summary
 
+When developing techniques for IoT devices, it is preferable to perform testing on real devices in real situations such as on [FlockLab 2](https://gitlab.ethz.ch/tec/public/flocklab/wiki), [FIT IoT-LAB](https://www.iot-lab.info/), and [INDRIYA 2](https://indriya.comp.nus.edu.sg/), as simulation will not perfectly reproduce these environments. However, IoT testbeds are not always deployed in the same scenarios for which techniques are developed for. It is often the case that testbeds are setup in existing facilities (such as inside office buildings) and devices are positioned close to each other. This means that there is currently a lack of testbeds supporting the testing of applications that will be deployed outside, on a large scale, with sparse connectivity. Commonly, the transmission power of device can be reduced in order to emulate a sparse network, this paper looked at the baseline effects of doing so.
+
 ## Importance
+
+Without understanding the baseline performance of a testbed, it becomes difficult to draw conclusions about the performance of the techniques that are being tested. This paper focused on understanding the noise floor and the impact that varying transmit power has on message transmit, message receive and current consumption performance.
+
+Due to the office environment there are certain characteristics that would be different in a large-scale outdoors environment. For example, the noise floor is affected by the provision of WiFi in the building. There is also a degree of link asymmetry that may be different in an outdoors environment.
 
 ## Perspectives
 
-
+Reducing the transmit power to obtain a spare network is a poor choice in order to obtain the desired network topology, but it may be the only option available given the currently available IoT testbeds. Future effort will be needed to set up testbeds in these different environments. 
