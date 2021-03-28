@@ -9,7 +9,7 @@ author_profile: true
 	<tbody>
 		{% for item in site.data.news %}
 		<tr>
-			<td><i class="fas fa-fw {{ item.icon }}" aria-hidden="true"></td>
+			<td><i class="fas fa-fw {{ item.icon }}" aria-hidden="true"></i></td>
 			<td>{{ item.month }}<br />{{ item.year }}</td>
 			<td>
 				{% if item.link %}
