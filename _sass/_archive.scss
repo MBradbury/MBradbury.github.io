@@ -263,4 +263,9 @@
     margin-top: auto;
     margin-bottom: auto;
   }
+
+  /* For mobile, do not want to show pictures side-by-side */
+  @media only screen and (max-width: 600px) {
+    grid-template-columns: 3fr;
+  }
 }
