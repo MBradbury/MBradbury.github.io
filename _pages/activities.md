@@ -10,14 +10,7 @@ sitemap: true
 
  * Received the Early Career Researcher of the Year award at the [WMG Star Awards](https://warwick.ac.uk/fac/sci/wmg/people/athena_swan/starawards/) 2019
  * Received best-in-session presentation award at [InfoCom 2017](https://infocom2017.ieee-infocom.org/)
- * Nominated for [Warwick Awards for Teaching Excellence PGR](https://warwick.ac.uk/services/od/academic-development/wate/watepgrinfo/) 2014/15 and 2016/17
-
-{% comment %}
-## Events
-
- * Organised the [6th Competitive Advantage in the Digital Economy (CADE 2019)](https://warwick.ac.uk/cade19)
- * Organised [WPCCS'16](https://warwick.ac.uk/wpccs16), the Warwick Computer Science postgraduate student-led conference, and assisted with the organisation of [WPCCS'17](https://warwick.ac.uk/wpccs17) and [WPCCS'18](https://warwick.ac.uk/wpccs18).
-{% endcomment %}
+ * Nominated for [Warwick Awards for Teaching Excellence for Postgraduates who Teach](https://warwick.ac.uk/services/od/academic-development/wate/watepgrinfo/) 2014/15 and 2016/17
 
 ## Guest Editor
 
