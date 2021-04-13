@@ -34,6 +34,7 @@ sitemap: true
  * Journal of Information Security and Applications (JISA)
  * MDPI Sensors and MDPI Electronics
  * IEEE Transactions on Industrial Informatics
+ * Ad Hoc Networks (ADHOC)
 
 {% comment %}
 ## Outreach
