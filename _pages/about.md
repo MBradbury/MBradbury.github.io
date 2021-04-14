@@ -8,7 +8,7 @@ redirect_from:
 sitemap: true
 ---
 
-I am a Lecturer in the [Security Systems Research Group](https://www.lancaster.ac.uk/scc/research/security/) of the [Lancaster University](https://www.lancaster.ac.uk) [School of Computing and Communications](https://www.lancaster.ac.uk/scc/).
+I am a Lecturer in the [Security Systems Research Group](https://ssg.lancs.ac.uk/) of the [Lancaster University](https://www.lancaster.ac.uk) [School of Computing and Communications](https://www.lancaster.ac.uk/scc/).
 
 My research has explored a variety of issues involving security, context privacy and trust assessment in resource-constrained systems. This has ranged from context privacy issues in [vehicles](/publications/Bradbury_2020_PrivacyChallengesProtecting) and [wireless sensor networks](/projects/project-1-PhD/), and security of different aspects of vehicular systems (including: [system analysis](/projects/project-2-CAPRI), [real-world testing](/projects/project-3-IoT-TRaM) and [PNT](/projects/project-5-PNT)). I am interested in developing and testing practical solutions to security issued based on a solid theoretical foundation.
 
