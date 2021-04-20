@@ -10,8 +10,6 @@ var $btn = $('#site-nav button');
 var $vlinks = $('#site-nav .visible-links');
 var $hlinks = $('#site-nav .hidden-links');
 
-var breaks = [];
-
 function updateNav() {
 
   var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
@@ -19,11 +17,12 @@ function updateNav() {
   // The visible list is overflowing the nav
   if($vlinks.width() > availableSpace) {
 
-    // Record the width of the list
-    breaks.push($vlinks.width());
-
     // Move item to the hidden list
-    $vlinks.children().last().prependTo($hlinks);
+    while($vlinks.width() > availableSpace) {
+      last = $vlinks.children().last();
+      last.remove();
+      last.prependTo($hlinks);
+    }
 
     // Show the dropdown btn
     if($btn.hasClass('hidden')) {
@@ -33,34 +32,30 @@ function updateNav() {
   // The visible list is not overflowing
   } else {
 
-    // There is space for another item in the nav
-    if(availableSpace > breaks[breaks.length-1]) {
+    // Try adding a hidden item to the visible items
+    while($vlinks.width() <= availableSpace && $hlinks.children().length > 0) {
+      first = $hlinks.children().first();
+      first.remove();
+      first.appendTo($vlinks);
+    }
 
-      // Move the item to the visible list
-      $hlinks.children().first().appendTo($vlinks);
-      breaks.pop();
+    // Woops, too big, hide it again
+    if($vlinks.width() > availableSpace) {
+      // Move item to the hidden list
+      last = $vlinks.children().last();
+      last.remove();
+      last.prependTo($hlinks);
     }
 
     // Hide the dropdown btn if hidden list is empty
-    if(breaks.length < 1) {
+    if($hlinks.children().length == 0) {
       $btn.addClass('hidden');
-      $hlinks.addClass('hidden');
     }
   }
-
-  // Keep counter updated
-  $btn.attr("count", breaks.length);
-
-  // Recur if the visible list is still overflowing the nav
-  if($vlinks.width() > availableSpace) {
-    updateNav();
-  }
-
 }
 
 // Window listeners
-
-$(window).resize(function() {
+$(window).on('resize', function() {
   updateNav();
 });
 
