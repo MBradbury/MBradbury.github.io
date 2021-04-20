@@ -28,7 +28,7 @@ The bibtex for all my publications is available from [here](https://raw.githubus
 ## Publication Map
 
 <script src="https://d3js.org/d3.v6.min.js" type="text/javascript"
-	integrity="sha384-XVUEg8rdtdMluQvEx+vYi50jgyYw+5XOoFRxdQO/6RypsNR//8iv9Ooytiq/E/1x"
+	integrity="sha384-ma33ZEb8L5emtidZhYJFZNIFdht2E8f5wHQMKQGom0aIx9rRKm86XXCjGxOISpM9"
 	crossorigin="anonymous"
 ></script>
 
