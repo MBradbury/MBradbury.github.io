@@ -53,7 +53,7 @@ social:
 author:
   name             : "Dr. Matthew Bradbury"
   avatar           : "/images/profile.png"
-  bio              : "Matthew Bradbury is a Lecturer conducting reseach into security, context privacy and trust assessment in resource-constrained systems."
+  bio              : "Matthew Bradbury is a Lecturer conducting research into security, context privacy and trust assessment in resource-constrained and distributed systems."
   location         : 
   employer         : "Lancaster University"
   employer_url     : "https://www.lancaster.ac.uk/scc/research/security/"
