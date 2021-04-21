@@ -14,7 +14,7 @@ $indent-var                 : 1.3em;
 
 /* system typefaces */
 $serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$sans-serif                 : -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
@@ -42,13 +42,20 @@ $type-size-6                : 0.75em;   // ~12px
 $type-size-7                : 0.6875em; // ~11px
 $type-size-8                : 0.625em;  // ~10px
 
+/* headline scale */
+$h-size-1: 1.563em !default; // ~25.008px
+$h-size-2: 1.25em !default; // ~20px
+$h-size-3: 1.125em !default; // ~18px
+$h-size-4: 1.0625em !default; // ~17px
+$h-size-5: 1.03125em !default; // ~16.5px
+$h-size-6: 1em !default; // ~16px
 
 /*
    Colors
    ========================================================================== */
 
 $gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
+$dark-gray                  : mix(#000, $gray, 50%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
@@ -91,9 +98,9 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $info-color;
+$link-color                 : mix(#000, $info-color, 20%);
 $link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
+$link-color-visited         : mix(#fff, $link-color, 15%);
 $masthead-link-color        : $primary-color;
 $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
 
@@ -103,27 +110,20 @@ $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
    ========================================================================== */
 
 @include breakpoint-set("to ems", true);
-/*
-$small                      : 400px;
-$medium                     : 500px;
-$medium-wide                : 550px;
-$large                      : 1200px;
-$x-large                    : 1800px;
-*/
 
 $small                      : 600px !default;
 $medium                     : 768px !default;
 $medium-wide                : 900px !default;
-$large                      : 925px !default;
+$large                      : 1024px !default;
 $x-large                    : 1280px !default;
 
 /*
    Grid
    ========================================================================== */
 
-$right-sidebar-width-narrow : 0px;
-$right-sidebar-width        : 0px;
-$right-sidebar-width-wide   : 0px;
+$right-sidebar-width-narrow : 200px;
+$right-sidebar-width        : 300px;
+$right-sidebar-width-wide   : 400px;
 
 $susy: (
   columns: 12,
@@ -149,6 +149,6 @@ $susy: (
 
 $border-radius              : 4px;
 $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
-$navicon-width              : 28px;
-$navicon-height             : 4px;
+$navicon-width              : 1.5rem;
+$navicon-height             : 0.25rem;
 $global-transition          : all 0.2s ease-in-out;
