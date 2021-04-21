@@ -21,6 +21,7 @@ read_more                : "disabled" # if enabled, adds "Read more" links to ex
 date_format              : "%d %B %Y"
 atom_feed:
   path                   : # blank (default) uses feed.xml
+  hide                   : true
 
 # SEO Related
 google_site_verification :
