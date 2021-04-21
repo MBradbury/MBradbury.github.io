@@ -10,7 +10,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-  padding-bottom: 9em;
+  /* sticky footer fix */
+  padding-bottom: 11em;
+  /* sticky footer fix end */
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;

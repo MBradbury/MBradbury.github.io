@@ -18,6 +18,7 @@ teaser                   :  # filename of teaser fallback teaser image placed in
 breadcrumbs              : false # true, false (default)
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
+date_format              : "%d %B %Y"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
@@ -50,7 +51,7 @@ social:
 # Site Author
 author:
   name             : "Dr. Matthew Bradbury"
-  avatar           : "profile.png"
+  avatar           : "/images/profile.png"
   bio              : "Matthew Bradbury is a Lecturer conducting reseach into security, context privacy and trust assessment in resource-constrained systems."
   location         : 
   employer         : "Lancaster University"
