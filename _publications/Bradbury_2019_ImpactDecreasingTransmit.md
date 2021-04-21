@@ -13,9 +13,13 @@ When developing techniques for IoT devices, it is preferable to perform testing 
 
 ## Importance
 
-Without understanding the baseline performance of a testbed, it becomes difficult to draw conclusions about the performance of the techniques that are being tested. This paper focused on understanding the noise floor and the impact that varying transmit power has on message transmit, message receive and current consumption performance.
+Without understanding the baseline performance of a testbed, it becomes difficult to draw conclusions about the performance of the techniques that are being tested. This paper focused on understanding the noise floor and the impact that varying transmit power has on message transmit, message receive and current consumption performance. Below shows the current consumption when (1) performing no activities, (2) sending and receiving messages, and (3) logging the receive signal strength indicator (RSSI) and logging it via serial output.
 
-Due to the office environment there are certain characteristics that would be different in a large-scale outdoors environment. For example, the noise floor is affected by the provision of WiFi in the building. There is also a degree of link asymmetry that may be different in an outdoors environment.
+![Graph of current draw under various activites](/images/IoTBench2019-energy-graph.svg)
+
+Due to the office environment there are certain characteristics that would be different in a large-scale outdoors environment. For example, the noise floor is affected by the provision of WiFi in the building, as can be seen in the 2.4 GHz channels below. There is also a degree of link asymmetry that may be different in an outdoors environment.
+
+![Graph of noise floor for different nodes](/images/IoTBench2019-noise-floor-graph.svg)
 
 ## Perspectives
 
