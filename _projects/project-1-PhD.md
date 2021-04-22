@@ -124,5 +124,5 @@ Links:
  
 ### PhD Thesis
 
- *  **Matthew Bradbury**. *Near Optimal Routing Protocols for Source Location Privacy in Wireless Sensor Networks: Modelling, Design and Evaluation*. PhD thesis, University of Warwick, Coventry, UK, 2018. URL: <http://wrap.warwick.ac.uk/115772>.  
+ *  **Matthew Bradbury**. *Near Optimal Routing Protocols for Source Location Privacy in Wireless Sensor Networks: Modelling, Design and Evaluation*. PhD thesis, University of Warwick, Coventry, UK, 2018. URL: <https://wrap.warwick.ac.uk/115772>.  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2018_NearOptimalRouting.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/Thesis.pdf)] 

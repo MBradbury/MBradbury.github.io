@@ -9,7 +9,7 @@ image:
 collection: projects
 ---
 
-The [FAIR-SPACE](http://fairspacehub.org/) hub aimed to further the use of AI and robotics for future space missions. As part of this project I was involved with developing techniques for security-minded verification of space systems. This involved working with colleagues at the University of Liverpool who focus on formal verification to develop hybrid methodologies that considered security aspects of space systems.
+The [FAIR-SPACE](https://fairspacehub.org/) hub aimed to further the use of AI and robotics for future space missions. As part of this project I was involved with developing techniques for security-minded verification of space systems. This involved working with colleagues at the University of Liverpool who focus on formal verification to develop hybrid methodologies that considered security aspects of space systems.
 
 ![A methodology for security-minded verification](/images/goodsecver.svg)
 

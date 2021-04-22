@@ -29,12 +29,12 @@ People:
 Links:
  * [Warwick News Article](https://warwick.ac.uk/fac/sci/wmg/mediacentre/news/newsitem?id=8a17841b6fc76720016fd24767765e12&tag=Intelligent%20Vehicles)
  * [Zenzic News Article](https://zenzic.io/news/winners-of-1-2-million-self-driving-vehicle-cyber-security-feasibility-studies-funding-announced/)
- * [Zenzic Cyber Feasibility Report](http://zenzic.io/cybersecurity/)
+ * [Zenzic Cyber Feasibility Report](https://zenzic.io/cybersecurity/)
  * [Success Story](https://warwick.ac.uk/fac/sci/wmg/business/success-stories/cyber-resilience/)
 
 ## Technical Reports
 
- *  Elijah Adegoke, **Matthew Bradbury**, Erik Kampert, Matthew Higgins, Tim Watson, Paul Jennings, Colin Ford, Guy Buesnel, and Steve Hickling. PNT Cyber Resilience: a Lab2Live Observer Based Approach, Report 1: GNSS Resilience and Identified Vulnerabilities. Technical Report 1, University of Warwick, Coventry, UK, April 2020. Version 1.0. URL: <http://wrap.warwick.ac.uk/139519/>.  
+ *  Elijah Adegoke, **Matthew Bradbury**, Erik Kampert, Matthew Higgins, Tim Watson, Paul Jennings, Colin Ford, Guy Buesnel, and Steve Hickling. PNT Cyber Resilience: a Lab2Live Observer Based Approach, Report 1: GNSS Resilience and Identified Vulnerabilities. Technical Report 1, University of Warwick, Coventry, UK, April 2020. Version 1.0. URL: <https://wrap.warwick.ac.uk/139519/>.  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Adegoke_2020_PntCyberResilience.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/PNTReport1.pdf)] 
- *  **Matthew Bradbury**, Elijah Adegoke, Erik Kampert, Matthew Higgins, Tim Watson, Paul Jennings, Colin Ford, Guy Buesnel, and Steve Hickling. PNT Cyber Resilience: a Lab2Live Observer Based Approach, Report 2: Specifications for Cyber Testing Facilities. Technical Report 2, University of Warwick, Coventry, UK, April 2020. Version 1.2. URL: <http://wrap.warwick.ac.uk/139522/>.  
+ *  **Matthew Bradbury**, Elijah Adegoke, Erik Kampert, Matthew Higgins, Tim Watson, Paul Jennings, Colin Ford, Guy Buesnel, and Steve Hickling. PNT Cyber Resilience: a Lab2Live Observer Based Approach, Report 2: Specifications for Cyber Testing Facilities. Technical Report 2, University of Warwick, Coventry, UK, April 2020. Version 1.2. URL: <https://wrap.warwick.ac.uk/139522/>.  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2020_PntCyberResilience.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/PNTReport2.pdf)] 
