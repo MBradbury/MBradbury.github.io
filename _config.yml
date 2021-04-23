@@ -152,12 +152,12 @@ kramdown:
 collections:
   publications:
     output: true
+    sort_by: publishDate
     permalink: /:collection/:path/
   publications_hidden:
     output: false
   projects:
     output: true
-    sort_by: publishDate
     permalink: /:collection/:path/
   talks:
     output: true
