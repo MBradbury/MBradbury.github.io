@@ -48,8 +48,3 @@ People:
 Links:
  * [WMG News Article](https://warwick.ac.uk/fac/sci/wmg/mediacentre/news/newsitem?id=8a1785d86d3ece05016d3f4743ed0da2&tag=Carsten%20Maple)
  * [Trials Press Release](https://warwick.ac.uk/newsandevents/pressreleases/cyber_security_of/)
-
-# Technical Reports
-
- *  Carsten Maple, **Matthew Bradbury**, Miles Elsden, Haitham Cruickshank, Hu Yuan, Chen Gu, and Phillip Asuquo. IoT Transport and Mobility Demonstrator: Cyber Security Testing on National Infrastructure. Technical Report, University of Warwick, Coventry, UK, May 2019.  
-[[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Maple_2019_IoTTransportMobility.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/IoT_TRaM_Report.pdf)] 

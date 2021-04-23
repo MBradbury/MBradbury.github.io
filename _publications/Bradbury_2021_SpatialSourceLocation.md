@@ -1,9 +1,12 @@
 ---
 title: "A Spatial Source Location Privacy-Aware Duty Cycle for Internet of Things Sensor Networks"
 citation: "**Matthew Bradbury**, Arshad Jhumka, and Carsten Maple. A Spatial Source Location Privacy-Aware Duty Cycle for Internet of Things Sensor Networks. *ACM Transactions on Internet of Things*, 2(1):1–32, February 2021. [doi:10.1145/3430379](https://doi.org/10.1145/3430379)."
+publishDate: 2021-02
 file: https://raw.githubusercontent.com/MBradbury/publications/master/papers/TIOT2021.pdf
 firstpage: https://raw.githubusercontent.com/MBradbury/publications/master/firstpages/TIOT2021.svg
 bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/Bradbury_2021_SpatialSourceLocation.bib
+project: project-1-PhD
+type: paper
 ---
 
 ## Summary

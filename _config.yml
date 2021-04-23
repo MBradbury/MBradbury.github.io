@@ -150,14 +150,14 @@ kramdown:
 
 # Collections
 collections:
-  #teaching:
-  #  output: true
-  #  permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
+  publications_hidden:
+    output: false
   projects:
     output: true
+    sort_by: publishDate
     permalink: /:collection/:path/
   talks:
     output: true
@@ -178,7 +178,7 @@ defaults:
       path: ""
       type: projects
     values:
-      layout: single
+      layout: single-project
       author_profile: true
   # _publications
   - scope:
