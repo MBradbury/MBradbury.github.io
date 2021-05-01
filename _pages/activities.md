@@ -36,6 +36,8 @@ sitemap: true
  * MDPI Sensors and MDPI Electronics
  * IEEE Transactions on Industrial Informatics
  * Ad Hoc Networks (ADHOC)
+ * Computer Communications (COMCOM)
+ * Vehicular Communications (VEHCOM)
 
 {% comment %}
 ## Outreach
