@@ -47,6 +47,7 @@ social:
   links: # An array of links to social media profiles
    - "https://twitter.com/MattBradbury_"
    - "https://www.linkedin.com/in/matthewstephenbradbury"
+   - "https://www.research.lancs.ac.uk/portal/en/people/matthew-bradbury(a725915d-0988-4573-8d81-5784ead7fd75).html"
 
 
 # Site Author
@@ -61,7 +62,7 @@ author:
   googlescholar    : "https://scholar.google.co.uk/citations?user=U1KPCasAAAAJ"
   email            : m.s.bradbury@lancaster.ac.uk
   researchgate     : "https://www.researchgate.net/profile/Matthew_Bradbury2"
-  #uri              : "https://warwick.ac.uk/matthewbradbury"
+  uri              : "https://www.research.lancs.ac.uk/portal/en/people/matthew-bradbury(a725915d-0988-4573-8d81-5784ead7fd75).html"
   microsoftacademic: "https://academic.microsoft.com/author/2128542392"
   semanticscholar  : "https://www.semanticscholar.org/author/M.-Bradbury/31941534"
   bitbucket        : 
