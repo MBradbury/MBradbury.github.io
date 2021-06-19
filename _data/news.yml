@@ -1,10 +1,17 @@
 
 - icon: fa-volume-up
+  month: June
+  year: 2021
+  name: "Outreach"
+  link: /talks/2021-06-11-NGP
+  description: 'Introduced Cyber Security to students in Kazakhstan'
+
+- icon: fa-volume-up
   month: May
   year: 2021
   name: "Conference Presentation"
   link: /talks/2021-05-11-InfoCom
-  description: 'Will present paper "Trust Trackers for Computation Offloading in Edge Based IoT Networks" at IEEE INFOCOM'
+  description: 'Presented paper "Trust Trackers for Computation Offloading in Edge Based IoT Networks" at IEEE INFOCOM'
 
 - icon: fa-briefcase
   month: April
