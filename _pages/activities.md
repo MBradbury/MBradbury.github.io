@@ -27,17 +27,17 @@ sitemap: true
 
 ## Reviewed For
 
- * IEEE Security and Privacy (IEEE S&P) Posters
- * Security and Communication Networks (SCN)
- * ACM Transactions on Cyber-Physical Systems (TCPS)
- * IEEE Access
- * International Journal of Distributed Sensor Networks (IJDSN)
- * Journal of Information Security and Applications (JISA)
- * MDPI Sensors and MDPI Electronics
- * IEEE Transactions on Industrial Informatics
- * Ad Hoc Networks (ADHOC)
- * Computer Communications (COMCOM)
- * Vehicular Communications (VEHCOM)
+ * IEEE Security and Privacy (IEEE S&P) [Posters](https://www.ieee-security.org/TC/SP2020/cfposters.html)
+ * Security and Communication Networks ([SCN](https://onlinelibrary.wiley.com/journal/19390122))
+ * ACM Transactions on Cyber-Physical Systems ([TCPS](https://dl.acm.org/journal/tcps))
+ * [IEEE Access](https://ieeeaccess.ieee.org/)
+ * International Journal of Distributed Sensor Networks ([IJDSN](https://journals.sagepub.com/home/dsn))
+ * Journal of Information Security and Applications ([JISA](https://www.journals.elsevier.com/journal-of-information-security-and-applications))
+ * MDPI [Sensors](https://www.mdpi.com/journal/sensors) and MDPI [Electronics](https://www.mdpi.com/journal/electronics/)
+ * IEEE Transactions on Industrial Informatics ([TII](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9424))
+ * Ad Hoc Networks ([ADHOC](https://www.sciencedirect.com/journal/ad-hoc-networks))
+ * Computer Communications ([COMCOM](https://www.journals.elsevier.com/computer-communications))
+ * Vehicular Communications ([VEHCOM](https://www.journals.elsevier.com/vehicular-communications))
 
 {% comment %}
 ## Outreach
