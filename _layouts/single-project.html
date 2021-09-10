@@ -70,6 +70,9 @@ layout: default
                     {% if publication.dataset %}
                      [<a href="{{ publication.dataset }}">dataset</a>] 
                     {% endif %}
+                    {% if publication.collection == 'publications' %}
+                     [<a href="{{ publication.url }}">more details</a>] 
+                    {% endif %}
                 </li>
             {% endfor %}
             </ul>
@@ -100,6 +103,9 @@ layout: default
                     {% endif %}
                     {% if publication.dataset %}
                      [<a href="{{ publication.dataset }}">dataset</a>] 
+                    {% endif %}
+                    {% if publication.collection == 'publications' %}
+                     [<a href="{{ publication.url }}">more details</a>] 
                     {% endif %}
                 </li>
             {% endfor %}
@@ -132,6 +138,9 @@ layout: default
                     {% if publication.dataset %}
                      [<a href="{{ publication.dataset }}">dataset</a>] 
                     {% endif %}
+                    {% if publication.collection == 'publications' %}
+                     [<a href="{{ publication.url }}">more details</a>] 
+                    {% endif %}
                 </li>
             {% endfor %}
             </ul>
@@ -162,6 +171,9 @@ layout: default
                     {% endif %}
                     {% if publication.dataset %}
                      [<a href="{{ publication.dataset }}">dataset</a>] 
+                    {% endif %}
+                    {% if publication.collection == 'publications' %}
+                     [<a href="{{ publication.url }}">more details</a>] 
                     {% endif %}
                 </li>
             {% endfor %}

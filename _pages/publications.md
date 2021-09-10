@@ -10,17 +10,19 @@ The bibtex for all my publications is available from [here](https://raw.githubus
 
 ## Featured Articles
 
+{% assign featured_articles = site.publications | concat: site.publications_hidden | where_exp: "item", "site.data.featured_articles contains item.path" | sort: 'publishDate' %}
+
 <table style="width:100%;" class="page__table-no-border">
     <tbody>
         <tr>
-            <td style="width: 33%;"><a href="/publications/Bradbury_2021_TrustTrackersComputation"><img src="https://raw.githubusercontent.com/MBradbury/publications/master/firstpages/InfoCom2021.svg" alt="InfoCom21" style="width:80%" class="page__image-center"></a></td>
-            <td style="width: 33%;"><a href="/publications/Bradbury_2020_PrivacyChallengesProtecting"><img src="https://raw.githubusercontent.com/MBradbury/publications/master/firstpages/Access2020.svg" alt="Access2020" style="width:80%" class="page__image-center"></a></td>
-            <td style="width: 33%;"><a href="/publications/Bradbury_2017_OptimalSourceLocation"><img src="https://raw.githubusercontent.com/MBradbury/publications/master/firstpages/InfoCom2017.svg" alt="TrustCom2017" style="width:80%" class="page__image-center"></a></td>
+            {% for featured_article in featured_articles %}
+                <td style="width: 33%;"><a href="{{ featured_article.url }}"><img src="{{ featured_article.firstpage }}" alt="First page of {{ featured_article.title }}" style="width:80%" class="page__image-center"></a></td>
+            {% endfor %}
         </tr>
         <tr>
-            <td style="width: 33%;">Trust Trackers for Computation Offloading in Edge-Based IoT Networks. In IEEE INFOCOM 2021.</td>
-            <td style="width: 33%;">Privacy Challenges with Protecting Live Vehicular Location Context. In IEEE Access 2020.</td>
-            <td style="width: 33%;">A Near-Optimal Source Location Privacy Scheme for Wireless Sensor Networks. In TrustCom 2017.</td>
+            {% for featured_article in featured_articles %}
+                <td style="width: 33%;">{{ featured_article.title }} ({{ featured_article.publishDate | slice: 0, 4 }}).</td>
+            {% endfor %}
         </tr>
     </tbody>
 </table>
@@ -68,6 +70,9 @@ The bibtex for all my publications is available from [here](https://raw.githubus
             {% endif %}
             {% if publication.dataset %}
              [<a href="{{ publication.dataset }}">dataset</a>] 
+            {% endif %}
+            {% if publication.collection == 'publications' %}
+             [<a href="{{ publication.url }}">more details</a>]
             {% endif %}
         </li>
     {% endfor %}
