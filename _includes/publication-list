@@ -1,0 +1,26 @@
+<div class="publication-list">
+    <ul>
+    {% for publication in publications reversed %}
+        <li class="publication" id="{{ publication.path | split: '/' | last | remove: '.md' }}">
+            {{ publication.citation | markdownify | remove: "<p>" | remove: "</p>" }}
+
+            {% if publication.bibtex or publication.file or publication.presentation or publication.dataset %}
+              <br />
+            {% endif %}
+
+            {% if publication.bibtex %}
+             [<a href="{{ publication.bibtex }}">bibtex</a>] 
+            {% endif %}
+            {% if publication.file %}
+             [<a href="{{ publication.file }}">file</a>] 
+            {% endif %}
+            {% if publication.presentation %}
+             [<a href="{{ publication.presentation }}">presentation</a>] 
+            {% endif %}
+            {% if publication.dataset %}
+             [<a href="{{ publication.dataset }}">dataset</a>] 
+            {% endif %}
+        </li>
+    {% endfor %}
+    </ul>
+</div>

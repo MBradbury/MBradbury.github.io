@@ -36,103 +36,13 @@ The bibtex for all my publications is available from [here](https://raw.githubus
 
 {% include draw-publication-map.html %}
 
-<div class="publication-list">
-    {% assign prev_year = nil %}
-    {% assign publications = site.publications | concat: site.publications_hidden | where: "type", "paper" | sort: 'publishDate' %}
-    
-    {% for publication in publications reversed %}
-        {% assign current_year = publication.publishDate | slice: 0, 4 %}
-        {% if current_year != prev_year %}
-            {% if prev_year != nil %}
-                </ul>
-            {% endif %}
-
-            <h2 id='pub_{{ current_year }}'>{{ current_year }}</h2>
-            <ul>
-        {% endif %}
-        {% assign prev_year = current_year %}
-
-        <li class="publication" id="{{ publication.path | split: '/' | last | remove: '.md' }}">
-            {{ publication.citation | markdownify | remove: "<p>" | remove: "</p>" }}
-
-            {% if publication.bibtex or publication.file or publication.presentation or publication.dataset %}
-              <br />
-            {% endif %}
-
-            {% if publication.bibtex %}
-             [<a href="{{ publication.bibtex }}">bibtex</a>] 
-            {% endif %}
-            {% if publication.file %}
-             [<a href="{{ publication.file }}">file</a>] 
-            {% endif %}
-            {% if publication.presentation %}
-             [<a href="{{ publication.presentation }}">presentation</a>] 
-            {% endif %}
-            {% if publication.dataset %}
-             [<a href="{{ publication.dataset }}">dataset</a>] 
-            {% endif %}
-            {% if publication.collection == 'publications' %}
-             [<a href="{{ publication.url }}">more details</a>]
-            {% endif %}
-        </li>
-    {% endfor %}
-    </ul>
-</div>
+{% assign publications = site.publications | concat: site.publications_hidden | where: "type", "paper" | sort: 'publishDate' %}
+{% include publication-list-split publications=publications %}
 
 <h2 id="PhDThesis">PhD Thesis</h2>
-<div class="publication-list">
-    {% assign publications = site.publications | concat: site.publications_hidden | where: "type", "thesis" | sort: 'publishDate' %}
-    <ul>
-    {% for publication in publications reversed %}
-        <li class="publication" id="{{ publication.path | split: '/' | last | remove: '.md' }}">
-            {{ publication.citation | markdownify | remove: "<p>" | remove: "</p>" }}
-
-            {% if publication.bibtex or publication.file or publication.presentation or publication.dataset %}
-              <br />
-            {% endif %}
-
-            {% if publication.bibtex %}
-             [<a href="{{ publication.bibtex }}">bibtex</a>] 
-            {% endif %}
-            {% if publication.file %}
-             [<a href="{{ publication.file }}">file</a>] 
-            {% endif %}
-            {% if publication.presentation %}
-             [<a href="{{ publication.presentation }}">presentation</a>] 
-            {% endif %}
-            {% if publication.dataset %}
-             [<a href="{{ publication.dataset }}">dataset</a>] 
-            {% endif %}
-        </li>
-    {% endfor %}
-    </ul>
-</div>
+{% assign publications = site.publications | concat: site.publications_hidden | where: "type", "thesis" | sort: 'publishDate' %}
+{% include publication-list publications=publications %}
 
 <h2 id="TechnicalReports">Technical Reports</h2>
-<div class="publication-list">
-    {% assign publications = site.publications | concat: site.publications_hidden | where: "type", "techreport" | sort: 'publishDate' %}
-    <ul>
-    {% for publication in publications reversed %}
-        <li class="publication" id="{{ publication.path | split: '/' | last | remove: '.md' }}">
-            {{ publication.citation | markdownify | remove: "<p>" | remove: "</p>" }}
-
-            {% if publication.bibtex or publication.file or publication.presentation or publication.dataset %}
-              <br />
-            {% endif %}
-
-            {% if publication.bibtex %}
-             [<a href="{{ publication.bibtex }}">bibtex</a>] 
-            {% endif %}
-            {% if publication.file %}
-             [<a href="{{ publication.file }}">file</a>] 
-            {% endif %}
-            {% if publication.presentation %}
-             [<a href="{{ publication.presentation }}">presentation</a>] 
-            {% endif %}
-            {% if publication.dataset %}
-             [<a href="{{ publication.dataset }}">dataset</a>] 
-            {% endif %}
-        </li>
-    {% endfor %}
-    </ul>
-</div>
+{% assign publications = site.publications | concat: site.publications_hidden | where: "type", "techreport" | sort: 'publishDate' %}
+{% include publication-list publications=publications %}
