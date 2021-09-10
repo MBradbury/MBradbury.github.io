@@ -4,7 +4,8 @@
         <li class="publication" id="{{ publication.path | split: '/' | last | remove: '.md' }}">
             {{ publication.citation | markdownify | remove: "<p>" | remove: "</p>" }}
 
-            {% if publication.bibtex or publication.file or publication.presentation or publication.dataset %}
+            {% if publication.bibtex or publication.file or publication.presentation or publication.dataset or
+            publication.collection == 'publications' %}
               <br />
             {% endif %}
 
@@ -19,6 +20,9 @@
             {% endif %}
             {% if publication.dataset %}
              [<a href="{{ publication.dataset }}">dataset</a>] 
+            {% endif %}
+            {% if publication.collection == 'publications' %}
+             [<a href="{{ publication.url }}">more details</a>]
             {% endif %}
         </li>
     {% endfor %}
