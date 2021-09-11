@@ -6,8 +6,6 @@ author_profile: true
 sitemap: true
 ---
 
-{% include base_path %}
-
 ## University of Warwick, UK
 
 Seminar and lab tutor for:
