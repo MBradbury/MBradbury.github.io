@@ -35,7 +35,7 @@
       {% endif %}
 
       <a href="{{ post.url | relative_url }}">
-        <img src="{{ image_src }}" {% if post.image.alt %} alt="{{ post.image.alt }}" {% endif %} />
+        <span itemprop="image"><img src="{{ image_src }}" {% if post.image.alt %} alt="{{ post.image.alt }}" {% endif %} /></span>
       </a>
       {% endif %}
     </div>
