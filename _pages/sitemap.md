@@ -3,6 +3,7 @@ layout: archive
 title: "Sitemap"
 permalink: /sitemap/
 author_profile: true
+sitemap: false
 ---
 
 {% include base_path %}
@@ -11,29 +12,22 @@ A list of all the posts and pages found on the site. For you robots out there is
 
 <h2>Pages</h2>
 {% for post in site.pages %}
-  {% if post.sitemap %}
-    {% include archive-single.html %}
-  {% endif %}
+{% if post.sitemap %}
+{% include archive-single.html %}
+{{ post.content }}
+{% endif %}
 {% endfor %}
 
-<h2>Posts</h2>
-{% for post in site.posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% capture written_label %}'None'{% endcapture %}
+{% assign written_label = nil %}
 
 {% for collection in site.collections %}
-{% unless collection.output == false or collection.label == "posts" %}
-  {% capture label %}{{ collection.label }}{% endcapture %}
-  {% if label != written_label %}
-  <h2>{{ label }}</h2>
-  {% capture written_label %}{{ label }}{% endcapture %}
-  {% endif %}
-{% endunless %}
+{% if collection.output %}
+{% if collection.label != written_label %}
+<h2>{{ collection.label | capitalize }}</h2>
+{% assign written_label = collection.label %}
+{% endif %}
 {% for post in collection.docs %}
-  {% unless collection.output == false or collection.label == "posts" %}
-  {% include archive-single.html %}
-  {% endunless %}
+{% include archive-single.html %}
 {% endfor %}
+{% endif %}
 {% endfor %}

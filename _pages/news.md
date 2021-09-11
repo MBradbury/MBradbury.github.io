@@ -3,6 +3,7 @@ layout: archive
 title: "News"
 permalink: /news/
 author_profile: true
+sitemap: true
 ---
 
 <table class="news_table">
