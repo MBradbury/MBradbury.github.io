@@ -30,7 +30,7 @@ Based off:
 {% elsif include.link | split: "." | last == "ppt" or include.link | split: "." | last == "pptx" %}
 
 <div class='pdf-embed-container'>
-	<iframe title="PDF file" width="640" height="390" src="https://view.officeapps.live.com/op/embed.aspx?src={{ include.link }}" frameborder="0" allowfullscreen></iframe>
+	<iframe title="Powerpoint file" width="640" height="390" src="https://view.officeapps.live.com/op/embed.aspx?src={{ include.link }}" frameborder="0" allowfullscreen></iframe>
 </div>
 
 {% else %}
