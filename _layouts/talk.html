@@ -34,7 +34,7 @@ layout: default
             {% endif %}
             <br />
             {% if page.type %}
-              <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i><strong>{{page.type}}</strong> at {{ page.venue }}, {{page.location}}
+              <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i><strong>{{page.type}}</strong> at <span itemprop="contentLocation">{{ page.venue }}, {{page.location}}</span>
             {% endif %}
           </p>
 
