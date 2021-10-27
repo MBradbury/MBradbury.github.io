@@ -1,5 +1,12 @@
 
 - icon: fa-volume-up
+  month: October
+  year: 2021
+  name: "Outreach"
+  link: /talks/2021-10-27-PETRAS-ZSL-podcast
+  description: 'Wildlife Conservation: Can AI Make Poacchers the Poached?'
+
+- icon: fa-volume-up
   month: June
   year: 2021
   name: "Outreach"
