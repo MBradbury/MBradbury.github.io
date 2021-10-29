@@ -1,5 +1,5 @@
 ---
-title: "Wildlife Conservation: Can AI Make Poacchers the Poached?"
+title: "Wildlife Conservation: Can AI Make Poachers the Poached?"
 collection: talks
 type: "Talk"
 permalink: /talks/2021-10-27-PETRAS-ZSL-podcast
