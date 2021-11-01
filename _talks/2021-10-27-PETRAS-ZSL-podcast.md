@@ -11,7 +11,7 @@ image:
   alt: "PETRAS At the Edge Podcast"
 ---
 
-As part of my [PhD](http://localhost:4000/projects/project-1-PhD/) I investigated approaches to reduce the usefulness of contextual information gained by an adversary monitoring a network that itself is used to monitor wildlife. In this podcast hosted by [PETRAS](https://petras-iot.org/)' [Joe Bourne](https://uk.linkedin.com/in/joe-bourne-0a293730), [Grant Miller](https://uk.linkedin.com/in/grant-miller-mbe-041ba818b) from [ZSL](https://www.zsl.org/) and I discuss a variety of topics around wildlife protection. This included the need to consider context privacy threats in these systems and also additional uses and challenges with techniques such as machine learning.
+As part of my [PhD](/projects/project-1-PhD/) I investigated approaches to reduce the usefulness of contextual information gained by an adversary monitoring a network that itself is used to monitor wildlife. In this podcast hosted by [PETRAS](https://petras-iot.org/)' [Joe Bourne](https://uk.linkedin.com/in/joe-bourne-0a293730), [Grant Miller](https://uk.linkedin.com/in/grant-miller-mbe-041ba818b) from [ZSL](https://www.zsl.org/) and I discuss a variety of topics around wildlife protection. This included the need to consider context privacy threats in these systems and also additional uses and challenges with techniques such as machine learning.
 
 <!-- readmore -->
 
