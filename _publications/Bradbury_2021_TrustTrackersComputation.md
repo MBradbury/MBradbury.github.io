@@ -1,6 +1,6 @@
 ---
 title: "Trust Trackers for Computation Offloading in Edge-Based IoT Networks"
-citation: "**Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Trust Trackers for Computation Offloading in Edge-Based IoT Networks. In *IEEE INFOCOM*, 1–10. Virtual Event, Canada, 10–13 May 2021. IEEE."
+citation: "**Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Trust Trackers for Computation Offloading in Edge-Based IoT Networks. In *IEEE INFOCOM*, 1–10. Virtual Event, Canada, 10–13 May 2021. IEEE. [doi:10.1109/INFOCOM42981.2021.9488844](https://doi.org/10.1109/INFOCOM42981.2021.9488844)."
 publishDate: 2021-05
 file: https://raw.githubusercontent.com/MBradbury/publications/master/papers/InfoCom2021.pdf
 firstpage: https://raw.githubusercontent.com/MBradbury/publications/master/firstpages/InfoCom2021.svg
