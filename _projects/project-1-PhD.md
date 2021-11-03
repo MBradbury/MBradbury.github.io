@@ -4,7 +4,7 @@ excerpt: "Wireless sensor networks are useful for monitoring events over large a
 duration: "September 2014 &ndash; April 2018"
 location: "Department of Computer Science, University of Warwick"
 image:
-  src: /images/panda-antenna.jpg
+  src: /images/panda-antenna.webp
   alt: "A directional antenna connected to a laptop showing signals from a transmitter next to a toy panda"
 collection: projects
 ---
@@ -25,7 +25,7 @@ It has been shown that when a message is flooded though a network that an attack
 
 An adversary can detect the direction that a message arrived from using a directional antenna. In the picture below a directional antenna is picking up signals sent from a 433MHz transmitter. A cheap commercial-off-the-shelf digital TV dongle is used with [SDRSharp](https://www.rtl-sdr.com/tag/sdrsharp/) to receive and visualise the signal.
 
-![Panda with an Antenna](/images/panda-antenna.jpg)
+![Panda with an Antenna](/images/panda-antenna.webp)
 
 ### Using Fake Sources
 
