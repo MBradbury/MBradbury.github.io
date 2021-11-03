@@ -9,8 +9,8 @@ sitemap: true
 ## University of Lancaster, UK
 
 Lecturer for:
- - [SCC.306 Internet Applications Engineering](https://portal.lancaster.ac.uk/intranet/mpc/modules/016886/000121)
- - [SCC.442 Penentration Testing](https://portal.lancaster.ac.uk/intranet/mpc/modules/015243/000121)
+ - 2021- [SCC.306 Internet Applications Engineering](https://portal.lancaster.ac.uk/intranet/mpc/modules/016886/000121)
+ - 2021- [SCC.442 Penentration Testing](https://portal.lancaster.ac.uk/intranet/mpc/modules/015243/000121)
 
 ## University of Warwick, UK
 
