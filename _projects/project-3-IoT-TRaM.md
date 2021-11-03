@@ -4,7 +4,7 @@ excerpt: "With the vehicle-to-vehicle communications being used to facilitated n
 duration: "August 2018 &ndash; May 2019"
 location: "WMG, University of Warwick"
 image:
-  src: /images/Millbook-testing.jpg
+  src: /images/Millbook-testing.webp
   alt: "An On-Board Unit of a vehicle is on the dashboard during testing while driving on a high-speed bowl emulating a motorway"
 collection: projects
 ---

@@ -8,7 +8,7 @@ date: 2018-05-15
 location: "Coventry, UK"
 presentation: /downloads/MBradbury_pint18.pdf
 image:
-  src: /images/pint-of-science-Website-left.png
+  src: /images/pint-of-science-Website-left.webp
   alt: "Matthew with a pint in hand and a toy panda in the foreground"
 ---
 
@@ -16,7 +16,7 @@ image:
 
 <!-- readmore -->
 
-![Pint of Science Website](/images/pint-of-science-Website.png)
+![Pint of Science Website](/images/pint-of-science-Website.webp)
 
 {% comment %}
 ![Pint of Science Giving Presentation](/images/pint-of-science-presentation.jpg)

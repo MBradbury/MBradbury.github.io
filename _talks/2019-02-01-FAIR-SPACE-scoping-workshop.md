@@ -7,7 +7,7 @@ venue: "University of Liverpool Campus in London"
 date: 2019-02-01
 location: "London, UK"
 image:
-  src: /images/SpaceSecurityWorkshop.JPG
+  src: /images/SpaceSecurityWorkshop.webp
   alt: Workshop venue
 ---
 
@@ -25,4 +25,4 @@ A variety of interesting issues were highlighted including:
 
 A report of the issued highlighted during the workshop is available [here](https://static1.squarespace.com/static/5a6a02b0f6576ed25151ecfa/t/5c9ded139140b781bedc609a/1553853733673/WORKSHOP+REPORT_SPACE+SECURITY+SCOPING+February+2019.pdf) and a news article written for the FAIR-SPACE project is available [here](https://www.fairspacehub.org/news/2019/1/23/space-security-scoping-workshop).
 
-![Workshop Venue](/images/SpaceSecurityWorkshop.JPG)
+![Workshop Venue](/images/SpaceSecurityWorkshop.webp)

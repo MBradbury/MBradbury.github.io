@@ -11,7 +11,7 @@ collection: projects
 
 For PNT Cyber Resilience, WMG researchers, led by [Dr Matthew Higgins](https://warwick.ac.uk/fac/sci/wmg/people/profile/?wmgid=1279), [Professor Paul Jennings](https://warwick.ac.uk/fac/sci/wmg/people/profile/?wmgid=125) and [Professor Tim Watson](https://warwick.ac.uk/fac/sci/wmg/people/profile/?wmgid=1077), worked alongside [Spirent Communications](https://www.spirent.com/) to investigate positioning, navigation, and timing (PNT) products and services to demonstrate and determine the feasibility of a new observer-based technique to attack and test CAV PNT-related functions in both controlled and real-world scenarios. Based on experience gained performing real-world testing, interviews with domain experts and a survey of the academic literature, a set of specifications for CAV cyber-security testbeds to perform PNT testing was made.
 
-![The research team](/images/pntteam.jpg)
+![The research team](/images/pntteam.webp)
 
 ## Information
 

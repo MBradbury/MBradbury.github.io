@@ -19,7 +19,7 @@ Source Location Privacy (SLP) is an important problem when monitoring valuable a
 
 An example optimal solution can be found below, where the attacker starts at node 13 and the source at node 1 sends 7 messages. Each of these messages need to reach the sink at node 13 without the attacker reaching node 1.
 
-![Animation of an optimal solution](/images/TrustCom2017-results_ilp5x5_2_anim.gif)
+![Animation of an optimal solution](/images/TrustCom2017-results_ilp5x5_2_anim.webp)
 
 ## Importance
 

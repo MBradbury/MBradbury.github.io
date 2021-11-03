@@ -4,7 +4,7 @@ excerpt: "Resource-constrained IoT devices have typically been used to perform s
 duration: "March 2020 &ndash; March 2021"
 location: "Department of Computer Science, University of Warwick"
 image:
-  src: /images/PiandZolertia.jpg
+  src: /images/PiandZolertia.webp
   alt: "A Raspberry Pi next to a Zolertia RE-Mote with both circuit boards exposed"
 collection: projects
 ---
