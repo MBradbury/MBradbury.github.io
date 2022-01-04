@@ -1,4 +1,11 @@
 
+- icon: fa-file
+  month: January
+  year: 2022
+  name: "New paper"
+  link: https://github.com/MBradbury/publications/raw/master/papers/TOSN2022.pdf
+  description: 'Threat Modelling Guided Trust-based Task Offloading for Resource-constrained Internet of Things. In <i>ACM Transactions on Sensor Networks</i>'
+
 - icon: fa-volume-up
   month: October
   year: 2021

@@ -141,6 +141,12 @@
       "key": "Bradbury_2021_SpatialSourceLocation"
     },
     {
+      "ident": "TOSN 2022",
+      "family": "IoT Task Offloading",
+      "key": "Bradbury_2022_ThreatModellingGuided"
+    },
+
+    {
       "ident": "PNT1 2020",
       "family": "PNT",
       "key": "Adegoke_2020_PntCyberResilience"
@@ -160,14 +166,15 @@
   "relations": [
     { "target": "TrustCom 2012", "source": "TrustCom 2013", "type": "Based On" },
     { "target": "TrustCom 2012", "source": "CCPE 2015", "type": "Extends" },
-    { "target": "CCPE 2015", "source": "PRDC 2015", "type": "Relates To" },
+    { "target": "PRDC 2015", "source": "CCPE 2015", "type": "Related To" },
     { "target": "CCPE 2015", "source": "TrustCom 2015", "type": "Based On" },
     { "target": "TrustCom 2015", "source": "ICCS 2016", "type": "Based On" },
     { "target": "TrustCom 2015", "source": "TrustCom 2017", "type": "Based On" },
     { "target": "TrustCom 2017", "source": "SAC-DADS 2017", "type": "Based On" },
     { "target": "SAC-NET 2017", "source": "SAC-DADS 2017", "type": "Based On" },
     { "target": "PRDC 2015", "source": "SAC-NET 2017", "type": "Based On" },
-    { "target": "JPDC 2014", "source": "ICDCS 2017", "type": "Relates To" },
+    { "target": "CCPE 2015", "source": "ICDCS 2017", "type": "Related To" },
+    { "target": "JPDC 2014", "source": "ICDCS 2017", "type": "Related To" },
     { "target": "SAC-DADS 2017", "source": "INFOCOM 2017", "type": "Based On" },
     { "target": "ICDCS 2017", "source": "ComNet 2018", "type": "Extends" },
     { "target": "TrustCom 2015", "source": "JPDC 2018", "type": "Extends" },
@@ -181,7 +188,7 @@
     { "target": "JPDC 2018", "source": "TIoT 2021", "type": "Based On" },
 
     { "target": "SAC-DADS 2021", "source": "INFOCOM 2021", "type": "Based On" },
-
+    { "target": "SAC-DADS 2021", "source": "TOSN 2022", "type": "Extends" },
 
     { "target": "JPDC 2018", "source": "PhD Thesis", "type": "Includes" },
     { "target": "INFOCOM 2017", "source": "PhD Thesis", "type": "Includes" },
