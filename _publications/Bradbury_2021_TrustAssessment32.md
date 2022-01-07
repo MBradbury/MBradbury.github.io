@@ -8,6 +8,7 @@ bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/B
 dataset: https://doi.org/10.5281/zenodo.4312801
 presentation: "https://raw.githubusercontent.com/MBradbury/publications/master/presentations/SAC-DADS2021.pdf"
 video: https://www.dropbox.com/s/8mo2skll6wun2lz/SAC-DADS21.mp4?raw=1
+extended_by: Bradbury_2022_ThreatModellingGuided
 project: project-6-TEAM
 type: paper
 ---
