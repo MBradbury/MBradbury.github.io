@@ -10,18 +10,18 @@ The bibtex for all my publications is available from [here](https://raw.githubus
 
 ## Featured Articles
 
-{% assign featured_articles = site.publications | concat: site.publications_hidden | where_exp: "item", "site.data.featured_articles contains item.path" | sort: 'publishDate' %}
+{% assign featured_articles = site.publications | concat: site.publications_hidden | where_exp: "item", "site.data.featured_articles contains item.path" | sort: 'publishDate' | reverse %}
 
 <table style="width:100%;" class="page__table-no-border">
     <tbody>
         <tr>
             {% for featured_article in featured_articles %}
-                <td style="width: 33%;"><a href="{{ featured_article.url }}"><img src="{{ featured_article.firstpage }}" alt="First page of {{ featured_article.title }}" style="width:80%" class="page__image-center"></a></td>
+                <td style="width: {{ 100 | divided_by: featured_articles.size }}%;"><a href="{{ featured_article.url }}"><img src="{{ featured_article.firstpage }}" alt="First page of {{ featured_article.title }}" style="width:80%" class="page__image-center"></a></td>
             {% endfor %}
         </tr>
         <tr>
             {% for featured_article in featured_articles %}
-                <td style="width: 33%;">{{ featured_article.title }} ({{ featured_article.publishDate | slice: 0, 4 }}).</td>
+                <td style="width: {{ 100 | divided_by: featured_articles.size }}%;">{{ featured_article.title }} ({{ featured_article.publishDate | slice: 0, 4 }}).</td>
             {% endfor %}
         </tr>
     </tbody>
