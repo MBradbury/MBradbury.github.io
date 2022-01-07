@@ -14,12 +14,6 @@ main:
     
   - title: "Projects"
     url: /projects/
-        
-#  - title: "Blog Posts"
-#    url: /year-archive/
-    
-#  - title: "CV"
-#    url: /cv/
 
   - title: "Activities"
     url: /activities/

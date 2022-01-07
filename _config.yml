@@ -14,6 +14,7 @@ description              : &description "Lecturer at Lancaster University"
 url                      : https://MBradbury.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "MBradbury/MBradbury.github.io"
+initial_year             : 2021
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 future                   : true
@@ -42,7 +43,7 @@ og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
+  type                   : "Person" # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
    - "https://twitter.com/MattBradbury_"
@@ -58,41 +59,48 @@ author:
   location         : 
   employer         : "Lancaster University"
   employer_url     : "https://www.lancaster.ac.uk/scc/research/security/"
-  pubmed           :
-  googlescholar    : "https://scholar.google.co.uk/citations?user=U1KPCasAAAAJ"
   email            : m.s.bradbury@lancaster.ac.uk
-  researchgate     : "https://www.researchgate.net/profile/Matthew_Bradbury2"
   uri              : "https://www.research.lancs.ac.uk/portal/en/people/matthew-bradbury(a725915d-0988-4573-8d81-5784ead7fd75).html"
-  microsoftacademic: "https://academic.microsoft.com/author/2128542392"
-  semanticscholar  : "https://www.semanticscholar.org/author/M.-Bradbury/31941534"
-  bitbucket        : 
-  codepen          :
-  dblp             : "https://dblp.uni-trier.de/pers/hd/b/Bradbury:Matthew"
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "MBradbury"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         : "matthewstephenbradbury"
-  orcid            : "https://orcid.org/0000-0003-4661-000X"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # https://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : "MattBradbury_"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
-  #warwick_wrap     : "39286"
+  links: &author_links
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/MattBradbury_"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/matthewstephenbradbury"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/MBradbury"
+    #- label: "GitLab"
+    #  icon: "fab fa-fw fa-gitlab"
+    #  url:
+    #- label: "Bitbucket"
+    #  icon: "fab fa-fw fa-bitbucket"
+    #  url:
+    - label: "DBLP"
+      icon: "ai ai-fw ai-dblp-square"
+      url: "https://dblp.uni-trier.de/pers/hd/b/Bradbury:Matthew"
+    - label: "Google Scholar"
+      icon: "ai ai-fw ai-google-scholar"
+      url: "https://scholar.google.co.uk/citations?user=U1KPCasAAAAJ"
+    - label: "Semantic Scholar"
+      icon: "ai ai-fw ai-semantic-scholar"
+      url: "https://www.semanticscholar.org/author/M.-Bradbury/31941534"
+    - label: "ORCID"
+      icon: "ai ai-fw ai-orcid-square"
+      url: "https://orcid.org/0000-0003-4661-000X"
+    #- label: "ResearchGate"
+    #  icon: "fab fa-fw fa-researchgate"
+    #  url: "https://www.researchgate.net/profile/Matthew_Bradbury2"
+    #- label: "Microsoft Academic"
+    #  icon: ""
+    #  url: "https://academic.microsoft.com/author/2128542392"
+    #- label: "WRAP"
+    #  icon: "fab fa-fw fa-link"
+    #  url: "https://wrap.warwick.ac.uk/view/author_id/39286.html"
 
+footer:
+  links: *author_links
 
 # Reading Files
 include:
@@ -197,16 +205,18 @@ defaults:
       author_profile: true
 
 # Sass/SCSS
+# http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed
 
 
 # Outputting
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Europe/London # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/London
 
 
 # Plugins
