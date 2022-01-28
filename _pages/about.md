@@ -12,8 +12,10 @@ I am a Lecturer (~Assistant Professor) in the [Security Systems Research Group](
 
 ## My Open Positions
 
-* [PhD in privacy or security of resource constrained IoT systems](https://www.lancaster.ac.uk/scc/study/phd/phd-opportunities/#epsrc-trustworthy-autonomous-system-node-in-security--343328-3)
+* [PhD in privacy or security of resource-constrained IoT systems](https://www.lancaster.ac.uk/scc/study/phd/phd-opportunities/#epsrc-trustworthy-autonomous-system-node-in-security--343328-3)
 * [Postdoc in security and privacy in cyber physical systems](https://hr-jobs.lancaster.ac.uk/Vacancy.aspx?ref=A3572). This position is highly flexible in terms of the research activities that can be performed. We are looking for the right candidate who is capable of driving a novel research agenda.
+
+If you are interested in undertaking a PhD on investigating technical privacy or security challenges in resource-constrained/autonomous cyber physical systems, please contact me by email.
 
 ## Research
 
