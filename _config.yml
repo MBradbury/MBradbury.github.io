@@ -97,25 +97,17 @@ exclude:
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
-  - CHANGELOG
-  - CONTRIBUTING.md
-  - Capfile
   - Gemfile
-  - Gruntfile.js
+  - Gemfile.lock
   - LICENSE
-  - README
-  - Rakefile
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
-  - config
+  - config.yml
+  - _config.dev.yml
   - gulpfile.js
-  - log
-  - node_modules
-  - package.json
-  - tmp
-  - vendor
   - local.sh
+  - sri-sum.sh
 keep_files:
   - .git
 encoding: "utf-8"
@@ -140,7 +132,6 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
 
 
 # Collections
