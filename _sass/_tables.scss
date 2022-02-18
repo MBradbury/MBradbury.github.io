@@ -5,11 +5,16 @@
 table {
   display: block;
   margin-bottom: 1em;
-  width: 100%;
+  min-width: 75%;
+  max-width: fit-content;
   font-family: $global-font-family;
-  font-size: $type-size-6;
+  font-size: $type-size-5;
   border-collapse: collapse;
   overflow-x: auto;
+
+  /* Centre the table */
+  margin-left: auto;
+  margin-right: auto;
 
   & + table {
     margin-top: 1em;
