@@ -133,6 +133,7 @@ incremental: false
 # Markdown Processing
 kramdown:
   input: GFM
+  syntax_highlighter: rouge
   hard_wrap: false
   auto_ids: true
   footnote_nr: 1
@@ -156,6 +157,12 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  blog:
+    output: true
+    sort_by: publishDate
+    permalink: /:collection/:path/
+  blog_hidden:
+    output: false
 
 
 # Defaults
@@ -187,6 +194,13 @@ defaults:
       type: talks
     values:
       layout: talk
+      author_profile: true
+  # _blog
+  - scope:
+      path: ""
+      type: blog
+    values:
+      layout: single
       author_profile: true
 
 # Sass/SCSS
