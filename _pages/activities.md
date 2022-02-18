@@ -21,7 +21,9 @@ sitemap: true
 ## Programme Committees
 
  * MDPI [Cybersecurity and Privacy](https://www.mdpi.com/journal/jcp) Topic Editor [2021]
- * Location Privacy Workshop ([LPW21](http://security.ucc.ie/lpw21/)) co-hosted with [ARES](https://www.ares-conference.eu/) [2021]
+ * Location Privacy Workshop
+   - 2022 [LPW22](http://security.ucc.ie/lpw22/) co-located with [IEEE Euro S&P](https://www.ieee-security.org/TC/EuroSP2022/index.html)
+   - 2021 [LPW21](http://security.ucc.ie/lpw21/) co-hosted with [ARES](https://www.ares-conference.eu/)
  * IEEE Security and Privacy (IEEE S&P) [Shadow PC](https://www.ieee-security.org/TC/SP2020/shadowpc.html) [2020]
  * Formal Methods for Autonomous Systems Workshop ([FMAS](https://fmasworkshop.github.io/FMAS2019/)) [2019]
 
