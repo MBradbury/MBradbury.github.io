@@ -1,7 +1,7 @@
 ---
 title: "PNT Cyber Resilience: a Lab2Live Observer Based Approach, Report 2: Specifications for Cyber Testing Facilities"
 citation: "**Matthew Bradbury**, Elijah Adegoke, Erik Kampert, Matthew Higgins, Tim Watson, Paul Jennings, Colin Ford, Guy Buesnel, and Steve Hickling. PNT Cyber Resilience: a Lab2Live Observer Based Approach, Report 2: Specifications for Cyber Testing Facilities. Technical Report 2, University of Warwick, Coventry, UK, April 2020. Version 1.2. URL: <https://wrap.warwick.ac.uk/139522/>."
-publishDate: 2020-04
+publishDate: 2020-04-01
 file: https://raw.githubusercontent.com/MBradbury/publications/master/papers/PNTReport2.pdf
 firstpage: https://raw.githubusercontent.com/MBradbury/publications/master/firstpages/PNTReport2.svg
 bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/Bradbury_2020_PntCyberResilience.bib
@@ -9,11 +9,11 @@ project: project-5-PNT
 type: techreport
 ---
 
-## Summary
-
 Global navigation satellite systems (GNSS) such as [GPS](https://www.gps.gov/) and [Galileo](https://www.gsa.europa.eu/european-gnss/galileo/galileo-european-global-satellite-based-navigation-system) are vital sources of positioning, navigation and timing (PNT) information for vehicles. This information is of critical importance for connected autonomous vehicles (CAVs) due to their dependence on this information for localisation, route planning, and situational awareness. A downside to solely relying on GNSS for PNT is that the signal strength arriving from navigation satellites in space is weak and currently there is no authentication included in the civilian GNSS adopted in the automotive industry. This means that cyber-attacks against the GNSS signal via jamming or spoofing are [attractive](https://www.gov.uk/government/publications/satellite-derived-time-and-position-blackett-review) to adversaries due to the potentially high impact they can achieve.
 
 This report introduces specifications and recommendations for GNSS cyber-security test facilities for CAVs. These specifications are based on a survey of academic literature, interviews with a select group of experts, and experiences obtained performing laboratory and real-world testing.
+
+<!-- readmore -->
 
 ## Importance
 

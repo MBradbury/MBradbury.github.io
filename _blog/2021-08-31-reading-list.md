@@ -2,7 +2,7 @@
 title: "August 2021 Reading List"
 permalink: /blog/2021-08-31-reading-list
 collection: blog
-date: 2021-08-31
+publishDate: 2021-08-31
 sitemap: true
 ---
 

@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/2021-10-27-PETRAS-ZSL-podcast
 venue: "PETRAS' At The Edge series"
-date: 2021-10-27
+publishDate: 2021-10-27
 location: "Online Podcast"
 image:
   src: /images/PETRAS-at-the-edge.jpg

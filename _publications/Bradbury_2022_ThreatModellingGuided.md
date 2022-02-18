@@ -1,7 +1,7 @@
 ---
 title: "Threat-Modeling-Guided Trust-Based Task Offloading for Resource-Constrained Internet of Things"
 citation: "**Matthew Bradbury**, Arshad Jhumka, Tim Watson, Denys Flores, Jonathan Burton, and Matthew Butler. Threat-Modeling-Guided Trust-Based Task Offloading for Resource-Constrained Internet of Things. *ACM Transactions on Sensor Networks*, 18(2):41, 2022. [doi:10.1145/3510424](https://doi.org/10.1145/3510424)."
-publishDate: "2022-01"
+publishDate: 2022-01-01
 file: https://raw.githubusercontent.com/MBradbury/publications/master/papers/TOSN2022.pdf
 firstpage: https://raw.githubusercontent.com/MBradbury/publications/master/firstpages/TOSN2022.svg
 bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/Bradbury_2022_ThreatModellingGuided.bib
@@ -11,11 +11,11 @@ project: project-6-TEAM
 type: paper
 ---
 
-## Summary
-
 There is increasing interest in using highly resource-constrained IoT devices to perform complex tasks. These resource might include limited processing power (e.g., 32MHz CPU), RAM (e.g., 32 KiB to 256 KiB), ROM (512 KiB), and potentially no stable storage. However, because of the limited resources an IoT device may need to offload expensive tasks to resource-rich devices. These might be a Cloud server or an Edge node if the latency of task responses is important. In order to address this issue, in this work we developed a middleware to facilitate task offloading using a measure of behavioural trust.
 
 In addition, we also performed a threat modelling on the system to identify ways in which malicious Edge nodes could attempt to manipulate reputation in order to hide their bad actions and ways in which this could be mitigated.
+
+<!-- readmore -->
 
 ## Importance
 

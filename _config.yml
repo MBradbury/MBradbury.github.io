@@ -156,6 +156,7 @@ collections:
     permalink: /:collection/:path/
   talks:
     output: true
+    sort_by: publishDate
     permalink: /:collection/:path/
   blog:
     output: true

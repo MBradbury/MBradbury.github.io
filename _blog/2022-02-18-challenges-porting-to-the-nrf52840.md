@@ -2,7 +2,7 @@
 title: "Challenges Porting to the nRF52840"
 permalink: /blog/2022-02-18-challenges-porting-to-the-nrf52840
 collection: blog
-date: 2022-02-18
+publishDate: 2022-02-18
 sitemap: true
 ---
 

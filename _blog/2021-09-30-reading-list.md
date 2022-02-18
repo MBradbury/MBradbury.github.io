@@ -2,7 +2,7 @@
 title: "September 2021 Reading List"
 permalink: /blog/2021-09-30-reading-list
 collection: blog
-date: 2021-09-30
+publishDate: 2021-09-30
 sitemap: true
 ---
 

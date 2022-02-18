@@ -2,7 +2,7 @@
 title: "November 2021 Reading List"
 permalink: /blog/2021-11-30-reading-list
 collection: blog
-date: 2021-11-30
+publishDate: 2021-11-30
 sitemap: true
 ---
 

@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/2018-05-15-Pint-of-Science
 venue: "Shop Front Theatre"
-date: 2018-05-15
+publishDate: 2018-05-15
 location: "Coventry, UK"
 presentation: /downloads/MBradbury_pint18.pdf
 image:

@@ -2,7 +2,7 @@
 title: "October 2021 Reading List"
 permalink: /blog/2021-10-31-reading-list
 collection: blog
-date: 2021-10-31
+publishDate: 2021-10-31
 sitemap: true
 ---
 

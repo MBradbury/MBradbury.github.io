@@ -1,7 +1,7 @@
 ---
 title: "A Near-Optimal Source Location Privacy Scheme for Wireless Sensor Networks"
 citation: "**Matthew Bradbury** and Arshad Jhumka. A Near-Optimal Source Location Privacy Scheme for Wireless Sensor Networks. In *16th IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)*, 409–416. August 2017. [doi:10.1109/Trustcom/BigDataSE/ICESS.2017.265](https://doi.org/10.1109/Trustcom/BigDataSE/ICESS.2017.265)."
-publishDate: 2017-08
+publishDate: 2017-08-01
 file: https://raw.githubusercontent.com/MBradbury/publications/master/papers/TrustCom2017.pdf
 firstpage: https://raw.githubusercontent.com/MBradbury/publications/master/firstpages/TrustCom2017.svg
 presentation: https://raw.githubusercontent.com/MBradbury/publications/master/presentations/TrustCom2017.pdf
@@ -11,9 +11,9 @@ project: project-1-PhD
 type: paper
 ---
 
-## Summary
-
 Source Location Privacy (SLP) is an important problem when monitoring valuable assets with wireless sensors. It is important that sensitive context information, such as the location of an asset, is not revealed to adversaries. This work aimed to investigate optimal strategies to provide SLP by formulating the routing problem using integer linear programming (ILP). [IBM's ILOG CPLEX](https://www.ibm.com/uk-en/products/ilog-cplex-optimization-studio) was used to obtain an optimal solution to the [model](https://github.com/MBradbury/slp-attacker-ilp). This solution aimed to delay and group messages until as late as possible and then deliver the messages to their destination. However, this solution made the assumption that wireless communication is perfectly reliable, which is not the case. So the optimal solution was recreated by a near-optimal routing algorithm that aimed to produce similar behaviour.
+
+<!-- readmore -->
 
 ## Example
 

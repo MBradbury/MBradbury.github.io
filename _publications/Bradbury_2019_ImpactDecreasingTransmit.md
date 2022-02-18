@@ -1,7 +1,7 @@
 ---
 title: "The Impact of Decreasing Transmit Power Levels on FlockLab To Achieve a Sparse Network"
 citation: "**Matthew Bradbury**, Arshad Jhumka, and Carsten Maple. The Impact of Decreasing Transmit Power Levels on FlockLab To Achieve a Sparse Network. In *Proceedings of the 2nd Workshop on Benchmarking Cyber-Physical Systems and Internet of Things*, CPS-IoTBench '19, 7–12. New York, NY, USA, April 2019. ACM. [doi:10.1145/3312480.3313171](https://doi.org/10.1145/3312480.3313171)."
-publishDate: 2019-04
+publishDate: 2019-04-01
 file: https://raw.githubusercontent.com/MBradbury/publications/master/papers/CPS-IoTBench2019.pdf
 firstpage: https://raw.githubusercontent.com/MBradbury/publications/master/firstpages/CPS-IoTBench2019.svg
 presentation: https://raw.githubusercontent.com/MBradbury/publications/master/presentations/CPS-IoTBench2019.pdf
@@ -11,9 +11,9 @@ project: project-1-PhD
 type: paper
 ---
 
-## Summary
-
 When developing techniques for IoT devices, it is preferable to perform testing on real devices in real situations such as on [FlockLab 2](https://gitlab.ethz.ch/tec/public/flocklab/wiki), [FIT IoT-LAB](https://www.iot-lab.info/), and [INDRIYA 2](https://indriya.comp.nus.edu.sg/), as simulation will not perfectly reproduce these environments. However, IoT testbeds are not always deployed in the same scenarios for which techniques are developed for. It is often the case that testbeds are setup in existing facilities (such as inside office buildings) and devices are positioned close to each other. This means that there is currently a lack of testbeds supporting the testing of applications that will be deployed outside, on a large scale, with sparse connectivity. Commonly, the transmission power of device can be reduced in order to emulate a sparse network, this paper looked at the baseline effects of doing so.
+
+<!-- readmore -->
 
 ## Importance
 

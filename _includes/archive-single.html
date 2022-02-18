@@ -9,8 +9,8 @@
 
     {% if post.duration %}
       <p class="page__meta"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <span itemprop="temporalCoverage">{{ post.duration }}</span></p>
-    {% elsif post.date %}
-      <p class="page__meta"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: site.date_format }}</time></p>
+    {% elsif post.publishDate %}
+      <p class="page__meta"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ post.publishDate | date_to_xmlschema }}" itemprop="datePublished">{{ post.publishDate | date: site.date_format }}</time></p>
     {% endif %}
 
     {% if post.type and post.venue and post.location %}

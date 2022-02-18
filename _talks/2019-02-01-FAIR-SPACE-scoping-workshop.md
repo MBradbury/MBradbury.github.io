@@ -4,7 +4,7 @@ collection: events
 type: "Event"
 permalink: /talks/2019-02-01-FAIR-SPACE-scoping-workshop
 venue: "University of Liverpool Campus in London"
-date: 2019-02-01
+publishDate: 2019-02-01
 location: "London, UK"
 image:
   src: /images/SpaceSecurityWorkshop.webp

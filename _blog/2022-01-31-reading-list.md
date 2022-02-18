@@ -2,7 +2,7 @@
 title: "January 2022 Reading List"
 permalink: /blog/2022-01-31-reading-list
 collection: blog
-date: 2022-01-31
+publishDate: 2022-01-31
 sitemap: true
 ---
 

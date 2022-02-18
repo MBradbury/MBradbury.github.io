@@ -1,7 +1,7 @@
 ---
 title: "Trust Assessment in 32 KiB of RAM: Multi-application Trust-based Task Offloading for Resource-constrained IoT Nodes"
 citation: "**Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Trust Assessment in 32 KiB of RAM: Multi-application Trust-based Task Offloading for Resource-constrained IoT Nodes. In *The 36th ACM/SIGAPP Symposium on Applied Computing*, SAC'21, 1–10. Virtual Event, Republic of Korea, 22–26 March 2021. ACM. [doi:10.1145/3412841.3441898](https://doi.org/10.1145/3412841.3441898)."
-publishDate: 2021-03
+publishDate: 2021-03-01
 file: https://raw.githubusercontent.com/MBradbury/publications/master/papers/SAC-DADS2021.pdf
 firstpage: https://raw.githubusercontent.com/MBradbury/publications/master/firstpages/SAC-DADS2021.svg
 bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/Bradbury_2021_TrustAssessment32.bib
@@ -13,9 +13,9 @@ project: project-6-TEAM
 type: paper
 ---
 
-## Summary
-
 There is increasing interest in using highly resource-constrained IoT devices to perform complex tasks. These resource might include limited processing power (e.g., 32MHz CPU), RAM (e.g., 32 KiB to 256 KiB), ROM (512 KiB), and potentially no stable storage. However, because of the limited resources an IoT device may need to offload expensive tasks to resource-rich devices. These might be a Cloud server or an Edge node if the latency of task responses is important. In order to address this issue, in this work we developed a middleware to facilitate task offloading using a measure of behavioural trust.
+
+<!-- readmore -->
 
 ## Importance
 

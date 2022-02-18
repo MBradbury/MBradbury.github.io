@@ -6,6 +6,9 @@ author_profile: true
 sitemap: false
 ---
 
-{% for post in site.blog reversed %}
+{% assign posts = site.blog | concat: site.publications %}
+{% assign sorted_posts = posts | sort: "publishDate" | reverse %}
+
+{% for post in sorted_posts %}
   {% include archive-single.html %}
 {% endfor %}
