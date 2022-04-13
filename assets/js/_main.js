@@ -2,27 +2,33 @@
    jQuery plugin settings and other scripts
    ========================================================================== */
 
-$(document).ready(function(){
+(function() {
   // Follow menu drop down
-
-  $(".author__urls-wrapper button").on("click", function() {
-    $(".author__urls").fadeToggle("fast", function() {});
-    $(".author__urls-wrapper button").toggleClass("open");
-  });
-
-  // add lightbox class to all image links
-  $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
+  /*const follow_button = document.querySelector(".author__urls-wrapper button");
+  const follow_list = document.querySelector(".author__urls-wrapper ul");
+  follow_button.addEventListener("click", function() {
+    if (follow_button.classList.contains('open')) {
+      follow_button.classList.remove('open');
+    }
+    else {
+      follow_button.classList.add('open');
+    }
+  });*/
 
   // Add anchors for headings
-  $('.page__content').find('h1, h2, h3, h4, h5, h6').each(function() {
-    var id = $(this).attr('id');
-    if (id) {
-      var anchor = document.createElement("a");
+  const page_content = document.querySelector(".page__content");
+  const page_content_headings = page_content.querySelectorAll("h1, h2, h3, h4, h5, h6");
+  for (var i = 0; i != page_content_headings.length; i++) {
+    const page_content_heading = page_content_headings[i];
+    const page_content_heading_id = page_content_heading.getAttribute("id");
+    if (page_content_heading_id) {
+      const anchor = document.createElement("a");
       anchor.className = 'header-link';
-      anchor.href = '#' + id;
+      anchor.href = '#' + page_content_heading_id;
       anchor.innerHTML = '<span class=\"sr-only\">Permalink</span><i class=\"fas fa-link\"></i>';
       anchor.title = "Permalink";
-      $(this).append(anchor);
+      page_content_heading.append(anchor);
     }
-  });
-});
+  }
+
+})();
