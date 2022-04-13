@@ -103,14 +103,14 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
-  - assets/js/_main.js
+  - "assets/js/_*.js"
   - assets/js/plugins
   - assets/js/vendor
   - config.yml
   - _config.dev.yml
-  - gulpfile.js
   - local.sh
   - sri-sum.sh
+  - uglifyjs.sh
 keep_files:
   - .git
 encoding: "utf-8"
