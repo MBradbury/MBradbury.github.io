@@ -75,6 +75,9 @@ btn.addEventListener('click', function() {
 // Window listeners
 window.addEventListener('resize', updateNav);
 window.addEventListener('load', updateNav);
+window.addEventListener('deviceorientation', function(event) {
+  updateNav();
+});
 
 // See: https://stackoverflow.com/questions/11936816/execute-function-after-complete-page-load
-document.addEventListener('DOMContentLoaded', updateNav, false);
+document.addEventListener('DOMContentLoaded', updateNav);
