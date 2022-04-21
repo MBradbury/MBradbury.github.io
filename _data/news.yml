@@ -1,9 +1,15 @@
+- icon: fa-volume-up
+  month: April
+  year: 2022
+  name: "Outreach"
+  link: /talks/2022-04-21-LCF
+  description: "Recorded talk on 'Automating Threat Modelling' to SMEs for Lancashire Cyber Foundry"
 
 - icon: fa-file
   month: January
   year: 2022
   name: "New paper"
-  link: https://github.com/MBradbury/publications/raw/master/papers/TOSN2022.pdf
+  link: /publications/Bradbury_2022_ThreatModellingGuided
   description: 'Threat Modelling Guided Trust-based Task Offloading for Resource-constrained Internet of Things. In <i>ACM Transactions on Sensor Networks</i>'
 
 - icon: fa-volume-up
@@ -51,14 +57,14 @@
   month: December
   year: 2020
   name: "New paper"
-  link: https://github.com/MBradbury/publications/raw/master/papers/InfoCom2021.pdf
+  link: /publications/Bradbury_2021_TrustTrackersComputation
   description: 'Trust Trackers for Computation Offloading in Edge-Based IoT Networks. In <i>IEEE INFOCOM</i>'
 
 - icon: fa-file
   month: December
   year: 2020
   name: "New paper"
-  link: https://github.com/MBradbury/publications/raw/master/papers/SAC-DADS2021.pdf
+  link: /publications/Bradbury_2021_TrustAssessment32
   description: 'Trust Assessment in 32 KiB of RAM: Multi-application Trust-based Task Offloading for Resource-constrained IoT Nodes. In <i>The 36th ACM/SIGAPP Symposium on Applied Computing</i>'
 
 - icon: fa-check-square
