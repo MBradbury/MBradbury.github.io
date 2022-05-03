@@ -24,6 +24,11 @@ People:
  * [Dr. Hu Yuan](https://www.linkedin.com/in/hu-yuan-88206875)
  * [Dr. Sara Cannizzaro](https://warwick.ac.uk/fac/sci/dcs/people/sara_cannizzaro/)
 
+Collaborators:
+ * [Dr. Marie Farrell](https://mariefarrell.github.io/)
+ * [Dr. Matt Luckcuck](https://mluckcuck.github.io/)
+ * [Dr. Rafael C. Cardoso](https://rafaelcaue.github.io/)
+
 Links:
  * [FAIR-SPACE Theme 5](https://www.fairspacehub.org/research-themes#yui_3_17_2_1_1586180734370_502)
  * [AeroConf News 30/03/2020](https://www.fairspacehub.org/news/2020/2/13/hk1ygjcyjrgmpdqoehbazkrxygshty)
