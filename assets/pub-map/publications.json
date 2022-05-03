@@ -160,6 +160,11 @@
       "ident": "IoT-TRaM 2019",
       "family": "Vehicle Security",
       "key": "Maple_2019_IoTTransportMobility"
+    },
+    {
+      "ident": "FGCS 2022",
+      "family": "IoT Task Offloading",
+      "key": "Bradbury_2022_InformationManagementTrust"
     }
   ],
 
@@ -189,6 +194,7 @@
 
     { "target": "SAC-DADS 2021", "source": "INFOCOM 2021", "type": "Based On" },
     { "target": "SAC-DADS 2021", "source": "TOSN 2022", "type": "Extends" },
+    { "target": "TOSN 2022", "source": "FGCS 2022", "type": "Based On" },
 
     { "target": "JPDC 2018", "source": "PhD Thesis", "type": "Includes" },
     { "target": "INFOCOM 2017", "source": "PhD Thesis", "type": "Includes" },
