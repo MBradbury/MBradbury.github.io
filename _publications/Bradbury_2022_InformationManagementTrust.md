@@ -1,6 +1,6 @@
 ---
 title: "Information Management for Trust Computation on Resource-constrained IoT Devices"
-citation: "**Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Information Management for Trust Computation on Resource-constrained IoT Devices. *Future Generation Computer Systems*, 2022. To Appear."
+citation: "**Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Information Management for Trust Computation on Resource-constrained IoT Devices. *Future Generation Computer Systems*, 2022. [doi:10.1016/j.future.2022.05.004](https://doi.org/10.1016/j.future.2022.05.004)."
 publishDate: 2022-05-01
 file: https://raw.githubusercontent.com/MBradbury/publications/master/papers/FGCS2022.pdf
 firstpage: https://raw.githubusercontent.com/MBradbury/publications/master/firstpages/FGCS2022.svg
