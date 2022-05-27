@@ -85,6 +85,8 @@ author:
     #- label: "WRAP"
     #  icon: "fab fa-fw fa-link"
     #  url: "https://wrap.warwick.ac.uk/view/author_id/39286.html"
+  other_links:
+    - https://www.lancaster.ac.uk/scc/about-us/people/matthew-bradbury
 
 footer:
   links: *author_links

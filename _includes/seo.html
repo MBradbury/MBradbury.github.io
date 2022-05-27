@@ -115,6 +115,11 @@
 {%- if site.author.uri -%}
 {{ site.author.uri }}%%%
 {%- endif -%}
+{%- if site.author.other_links -%}
+{%- for link in site.author.other_links -%}
+{{ link }}%%%
+{%- endfor -%}
+{%- endif -%}
 {%- if site.author.links -%}
 {%- for link in site.author.links -%}
 {{ link.url }}
@@ -126,16 +131,16 @@
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    {% if site.social.type == "Organization" %}
+    {%- if site.social.type == "Organization" %}
     "@type": "Organization",
     "url": {{ '/' | absolute_url | jsonify }}{% if site.og_image %},
     "logo": {{ site_og_image | jsonify }}{% endif %}
-    {% else %}
+    {%- else %}
     "@type": "Person",
     "name": {{ site.social.name | default: site.name | jsonify }},
     "url": {{ '/' | absolute_url | jsonify }}{% if social_links %},
     "sameAs": {{ social_links | split: "%%%" | jsonify }}{% endif %}
-    {% endif %}
+    {%- endif %}
   }
 </script>
 
