@@ -6,8 +6,9 @@
   <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 {% endunless %}
 
-<!-- http://t.co/dKP3o1e -->
-<!-- https://stackoverflow.com/questions/1988499/meta-tags-for-mobile-should-they-be-used -->
+{% comment %}
+https://stackoverflow.com/questions/1988499/meta-tags-for-mobile-should-they-be-used
+{% endcomment %}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="cleartype" content="on">
 
@@ -16,5 +17,5 @@
 </script>
 
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css"
-	integrity="sha384-B2HoU/tCWMF3/allsLmFZEYjJDy2spKpKq7xRD2BNDCacMbLn7+ZtwZ0kdqdakay"
+	integrity="sha384-sP5YotFde0QpNKbOpNzsTo5BLCclZbRBMZ0ZaybkLeU0APRdRfjFST3Gux2DzHDV"
 	crossorigin="anonymous">
