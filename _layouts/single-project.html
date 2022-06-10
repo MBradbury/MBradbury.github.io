@@ -35,7 +35,7 @@ layout: default
 
         {% assign publications = site.publications | concat: site.publications_hidden | where: "type", "paper" | where: "project", page_basename | sort: 'publishDate' %}
         {% if publications.size > 0 %}
-        <h2>Publications</h2>
+        <h2 id="Publications">Publications</h2>
         {% include publication-list-split publications=publications %}
         {% endif %}
 
