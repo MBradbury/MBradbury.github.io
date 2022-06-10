@@ -4,7 +4,7 @@
 
 (function() {
   // Follow menu drop down
-  /*const follow_button = document.querySelector(".author__urls-wrapper button");
+  const follow_button = document.querySelector(".author__urls-wrapper button");
   const follow_list = document.querySelector(".author__urls-wrapper ul");
   follow_button.addEventListener("click", function() {
     if (follow_button.classList.contains('open')) {
@@ -13,7 +13,14 @@
     else {
       follow_button.classList.add('open');
     }
-  });*/
+
+    if (follow_list.classList.contains('is--visible')) {
+      follow_list.classList.remove('is--visible');
+    }
+    else {
+      follow_list.classList.add('is--visible');
+    }
+  });
 
   // Add anchors for headings
   const page_content = document.querySelector(".page__content");
