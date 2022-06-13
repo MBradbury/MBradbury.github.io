@@ -28,7 +28,7 @@ export default function define(runtime, observer) {
 
         const svg = d3.create("svg")
             .attr("viewBox", [0, 0, width, height])
-            .style("font", "18px sans-serif")
+            .attr("class", "publication_map")
             .attr("xlink", "http://www.w3.org/1999/xlink");
 
         // Per-type markers, as they don't inherit styles.

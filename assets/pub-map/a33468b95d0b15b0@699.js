@@ -156,7 +156,7 @@ export default function define(runtime, observer) {
             }) {
                 const id = DOM.uid().id;
 
-                if (columns !== null) return html`<div style="display: flex; align-items: center; margin-left: ${+marginLeft}px; min-height: 33px; font: 18px sans-serif;">
+                if (columns !== null) return html`<div class="publication_map" style="display: flex; align-items: center; margin-left: ${+marginLeft}px; min-height: 33px;">
   <style>
 
 .${id}-item {
@@ -190,7 +190,7 @@ export default function define(runtime, observer) {
   </div>
 </div>`;
 
-                return html`<div style="display: flex; align-items: center; min-height: 33px; margin-left: ${+marginLeft}px; font: 18px sans-serif;">
+                return html`<div class="publication_map" style="display: flex; align-items: center; min-height: 33px; margin-left: ${+marginLeft}px;">
   <style>
 
 .${id} {

@@ -27,7 +27,7 @@ sitemap: true
 
 {%- include draw-publication-map.html -%}
 
-The bibtex for all my publications is available from <a href="https://raw.githubusercontent.com/MBradbury/publications/master/self.bib"><i class="fas fa-asterisk"></i> here</a>.
+<p>The bibtex for all my publications is available from <a href="https://raw.githubusercontent.com/MBradbury/publications/master/self.bib"><i class="fas fa-asterisk"></i> here</a>.</p>
 
 {%- assign publications = site.publications | concat: site.publications_hidden | where: "type", "paper" | sort: 'publishDate' -%}
 {%- include publication-list-split publications=publications -%}

@@ -40,7 +40,6 @@ body {
   @include breakpoint($large) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
-    @include suffix(2 of 12);
   }
 
   .page__inner-wrap {
@@ -95,7 +94,7 @@ body {
   p,
   li,
   dl {
-    font-size: 1em;
+    font-size: $type-size-55;
   }
 
   /* paragraph indents */
@@ -481,10 +480,15 @@ body {
 }
 
 .news_table {
-  font-size: 1em;
+  font-size: $type-size-55;
   //border: none;
 
   //td {
   //  border: none;
   //}
+}
+
+.publication_map {
+  font-size: $type-size-55;
+  font-family: $global-font-family;
 }
