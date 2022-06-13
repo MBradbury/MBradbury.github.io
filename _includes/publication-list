@@ -21,8 +21,9 @@
             {% if publication.dataset %}
              [<a href="{{ publication.dataset }}"><i class="fas fa-database"></i> dataset</a>] 
             {% endif %}
-            {% if publication.project %}
-             [<a href="/projects/{{ publication.project }}"><i class="fas fa-project-diagram"></i> project</a>]
+            {% capture project_url %}{{ "/projects/" | append: publication.project | append: "/" }}{% endcapture%}
+            {% if publication.project and page.url != project_url %}
+             [<a href="{{ project_url }}"><i class="fas fa-project-diagram"></i> project</a>]
             {% endif %}
             {% if publication.collection == 'publications' %}
              [<a href="{{ publication.url }}"><i class="fas fa-ellipsis-h"></i> more details</a>]
