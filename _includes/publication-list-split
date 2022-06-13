@@ -33,8 +33,8 @@
             {% if publication.dataset %}
              [<a href="{{ publication.dataset }}"><i class="fas fa-database"></i> dataset</a>] 
             {% endif %}
-            {% if page.project %}
-             [<a href="/projects/{{ page.project }}"><i class="fas fa-project-diagram"></i> project</a>]
+            {% if publication.project %}
+             [<a href="/projects/{{ publication.project }}"><i class="fas fa-project-diagram"></i> project</a>]
             {% endif %}
             {% if publication.collection == 'publications' %}
              [<a href="{{ publication.url }}"><i class="fas fa-ellipsis-h"></i> more details</a>]
