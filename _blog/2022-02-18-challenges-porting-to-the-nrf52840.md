@@ -3,6 +3,7 @@ title: "Challenges Porting to the nRF52840"
 permalink: /blog/2022-02-18-challenges-porting-to-the-nrf52840
 collection: blog
 publishDate: 2022-02-18
+modified: 2022-06-13
 sitemap: true
 ---
 
@@ -308,7 +309,7 @@ DEBUG:edge-bridge:Sent long event b'!aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 DEBUG:edge-bridge:Sent long event b'!aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n'
 ```
 
-My initial thought was that there was a 64 byte buffer in the Contiki-NG code that was not being correctly flushed. However, with the knowledge that the issue appears with packets larger than 64 bytes I was able to find [this issue](https://github.com/openthread/openthread/issues/2857) from 2018 which directed me to [this wiki entry](https://wiki.segger.com/J-Link_OB#Limitations_under_Mac_OS_X). Here a limitation of boards is described where when a mass storage device is enabled the UART is limited to packet sizes of up to 64 bytes. Disabling the mass storage device allows packet sizes up to 512 bytes. This can be performed by issuing the command `msddisable` in JLinkExe. Once done the border router is now able to correct communicate over SLIP.
+My initial thought was that there was a 64 byte buffer in the Contiki-NG code that was not being correctly flushed. However, with the knowledge that the issue appears with packets larger than 64 bytes I was able to find [this issue](https://github.com/openthread/openthread/issues/2857) from 2018 which directed me to [this wiki entry](https://wiki.segger.com/J-Link_OB#Limitations_under_Mac_OS_X). Here a limitation of the boards is described, where when a mass storage device is enabled the UART is limited to packet sizes of up to 64 bytes. Disabling the mass storage device allows packet sizes up to 512 bytes. This can be performed by issuing the command `msddisable` in JLinkExe. Once done the border router is now able to correct communicate over SLIP.
 
 ```
 $ JLinkExe
@@ -372,6 +373,8 @@ tun0: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST>  mtu 1500
 
 F(1)-tF(50)-tF(114)-.......-............-...........-............-...........-............-...........-............-...........-............-...-tF(114)-....-...........-............-............-...........-...........-............-............-............-...........-......-tF(50)-tF(114)-...........-...........-............-............-...........-............-...........-............-............-..........-tF(114)-.........-...........-............-............-...........-............-...........-............-............-...........-.-tF(114)-..-............-...........-............-............-...........-............-............-...........-............-.......-tF(114)-........-...........-............-............-...........-...........-............-............-............-...........-..-tF(114)-.........-............-...........-............-............-...........-............-...........-............-............-tF(115)-....-............-...........-............-...........-...........-...........-............-...........-............-.......-tF(114)-.......-............-...........-............-............-...........-............-...........-............-...........-...-tF(114)-....-............-...........-............-...........-............-...........-............-...........-............-......-tF(50)-..........-............-............-............-...........-............-...........-............-...........-............-............-.........-tF(184)-tF(50)-.........-............-...........-............-...........-............-..........-............-............-...........-............-...........-............-...........-...........-............-..........-............-............-...........-...........-............-............-............-...........-..-tF(337)-...-............-............-...........-............-............-...........-...........-...........-............-...........-.............-...........-..........-............-............-...........-...........-...........-............-...........-............-............-...........-............-
 ```
+
+Contiki-NG has now updated their [wiki](https://github.com/contiki-ng/contiki-ng/wiki/Platform-nrf52840#virtual-com-and-real-time-transfer) to document this issue and the steps to resolve it.
 
 ## Conclusions
 
