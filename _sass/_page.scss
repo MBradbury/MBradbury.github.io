@@ -16,8 +16,8 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
 
-  @include breakpoint($x-large) {
-    max-width: $x-large;
+  @include breakpoint($max-width) {
+    max-width: $max-width;
   }
 }
 
@@ -175,8 +175,8 @@ body {
       padding-left: 1em;
       padding-right: 1em;
 
-      @include breakpoint($x-large) {
-        max-width: $x-large;
+      @include breakpoint($max-width) {
+        max-width: $max-width;
       }
     }
 
