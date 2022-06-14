@@ -252,6 +252,7 @@ body:hover .visually-hidden button {
     color: $linkedin-color;
   }
 
+  .ai-orcid,
   .ai-orcid-square {
     color: $orcid-color;
   }
@@ -265,6 +266,11 @@ body:hover .visually-hidden button {
   .fa-rss,
   .fa-rss-square {
     color: $rss-color;
+  }
+
+  .ai-scopus,
+  .ai-scopus-square {
+    color: $scopus-color;
   }
 
   .fa-soundcloud {
