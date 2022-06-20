@@ -40,6 +40,7 @@ sitemap: true
  * Ad Hoc Networks ([ADHOC](https://www.sciencedirect.com/journal/ad-hoc-networks))
  * Computer Communications ([COMCOM](https://www.journals.elsevier.com/computer-communications))
  * Vehicular Communications ([VEHCOM](https://www.journals.elsevier.com/vehicular-communications))
+ * IEEE Transactions on Software Engineering ([TSE](https://www.computer.org/csdl/journal/ts))
 
 {% comment %}
 ## Outreach
