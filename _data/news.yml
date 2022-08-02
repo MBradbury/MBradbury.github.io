@@ -1,3 +1,10 @@
+- icon: fa-file
+  month: August
+  year: 2022
+  name: "New paper"
+  link: /publications/Chen_2022_SlowCoach_MutatingCode
+  description: 'SlowCoach: Mutating Code to Simulate Performance Bugs. In <i>The 33rd IEEE International Symposium on Software Reliability Engineering</i>'
+
 - icon: fa-volume-up
   month: June
   year: 2022

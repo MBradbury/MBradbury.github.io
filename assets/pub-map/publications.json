@@ -165,6 +165,12 @@
       "ident": "FGCS 2022",
       "family": "IoT Task Offloading",
       "key": "Bradbury_2022_InformationManagementTrust"
+    },
+
+    {
+      "ident": "ISSRE 2022",
+      "family": "Performance Testing",
+      "key": "Chen_2022_SlowCoach_MutatingCode"
     }
   ],
 
