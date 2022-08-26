@@ -19,6 +19,8 @@ Previous work on live location privacy protection for vehicle-to-vehicle (V2V) c
 
 There has been much focus on [bringing autonomous vehicles](https://zenzic.io/content/uploads/2020/10/Zenzic_Roadmap_Report_v3.pdf) to roads around the world and there has not always been as much emphasis on the new modes of connectivity future vehicles will have. The connectivity that new vehicles will be equipped with will allow tracking of vehicles with cheaper and less obvious equipment than before.
 
+The challenges identified in this work have also been identified in other areas. For example, [synchronising identity change with MAC randomisation in mobile phones](https://twitter.com/mikarv/status/1561622778645725185?s=12&t=wfqsVALyuFJpSigYvtYqSQ) was required in [DP3T](https://github.com/DP-3T/documents) &mdash; the technology used to perform contract tracing solution used during the Covid 19 pandemic.
+
 ## Perspectives
 
 This research was performed to highlight the need for researchers to consider other identity sources and their interactions when developing techniques to protect the live location privacy of a vehicle. It is insufficient to focus on a single identity source. Depending on the type of identity source, multiple other technologies may need to be considered. For example, as ETSI V2X communication is based on IEEE 802.11p, devices that are eavesdropping those messages will also likely be able to eavesdrop messages from WiFi and Bluetooth devices. This means that privacy techniques for IEEE 802.11p also need to consider privacy techniques for these other technologies.
