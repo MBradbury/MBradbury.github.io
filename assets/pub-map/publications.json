@@ -222,7 +222,7 @@
 
     { "target": "IoT-TRaM 2019", "source": "VTC-Fall 2019", "type": "Related To" },
 
-    { "target": "ISSRE 2022", "source": "ISSREW 2022", "type": "Related To" },
+    { "target": "ISSRE 2022", "source": "ISSREW 2022", "type": "Related To" }
 
   ]
 }
