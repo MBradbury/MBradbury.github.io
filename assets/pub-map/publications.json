@@ -171,6 +171,11 @@
       "ident": "ISSRE 2022",
       "family": "Performance Testing",
       "key": "Chen_2022_SlowCoach_MutatingCode"
+    },
+    {
+      "ident": "ISSREW 2022",
+      "family": "Performance Testing",
+      "key": "Chen_2022_TowardsEffectivePerformance"
     }
   ],
 
@@ -215,7 +220,9 @@
     { "target": "PNT1 2020", "source": "PNT2 2020", "type": "Collection" },
     { "target": "PNT2 2020", "source": "PNT1 2020", "type": "Collection" },
 
-    { "target": "IoT-TRaM 2019", "source": "VTC-Fall 2019", "type": "Related To" }
+    { "target": "IoT-TRaM 2019", "source": "VTC-Fall 2019", "type": "Related To" },
+
+    { "target": "ISSRE 2022", "source": "ISSREW 2022", "type": "Related To" },
 
   ]
 }
