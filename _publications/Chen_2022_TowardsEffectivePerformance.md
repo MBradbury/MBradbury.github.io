@@ -6,6 +6,7 @@ abstract: "Fuzzing is an automated testing technique that utilizes injection of 
 file: https://raw.githubusercontent.com/MBradbury/publications/master/papers/ISSRE2022FA.pdf
 firstpage: https://raw.githubusercontent.com/MBradbury/publications/master/firstpages/ISSRE2022FA.svg
 bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/Chen_2022_TowardsEffectivePerformance.bib
+dataset: https://doi.org/10.17635/lancaster/researchdata/557
 type: paper
 ---
 
