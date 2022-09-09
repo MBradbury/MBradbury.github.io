@@ -16,7 +16,7 @@ If you are interested in undertaking a PhD on investigating technical privacy or
 
 ## Research
 
-My research has explored a variety of issues involving security, context privacy and trust assessment in resource-constrained systems. This has ranged from context privacy issues in [vehicles](/publications/Bradbury_2020_PrivacyChallengesProtecting) and [wireless sensor networks](/projects/project-1-PhD/), and security of different aspects of vehicular systems (including: [system analysis](/projects/project-2-CAPRI), [real-world testing](/projects/project-3-IoT-TRaM) and [PNT](/projects/project-5-PNT)). I am interested in developing and testing practical solutions to security issues based on a solid theoretical foundation.
+My research has explored a variety of issues involving security, context privacy and trust assessment in resource-constrained systems. This has ranged from context privacy issues in [vehicles](/publications/Bradbury_2020_PrivacyChallengesProtecting) and [wireless sensor networks](/projects/project-1-PhD/), and security of different aspects of vehicular systems (including: [system analysis](/projects/project-2-CAPRI), [real-world testing](/projects/project-3-IoT-TRaM) and [PNT](/projects/project-5-PNT)). I am interested in developing and testing practical solutions to security issues based on theoretical foundations.
 
 ## Bio
 
