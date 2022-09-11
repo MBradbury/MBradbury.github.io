@@ -16,7 +16,25 @@
         {% assign paper_type = publication.paper_type | default: 'other' %}
         {% assign li_class = 'publication publication-' | append: paper_type %}
 
-        <li class="{{li_class}}" id="{{ publication.path | split: '/' | last | remove: '.md' }}">
+        {%- capture paper_title -%}
+        {%- case paper_type -%}
+        {%- when 'journal' -%}
+            Journal Article
+        {%- when 'conference' -%}
+            Conference Paper
+        {%- when 'workshop' -%}
+            Workshop Paper
+        {%- when 'thesis' -%}
+            Thesis
+        {%- when 'techreport' -%}
+            Technical Report
+        {%- when 'other' -%}
+            Other Research Type
+        {%- endcase -%}
+        {%- endcapture -%}
+
+        <li class="{{li_class}}" id="{{ publication.path | split: '/' | last | remove: '.md' }}" title="{{ paper_title }}">
+            <span title="">
             {{ publication.citation | markdownify | remove: "<p>" | remove: "</p>" }}
 
             {% if publication.bibtex or publication.file or publication.presentation or publication.dataset or publication.project or
@@ -46,6 +64,7 @@
             {% if publication.collection == 'publications' %}
              [<a href="{{ publication.url }}"><i class="fas fa-ellipsis-h"></i> more details</a>]
             {% endif %}
+            </span>
         </li>
     {% endfor %}
     </ul>

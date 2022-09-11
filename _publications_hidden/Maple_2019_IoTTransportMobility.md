@@ -8,6 +8,7 @@ firstpage: https://raw.githubusercontent.com/MBradbury/publications/master/first
 bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/Maple_2019_IoTTransportMobility.bib
 project: project-3-IoT-TRaM
 type: techreport
+paper_type: techreport
 ---
 
 <!-- readmore -->
