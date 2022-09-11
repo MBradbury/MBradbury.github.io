@@ -1,7 +1,7 @@
 ---
 title: "Information Management for Trust Computation on Resource-constrained IoT Devices"
 citation: "**Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Information Management for Trust Computation on Resource-constrained IoT Devices. *Future Generation Computer Systems*, 135:348–363, 2022. [doi:10.1016/j.future.2022.05.004](https://doi.org/10.1016/j.future.2022.05.004)."
-publishDate: 2022-05-01
+publishDate: 2022-10-01
 abstract: "Resource-constrained Internet of Things (IoT) devices are executing increasingly sophisticated applications that may require computational or memory intensive tasks to be executed. Due to their resource constraints, IoT devices may be unable to compute these tasks and will offload them to more powerful resource-rich edge nodes. However, as edge nodes may not necessarily behave as expected, an IoT device needs to be able to select which edge node should execute its tasks. This selection problem can be addressed by using a measure of behavioural trust of the edge nodes delivering a correct response, based on historical information about past interactions with edge nodes that are stored in memory. However, due to their constrained memory capacity, IoT devices will only be able to store a limited amount of trust information, thereby requiring an eviction strategy when its memory is full of which there has been limited investigation in the literature. To address this, we develop the concept of the memory profile of an agent and that profile’s utility. We formalise the profile eviction problem in a unified profile memory model and show it is NP-complete. To circumvent the inherent complexity, we study the performance of eviction algorithms in a partitioned profile memory model using our utility metric. Our results show that localised eviction strategies which only consider one specific type of information do not perform well. Thus we propose a novel eviction strategy that globally considers all types of trust information stored and we show that it outperforms local eviction strategies for the majority of memory sizes and agent behaviours. In this paper, we develop a concept of information utility to a trust model and formalise the problem of information eviction, which we prove to be NP-complete. We then investigate the usefulness of different eviction strategies to maximise the utility of information stored to enable trust-based task offloading."
 file: https://raw.githubusercontent.com/MBradbury/publications/master/papers/FGCS2022.pdf
 firstpage: https://raw.githubusercontent.com/MBradbury/publications/master/firstpages/FGCS2022.svg
@@ -9,6 +9,7 @@ bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/B
 dataset: https://doi.org/10.5281/zenodo.4353611
 project: project-6-TEAM
 type: paper
+paper_type: journal
 ---
 
 There is increasing interest in using highly resource-constrained IoT devices to perform complex tasks. These resource might include limited processing power (e.g., 32MHz CPU), RAM (e.g., 32 KiB to 256 KiB), ROM (512 KiB), and potentially no stable storage. However, because of the limited resources an IoT device may need to offload expensive tasks to resource-rich devices. These might be a Cloud server or an Edge node if the latency of task responses is important.

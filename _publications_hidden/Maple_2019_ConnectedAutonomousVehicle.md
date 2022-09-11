@@ -8,6 +8,7 @@ firstpage: https://raw.githubusercontent.com/MBradbury/publications/master/first
 bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/Maple_2019_ConnectedAutonomousVehicle.bib
 project: project-2-CAPRI
 type: paper
+paper_type: journal
 ---
 
 <!-- readmore -->

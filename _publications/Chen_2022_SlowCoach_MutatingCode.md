@@ -8,6 +8,7 @@ firstpage: https://raw.githubusercontent.com/MBradbury/publications/master/first
 bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/Chen_2022_SlowCoach_MutatingCode.bib
 dataset: https://github.com/61OlkVq8/PMT
 type: paper
+paper_type: conference
 ---
 
 ## Summary

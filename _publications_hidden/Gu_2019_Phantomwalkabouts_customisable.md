@@ -8,6 +8,7 @@ firstpage: https://raw.githubusercontent.com/MBradbury/publications/master/first
 bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/Gu_2019_Phantomwalkabouts_customisable.bib
 project: project-1-PhD
 type: paper
+paper_type: journal
 ---
 
 <!-- readmore -->

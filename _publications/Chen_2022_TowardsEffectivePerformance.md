@@ -8,6 +8,7 @@ firstpage: https://raw.githubusercontent.com/MBradbury/publications/master/first
 bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/Chen_2022_TowardsEffectivePerformance.bib
 dataset: https://doi.org/10.17635/lancaster/researchdata/557
 type: paper
+paper_type: workshop
 ---
 
 ## Summary

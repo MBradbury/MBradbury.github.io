@@ -9,6 +9,7 @@ bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/B
 extends: Bradbury_2015_DynamicFakeSource
 project: project-1-PhD
 type: paper
+paper_type: journal
 ---
 
 <!-- readmore -->

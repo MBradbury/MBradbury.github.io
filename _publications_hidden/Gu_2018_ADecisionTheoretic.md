@@ -9,6 +9,7 @@ bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/G
 dataset: https://doi.org/10.5281/zenodo.1045453
 project: project-1-PhD
 type: paper
+paper_type: journal
 ---
 
 <!-- readmore -->

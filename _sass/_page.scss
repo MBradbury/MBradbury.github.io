@@ -492,3 +492,28 @@ body {
   font-size: $type-size-55;
   font-family: $global-font-family;
 }
+
+.publication {
+  list-style: "\25A0";
+  padding-left: 4px;
+}
+
+.publication-journal::marker {
+  color: #c32b72;
+}
+
+.publication-conference::marker {
+  color: #196ca3;
+}
+
+.publication-workshop::marker {
+  color: #56C1B7;
+}
+
+.publication-thesis::marker {
+  color: #f8c91f;
+}
+
+.publication-other::marker {
+  color: #626A70;
+}

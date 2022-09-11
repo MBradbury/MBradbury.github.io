@@ -9,6 +9,7 @@ presentation: https://raw.githubusercontent.com/MBradbury/publications/master/pr
 bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/Bradbury_2017_UnderstandingSourceLocation.bib
 project: project-1-PhD
 type: paper
+paper_type: conference
 ---
 
 <!-- readmore -->

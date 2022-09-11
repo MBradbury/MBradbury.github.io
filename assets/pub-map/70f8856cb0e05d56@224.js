@@ -24,7 +24,10 @@ export default function define(runtime, observer) {
             .force("x", d3.forceX())
             .force("y", d3.forceY())
             .force('collide', d3.forceCollide().radius(70).iterations(3))
-            .force("center", d3.forceCenter(width / 2, height / 2));
+            .force("center", d3.forceCenter(width / 2, height / 2))
+
+            // https://stackoverflow.com/a/62603823
+            .force("boundary", forceBoundary(0, 0, width, height));
 
         const svg = d3.create("svg")
             .attr("viewBox", [0, 0, width, height])

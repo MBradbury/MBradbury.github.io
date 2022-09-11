@@ -11,6 +11,7 @@ dataset: https://doi.org/10.5281/zenodo.4339398
 video: https://www.dropbox.com/s/mxjcffa25xpumyo/InfoCom21.mp4?raw=1
 project: project-6-TEAM
 type: paper
+paper_type: conference
 ---
 
 There is increasing interest in using highly resource-constrained IoT devices to perform complex tasks. These resource might include limited processing power (e.g., 32MHz CPU), RAM (e.g., 32 KiB to 256 KiB), ROM (512 KiB), and potentially no stable storage. However, because of the limited resources an IoT device may need to offload expensive tasks to resource-rich devices. These might be a Cloud server or an Edge node if the latency of task responses is important. In most cases, trust is built up reactively where an interaction is performed and the result of that interaction is used to update a trust model. In this work we instead adopt a proactive approach to assessing trust, where a challenge is periodically sent to each resource-rich device that a task could be offloaded to. This challenge is sufficiently expensive for the resource-rich device to compute a result, but cheap for the resource-constrained device to verify.

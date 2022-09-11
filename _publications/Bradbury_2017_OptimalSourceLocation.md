@@ -10,6 +10,7 @@ bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/B
 dataset: https://doi.org/10.5281/zenodo.801222
 project: project-1-PhD
 type: paper
+paper_type: conference
 ---
 
 Source Location Privacy (SLP) is an important problem when monitoring valuable assets with wireless sensors. It is important that sensitive context information, such as the location of an asset, is not revealed to adversaries. This work aimed to investigate optimal strategies to provide SLP by formulating the routing problem using integer linear programming (ILP). [IBM's ILOG CPLEX](https://www.ibm.com/uk-en/products/ilog-cplex-optimization-studio) was used to obtain an optimal solution to the [model](https://github.com/MBradbury/slp-attacker-ilp). This solution aimed to delay and group messages until as late as possible and then deliver the messages to their destination. However, this solution made the assumption that wireless communication is perfectly reliable, which is not the case. So the optimal solution was recreated by a near-optimal routing algorithm that aimed to produce similar behaviour.

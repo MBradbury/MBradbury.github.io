@@ -8,6 +8,7 @@ firstpage: https://raw.githubusercontent.com/MBradbury/publications/master/first
 bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/Bradbury_2020_IdentifyingAttackSurfaces.bib
 project: project-4-FAIR-SPACE
 type: paper
+paper_type: conference
 ---
 
 <!-- readmore -->

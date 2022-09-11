@@ -1,7 +1,10 @@
-<div class="publication-list">
-    <ul>
+<div>
+    <ul class="publication-list">
     {% for publication in publications reversed %}
-        <li class="publication" id="{{ publication.path | split: '/' | last | remove: '.md' }}">
+        {% assign paper_type = publication.paper_type | default: 'other' %}
+        {% assign li_class = 'publication publication-' | append: paper_type %}
+
+        <li class="{{li_class}}" id="{{ publication.path | split: '/' | last | remove: '.md' }}">
             {{ publication.citation | markdownify | remove: "<p>" | remove: "</p>" }}
 
             {% if publication.bibtex or publication.file or publication.presentation or publication.dataset or publication.project or
@@ -14,6 +17,9 @@
             {% endif %}
             {% if publication.file %}
              [<a href="{{ publication.file }}"><i class="fas fa-file-pdf"></i> file</a>] 
+            {% endif %}
+            {% if publication.poster %}
+             [<a href="{{ publication.poster }}"><i class="fas fa-file-image"></i> poster</a>] 
             {% endif %}
             {% if publication.presentation %}
              [<a href="{{ publication.presentation }}"><i class="fas fa-file-powerpoint"></i> presentation</a>] 

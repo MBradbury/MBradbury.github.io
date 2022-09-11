@@ -12,6 +12,7 @@ video: https://www.dropbox.com/s/8mo2skll6wun2lz/SAC-DADS21.mp4?raw=1
 extended_by: Bradbury_2022_ThreatModellingGuided
 project: project-6-TEAM
 type: paper
+paper_type: conference
 ---
 
 There is increasing interest in using highly resource-constrained IoT devices to perform complex tasks. These resource might include limited processing power (e.g., 32MHz CPU), RAM (e.g., 32 KiB to 256 KiB), ROM (512 KiB), and potentially no stable storage. However, because of the limited resources an IoT device may need to offload expensive tasks to resource-rich devices. These might be a Cloud server or an Edge node if the latency of task responses is important. In order to address this issue, in this work we developed a middleware to facilitate task offloading using a measure of behavioural trust.

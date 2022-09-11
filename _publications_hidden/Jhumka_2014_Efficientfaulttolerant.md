@@ -7,6 +7,7 @@ file: https://raw.githubusercontent.com/MBradbury/publications/master/papers/JPD
 firstpage: https://raw.githubusercontent.com/MBradbury/publications/master/firstpages/JPDC2014.svg
 bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/Jhumka_2014_Efficientfaulttolerant.bib
 type: paper
+paper_type: journal
 ---
 
 <!-- readmore -->
