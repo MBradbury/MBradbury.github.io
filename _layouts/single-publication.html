@@ -39,6 +39,9 @@ layout: default
             {% if page.file %}
              [<a href="{{ page.file }}"><i class="fas fa-file-pdf"></i> file</a>] 
             {% endif %}
+            {% if page.poster %}
+             [<a href="{{ page.poster }}"><i class="fas fa-file-image"></i> poster</a>] 
+            {% endif %}
             {% if page.presentation %}
              [<a href="{{ page.presentation }}"><i class="fas fa-file-powerpoint"></i> presentation</a>] 
             {% endif %}
@@ -56,6 +59,13 @@ layout: default
 
       <section class="page__content" itemprop="text">
         {{ content }}
+
+        {% if page.poster %}
+          <h2>Poster</h2>
+          {% capture fixed_poster_link %}{{ page.poster | replace_first:"https://raw.githubusercontent.com","https://rawcdn.githack.com" }}{% endcapture %}
+
+          {% include embed-presentation link=fixed_poster_link %}
+        {% endif %}
 
         {% if page.extended_by %}
           <h2>Extended By</h2>

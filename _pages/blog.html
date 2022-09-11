@@ -10,5 +10,5 @@ sitemap: false
 {% assign sorted_posts = posts | sort: "publishDate" | reverse %}
 
 {% for post in sorted_posts %}
-  {% include archive-single.html %}
+  {% include archive-single.html images='no-images' %}
 {% endfor %}

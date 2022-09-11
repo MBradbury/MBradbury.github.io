@@ -249,7 +249,7 @@
   }
 }
 
-.project__item {
+.archive__item-grid-show-images {
 
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -268,5 +268,16 @@
   /* For mobile, do not want to show pictures side-by-side */
   @media only screen and (max-width: 600px) {
     grid-template-columns: 3fr;
+  }
+}
+
+.archive__item-grid-no-images {
+
+  display: grid;
+  grid-template-columns: 3fr;
+  grid-gap: 10px;
+
+  .archive__item-img-div {
+    visible: false;
   }
 }
