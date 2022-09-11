@@ -11,8 +11,6 @@ type: paper
 paper_type: conference
 ---
 
-## Summary
-
 It is important that software runs fast. Better performance means that software is more responsive, consumes less energy, and provides less scope for adversaries to perform denial of service attacks that take advantage of poor performance. In order to identify performance issues, diagnosis tools need to be used to analyse software performance. Like other software, it is important that we are able to investigate the efficacy of performance diagnostic tools (such as [perf](https://perf.wiki.kernel.org/index.php/Main_Page)).
 
 [Mutation testing](https://ieeexplore.ieee.org/abstract/document/5487526) has been used to analyse the performance of a test suite's ability to detect bugs in code. This is done by injecting mutations which leads to incorrect behaviour in the source code, and allows evaluation of the test suite's capability to detect that inserted mutation. In this paper we extend the idea of mutation testing to performance mutation testing, in order to be able to test how well performance diagnostic tools are able to detect performance bugs.
