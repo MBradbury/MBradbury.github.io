@@ -19,11 +19,11 @@ export default function define(runtime, observer) {
         const publications = data.publications;
 
         const simulation = d3.forceSimulation(nodes)
-            .force("link", d3.forceLink(links).id(d => d.id).distance(150).strength(1))
+            .force("link", d3.forceLink(links).id(d => d.id).distance(35).strength(0.5))
             .force("charge", d3.forceManyBody().strength(-400))
             .force("x", d3.forceX())
             .force("y", d3.forceY())
-            .force('collide', d3.forceCollide().radius(70).iterations(3))
+            .force('collide', d3.forceCollide().radius(80).iterations(4))
             .force("center", d3.forceCenter(width / 2, height / 2))
 
             // https://stackoverflow.com/a/62603823
@@ -38,51 +38,46 @@ export default function define(runtime, observer) {
         svg.append("defs").selectAll("marker")
             .data(types)
             .join("marker")
-            .attr("id", d => `arrow-${d}`)
-            .attr("viewBox", "0 -5 10 10")
-            .attr("refX", 15)
-            .attr("refY", -0.5)
-            .attr("markerWidth", 6)
-            .attr("markerHeight", 6)
-            .attr("orient", "auto")
+                .attr("id", d => `arrow-${d}`)
+                .attr("viewBox", "0 -5 10 10")
+                .attr("refX", 15)
+                .attr("refY", -0.5)
+                .attr("markerWidth", 6)
+                .attr("markerHeight", 6)
+                .attr("orient", "auto")
             .append("path")
-            .attr("fill", color)
-            .attr("d", "M0,-5L10,0L0,5");
+                .attr("fill", color)
+                .attr("d", "M0,-5L10,0L0,5");
 
         const link = svg.append("g")
-            .attr("fill", "none")
-            .attr("stroke-width", 3)
+                .attr("fill", "none")
+                .attr("stroke-width", 3)
             .selectAll("path")
             .data(links)
             .join("path")
-            .attr("stroke", d => color(d.type))
-            .attr("marker-end", d => `url(${new URL(`#arrow-${d.type}`, location)})`);
+                .attr("stroke", d => color(d.type))
+                .attr("marker-end", d => `url(${new URL(`#arrow-${d.type}`, location)})`);
 
         const node = svg.append("g")
-            .attr("fill", "currentColor")
-            .attr("stroke-linecap", "round")
-            .attr("stroke-linejoin", "round")
+                .attr("fill", "currentColor")
+                .attr("stroke-linecap", "round")
+                .attr("stroke-linejoin", "round")
             .selectAll("g")
             .data(nodes)
             .join("g")
-            .call(drag(simulation));
+                .call(drag(simulation));
 
         node.append("a")
-            .attr("xlink:href", d => "#" + publications.filter(p => p.ident == d.id).map(p => p.key))
+                .attr("xlink:href", d => "#" + publications.filter(p => p.ident == d.id).map(p => p.key))
             .append("text")
-            //.attr("x", 0)
-            //.attr("y", "0.31em")
-            .style("text-anchor", "middle")
-            .text(d => d.id)
+                //.attr("x", 0)
+                //.attr("y", "0.5em")
+                .style("text-anchor", "middle")
+                .text(d => d.id)
             .clone(true).lower()
-            .attr("fill", "none")
-            .attr("stroke", "white")
-            .attr("stroke-width", 5);
-
-        /*node.append("circle")
-            .attr("stroke", "white")
-            .attr("stroke-width", 1.5)
-            .attr("r", 10);*/
+                .attr("fill", "none")
+                .attr("stroke", "white")
+                .attr("stroke-width", 5);
 
         simulation.on("tick", () => {
             link.attr("d", linkArc);
@@ -152,9 +147,9 @@ export default function define(runtime, observer) {
             }
         );
     });
-    main.variable().define("d3", ["require"], function(require) {
-        return require("d3@6");
-    });
+    //main.variable().define("d3", ["require"], function(require) {
+    //    return require("d3@6");
+    //});
     const child1 = runtime.module(define1);
     main.import("swatches", child1);
     return main;

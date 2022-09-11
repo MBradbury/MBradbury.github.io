@@ -156,7 +156,7 @@ export default function define(runtime, observer) {
             }) {
                 const id = DOM.uid().id;
 
-                if (columns !== null) return html`<div class="publication_map" style="display: flex; align-items: center; margin-left: ${+marginLeft}px; min-height: 33px;">
+                if (columns !== null) return html`<div style="display: flex; align-items: center; margin-left: ${+marginLeft}px; min-height: 33px;">
   <style>
 
 .${id}-item {
@@ -190,7 +190,7 @@ export default function define(runtime, observer) {
   </div>
 </div>`;
 
-                return html`<div class="publication_map" style="display: flex; align-items: center; min-height: 33px; margin-left: ${+marginLeft}px;">
+                return html`<div style="display: flex; align-items: center; min-height: 33px; margin-left: ${+marginLeft}px;">
   <style>
 
 .${id} {
@@ -228,8 +228,8 @@ export default function define(runtime, observer) {
             return canvas;
         };
     });
-    main.variable(observer("d3")).define("d3", ["require"], function(require) {
-        return require("d3@6");
-    });
+    //main.variable(observer("d3")).define("d3", ["require"], function(require) {
+    //    return require("d3@6");
+    //});
     return main;
 }
