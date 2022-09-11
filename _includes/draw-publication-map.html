@@ -1,22 +1,24 @@
 
-<script src="https://d3js.org/d3.v6.min.js" type="text/javascript"
+<div id="publication-map"></div>
+
+<script
+    src="https://d3js.org/d3.v6.min.js"
+    type="text/javascript"
     integrity="sha384-ma33ZEb8L5emtidZhYJFZNIFdht2E8f5wHQMKQGom0aIx9rRKm86XXCjGxOISpM9"
     crossorigin="anonymous"
 ></script>
-<script src="https://unpkg.com/d3-force-boundary@0.0.3/dist/d3-force-boundary.min.js"
+<script
+    src="https://unpkg.com/d3-force-boundary@0.0.3/dist/d3-force-boundary.min.js"
     type="text/javascript"
     integrity="sha384-SevB4CJ2fXfa68qtpow7HTDUVifKz8pwc4REs9CqWkhLR/uQrs4pLXYsAE6dMzEP"
     crossorigin="anonymous"
 ></script>
+<script
+    src="{{ base_path }}/assets/pub-map/pub-map.min.js" type="text/javascript"
+	integrity="sha384-wxWSWSVd0ZtrP2ing4RRusszAQZ9r5eyou1ppfdKdKNb3MShjxcNO/mgMuX3ytrL"
+	crossorigin="anonymous"
+></script>
 
-<script type="module">
-
-import define from "/assets/pub-map/index.js";
-import {Runtime, Inspector} from "/assets/pub-map/runtime.js";
-
-const runtime = new Runtime();
-const main = runtime.module(define, Inspector.into("#observablehq-publication-map"));
-
+<script>
+make_publication_map("publication-map");
 </script>
-
-<div id="observablehq-publication-map"></div>
