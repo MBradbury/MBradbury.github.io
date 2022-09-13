@@ -12,7 +12,7 @@ sitemap: true
     <tbody>
         <tr>
             {% for featured_article in featured_articles %}
-                <td style="width: {{ 100 | divided_by: featured_articles.size }}%;"><a href="{{ featured_article.url }}"><img src="{{ featured_article.firstpage }}" alt="First page of {{ featured_article.title }}" width="80%" class="page__image-center"></a></td>
+                <td style="width: {{ 100 | divided_by: featured_articles.size }}%;"><a href="{{ featured_article.url }}"><img src="{{ featured_article.firstpage }}" alt="First page of {{ featured_article.title }}" width="80%" class="align-center"></a></td>
             {% endfor %}
         </tr>
         <tr>

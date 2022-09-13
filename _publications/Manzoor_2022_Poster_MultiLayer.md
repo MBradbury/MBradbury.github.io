@@ -14,18 +14,18 @@ Cloud systems are now highly pervasive and provide [significant opportunities](h
 
 <!-- readmore -->
 
-<figure class="threequarters centre">
-    <img src="/images/CCS22-Cloud-hlpn.svg" alt="Petri net modelling of a Cloud system" />
-    <figcaption>
+<figure class="threequarters">
+    <img src="/images/CCS22-Cloud-hlpn.svg" alt="Petri net modelling of a Cloud system" class="align-center" />
+    <figcaption class="align-center">
     Petri net modelling of information flow through the Cloud system.
     </figcaption>
 </figure>
 
 This work proposes to use a [Petri net](https://en.wikipedia.org/wiki/Petri_net) to model the environment. Petri nets were chosen as they provide convenient ways to model and analyse distributed systems. Using Petri net models of different threats, speculative analysis can be performed to identify different goals that an adversary could reach.
 
-<figure class="half centre">
-    <img src="/images/CCS22-Cloud-attack-paths.svg" alt="Attack tree showing that an adversary can utilise different threats to reach different goals" />
-    <figcaption>
+<figure class="half">
+    <img src="/images/CCS22-Cloud-attack-paths.svg" alt="Attack tree showing that an adversary can utilise different threats to reach different goals" class="align-center" />
+    <figcaption class="align-center">
     Potential attack paths based on the vulnerabilities chosen to evaluate.
     </figcaption>
 </figure>

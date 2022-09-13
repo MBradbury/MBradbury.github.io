@@ -231,14 +231,6 @@ figure {
     display: block;
   }
 
-  &.centre {
-    > img,
-    > figcaption  {
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-
   &.threequarters {
     > a,
     > img {
