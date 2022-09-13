@@ -231,6 +231,30 @@ figure {
     display: block;
   }
 
+  &.centre {
+    > img,
+    > figcaption  {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  &.threequarters {
+    > a,
+    > img {
+      @include breakpoint($small) {
+        width: calc(75% - 0.5em);
+      }
+    }
+
+    figcaption {
+      align-self: flex-start;
+      @include breakpoint($small) {
+        width: calc(75% - 0.5em);
+      }
+    }
+  }
+
   &.half {
     > a,
     > img {
@@ -284,13 +308,6 @@ figcaption {
       border-bottom-color: #000;
     }
   }
-}
-
-
-/* Fix IE9 SVG bug */
-
-svg:not(:root) {
-  overflow: hidden;
 }
 
 

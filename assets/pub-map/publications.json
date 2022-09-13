@@ -176,6 +176,16 @@
       "ident": "ISSREW 2022",
       "family": "Performance Testing",
       "key": "Chen_2022_TowardsEffectivePerformance"
+    },
+    {
+      "ident": "CCS 2022 (MTD)",
+      "family": "Cloud Security",
+      "key": "Manzoor_2022_Poster_EffectivenessMoving"
+    },
+    {
+      "ident": "CCS 2022 (Cloud)",
+      "family": "Cloud Security",
+      "key": "Manzoor_2022_Poster_MultiLayer"
     }
   ],
 
@@ -222,7 +232,9 @@
 
     { "target": "IoT-TRaM 2019", "source": "VTC-Fall 2019", "type": "Related To" },
 
-    { "target": "ISSRE 2022", "source": "ISSREW 2022", "type": "Related To" }
+    { "target": "ISSRE 2022", "source": "ISSREW 2022", "type": "Related To" },
+
+    { "target": "CCS 2022 (Cloud)", "source": "CCS 2022 (MTD)", "type": "Related To" }
 
   ]
 }

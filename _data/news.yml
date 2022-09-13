@@ -1,4 +1,18 @@
 - icon: fa-file
+  month: September
+  year: 2022
+  name: "New paper"
+  link: /publications/Manzoor_2022_Poster_EffectivenessMoving
+  description: 'Poster: Effectiveness of Moving Target Defense Techniques to Disrupt Attacks in the Cloud. In <i>Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security</i>'
+
+- icon: fa-file
+  month: September
+  year: 2022
+  name: "New paper"
+  link: /publications/Manzoor_2022_Poster_MultiLayer
+  description: 'Poster: Multi-Layer Threat Analysis of the Cloud. In <i>Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security</i>'
+
+- icon: fa-file
   month: August
   year: 2022
   name: "New paper"
