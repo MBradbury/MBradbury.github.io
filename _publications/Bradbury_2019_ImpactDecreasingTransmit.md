@@ -1,7 +1,7 @@
 ---
 title: "The Impact of Decreasing Transmit Power Levels on FlockLab To Achieve a Sparse Network"
 citation: "**Matthew Bradbury**, Arshad Jhumka, and Carsten Maple. The Impact of Decreasing Transmit Power Levels on FlockLab To Achieve a Sparse Network. In *Proceedings of the 2nd Workshop on Benchmarking Cyber-Physical Systems and Internet of Things*, CPS-IoTBench '19, 7–12. New York, NY, USA, April 2019. ACM. [doi:10.1145/3312480.3313171](https://doi.org/10.1145/3312480.3313171)."
-publishDate: 2019-04-01
+publishDate: 2019-04-15
 abstract: "For research in Wireless Sensor Networks (WSNs) and the Internet of Things (IoT), while many protocols are either analysed mathematically or simulated to assess performance, it has become necessary that they are tested on hardware in real world environments. Algorithms are often validated in either (i) a densely connected network or (ii) a sparsely connected network. The majority of existing testbeds have implemented dense networks, making evaluation and validation of certain protocols, such as spatially-redundant source location privacy (SLP) protocols, challenging. We explore the use of transmission power to achieve network sparsity and present the results of such experiments performed on the FlockLab testbed. Based upon our experience in using FlockLab, we also identify additional aspects of testbed performance that need to be monitored to ensure reliable and reproducible results."
 file: https://raw.githubusercontent.com/MBradbury/publications/master/papers/CPS-IoTBench2019.pdf
 firstpage: https://raw.githubusercontent.com/MBradbury/publications/master/firstpages/CPS-IoTBench2019.svg
