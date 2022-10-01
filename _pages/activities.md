@@ -41,6 +41,7 @@ sitemap: true
  * Computer Communications ([COMCOM](https://www.journals.elsevier.com/computer-communications))
  * Vehicular Communications ([VEHCOM](https://www.journals.elsevier.com/vehicular-communications))
  * IEEE Transactions on Software Engineering ([TSE](https://www.computer.org/csdl/journal/ts))
+ * [Scientific Reports](https://www.nature.com/srep/)
 
 {% comment %}
 ## Outreach
