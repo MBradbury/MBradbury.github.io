@@ -116,6 +116,7 @@ exclude:
   - local.sh
   - sri-sum.sh
   - uglifyjs.sh
+  - fonts/
 keep_files:
   - .git
 encoding: "utf-8"
