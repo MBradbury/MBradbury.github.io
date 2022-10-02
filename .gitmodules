@@ -1,0 +1,3 @@
+[submodule "fonts/fontite"]
+	path = fonts/fontite
+	url = https://gitlab.com/antonok/fontite.git

@@ -25,7 +25,7 @@
   // Add anchors for headings
   const page_content = document.querySelector(".page__content");
   if (page_content != null) {
-    const page_content_headings = page_content.querySelectorAll("h1, h2, h3, h4, h5, h6");
+    const page_content_headings = page_content.querySelectorAll("h1, h2, h3, h4, h5, h6, span");
     for (var i = 0; i != page_content_headings.length; i++) {
       const page_content_heading = page_content_headings[i];
       const page_content_heading_id = page_content_heading.getAttribute("id");
@@ -33,7 +33,7 @@
         const anchor = document.createElement("a");
         anchor.className = 'header-link';
         anchor.href = '#' + page_content_heading_id;
-        anchor.innerHTML = '<span class=\"sr-only\">Permalink</span><i class=\"fas fa-link\"></i>';
+        anchor.innerHTML = '<span class=\"sr-only\">Permalink</span><i class=\"fas si-link\"></i>';
         anchor.title = "Permalink";
         page_content_heading.append(anchor);
       }

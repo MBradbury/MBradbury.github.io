@@ -28,15 +28,19 @@ layout: default
 
           <p class="page__date">
             {% if page.modified %}
-              <strong><i class="fas fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.modified | date_to_xmlschema }}">{{ page.modified | date: site.date_format }}</time>
+              <strong><i class="fas si-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.modified | date_to_xmlschema }}">{{ page.modified | date: site.date_format }}</time>
             {% elsif page.publishDate %}
-              <strong><i class="fas fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.publishDate | date_to_xmlschema }}">{{ page.publishDate | date: site.date_format }}</time>
+              <strong><i class="fas si-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.publishDate | date_to_xmlschema }}">{{ page.publishDate | date: site.date_format }}</time>
             {% endif %}
             <br />
             {% if page.type %}
-              <i class="fas fa-map-marker" aria-hidden="true"></i><strong>{{page.type}}</strong> at <span itemprop="contentLocation">{{ page.venue }}, {{page.location}}</span>
+              <i class="fas si-map-marker" aria-hidden="true"></i><strong>{{page.type}}</strong> at <span itemprop="contentLocation">{{ page.venue }}, {{page.location}}</span>
             {% endif %}
           </p>
+
+          {% if page.banner %}
+            <p><img src="{{ page.banner.src }}" alt="{{ page.banner.alt }}" class="page__hero-image"></p>
+          {% endif %}
 
         </header>
       {% endunless %}

@@ -34,10 +34,10 @@ layout: default
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
           <p class="page__date">
-            <strong><i class="fas fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: site.date_format }}</time>
+            <strong><i class="fas si-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: site.date_format }}</time>
 
             {% if page.modified %}
-              <br /><strong><i class="fas fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].modified_label | default: "Modified:" }}</strong> <time datetime="{{ page.modified | date_to_xmlschema }}">{{ page.modified | date: site.date_format }}</time>
+              <br /><strong><i class="fas si-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].modified_label | default: "Modified:" }}</strong> <time datetime="{{ page.modified | date_to_xmlschema }}">{{ page.modified | date: site.date_format }}</time>
             {% endif %}
           </p>
         {% endif %}

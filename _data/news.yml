@@ -1,136 +1,150 @@
-- icon: fa-file
+- icon: si-volume-up
+  month: November
+  year: 2022
+  name: "Conference Presentation"
+  link: /publications/Bradbury_2022_ThreatModellingGuided
+  description: 'Presenting "Threat Modelling Guided Trust-based Task Offloading for Resource-constrained Internet of Things" at the <i>ACM Conference on Embedded Networked Sensor Systems (SenSys 2022)</i>'
+
+- icon: si-users
+  month: September
+  year: 2022
+  name: "Event"
+  link: /talks/2022-09-30-LS3
+  description: 'First Annual Lancaster Symposium on Systems Security'
+
+- icon: si-file
   month: September
   year: 2022
   name: "New paper"
   link: /publications/Manzoor_2022_Poster_EffectivenessMoving
   description: 'Poster: Effectiveness of Moving Target Defense Techniques to Disrupt Attacks in the Cloud. In <i>Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security</i>'
 
-- icon: fa-file
+- icon: si-file
   month: September
   year: 2022
   name: "New paper"
   link: /publications/Manzoor_2022_Poster_MultiLayer
   description: 'Poster: Multi-Layer Threat Analysis of the Cloud. In <i>Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security</i>'
 
-- icon: fa-file
+- icon: si-file
   month: August
   year: 2022
   name: "New paper"
   link: /publications/Chen_2022_TowardsEffectivePerformance
   description: 'Towards Effective Performance Fuzzing. In <i>The 33rd IEEE International Symposium on Software Reliability Engineering Workshops</i>'
 
-- icon: fa-file
+- icon: si-file
   month: August
   year: 2022
   name: "New paper"
   link: /publications/Chen_2022_SlowCoach_MutatingCode
   description: 'SlowCoach: Mutating Code to Simulate Performance Bugs. In <i>The 33rd IEEE International Symposium on Software Reliability Engineering</i>'
 
-- icon: fa-volume-up
+- icon: si-volume-up
   month: June
   year: 2022
   name: "Invited Talk"
   link: /talks/2022-06-23-ACE-CSR
   description: 'Invited talk at the Academic Centres of Excellence in Cyber Security Research Conference 2022'
 
-- icon: fa-file
+- icon: si-file
   month: May
   year: 2022
   name: "New paper"
   link: /publications/Bradbury_2022_InformationManagementTrust
   description: 'Information Management for Trust Computation on Resource-constrained IoT Devices. In <i>Future Generation Computer Systems</i>'
 
-- icon: fa-volume-up
+- icon: si-volume-up
   month: April
   year: 2022
   name: "Outreach"
   link: /talks/2022-04-21-LCF
   description: "Recorded talk on 'Automating Threat Modelling' to SMEs for Lancashire Cyber Foundry"
 
-- icon: fa-file
+- icon: si-file
   month: January
   year: 2022
   name: "New paper"
   link: /publications/Bradbury_2022_ThreatModellingGuided
   description: 'Threat Modelling Guided Trust-based Task Offloading for Resource-constrained Internet of Things. In <i>ACM Transactions on Sensor Networks</i>'
 
-- icon: fa-volume-up
+- icon: si-volume-up
   month: October
   year: 2021
   name: "Outreach"
   link: /talks/2021-10-27-PETRAS-ZSL-podcast
   description: 'Wildlife Conservation: Can AI Make Poachers the Poached?'
 
-- icon: fa-volume-up
+- icon: si-volume-up
   month: June
   year: 2021
   name: "Outreach"
   link: /talks/2021-06-11-NGP
   description: 'Introduced Cyber Security to students in Kazakhstan'
 
-- icon: fa-volume-up
+- icon: si-volume-up
   month: May
   year: 2021
   name: "Conference Presentation"
   link: /talks/2021-05-11-InfoCom
   description: 'Presented paper "Trust Trackers for Computation Offloading in Edge Based IoT Networks" at IEEE INFOCOM'
 
-- icon: fa-briefcase
+- icon: si-briefcase
   month: April
   year: 2021
   name: "New job"
   description: 'Lecturer at <a href="https://www.lancaster.ac.uk/">Lancaster University</a> in the <a href="https://ssg.lancs.ac.uk/">Systems and Security Group</a> of <a href="https://www.lancaster.ac.uk/scc/">School of Computing and Communications</a>'
 
-- icon: fa-volume-up
+- icon: si-volume-up
   month: March
   year: 2021
   name: "Conference Presentation"
   link: /talks/2021-03-22-SAC
   description: 'Presented paper "Trust Assessment in 32 KiB of RAM: Multi-application Trust-based Task Offloading for Resource-constrained IoT Nodes" at the ACM Symposium of Applied Computing'
 
-- icon: fa-book
+- icon: si-book
   month: February
   year: 2021
   name: "New Special Issue"
   link: https://www.mdpi.com/journal/electronics/special_issues/design_evaluation_cyber-physical
   description: 'MDPI Electronics Special Issue on Design and Evaluation of Secure Diagnosis and Control Benchmarks and Test-Scenarios for Cyber-Physical Systems'
 
-- icon: fa-file
+- icon: si-file
   month: December
   year: 2020
   name: "New paper"
   link: /publications/Bradbury_2021_TrustTrackersComputation
   description: 'Trust Trackers for Computation Offloading in Edge-Based IoT Networks. In <i>IEEE INFOCOM</i>'
 
-- icon: fa-file
+- icon: si-file
   month: December
   year: 2020
   name: "New paper"
   link: /publications/Bradbury_2021_TrustAssessment32
   description: 'Trust Assessment in 32 KiB of RAM: Multi-application Trust-based Task Offloading for Resource-constrained IoT Nodes. In <i>The 36th ACM/SIGAPP Symposium on Applied Computing</i>'
 
-- icon: fa-check-square
+- icon: si-check-square
   month: July
   year: 2020
   name: "Success Story"
   link: https://warwick.ac.uk/fac/sci/wmg/business/success-stories/cyber-resilience/
   description: 'Spirent partners with WMG to develop cyber-security services across Connected and Automated Mobility markets'
 
-- icon: fa-desktop
+- icon: si-desktop
   month: May
   year: 2020
   name: "Funding Awarded"
   link: https://warwick.ac.uk/fac/sci/dcs/news/?newsItem=8a1785d8721768f401723d62f6e13f9f
   description: 'PETRAS SRF funding to investigate trust-based task offloading in IoT systems'
 
-- icon: fa-check-square
+- icon: si-check-square
   month: September
   year: 2019
   name: "Success Story"
   link: https://warwick.ac.uk/newsandevents/pressreleases/cyber_security_of/
   description: 'Cyber security of Connected Autonomous Vehicles trialled'
 
-- icon: fa-volume-up
+- icon: si-volume-up
   month: June
   year: 2019
   name: "Guest Speaker"

@@ -74,7 +74,7 @@ body {
     border-bottom: 1px solid $border-color;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4, h5, h6, span {
     .header-link {
       position: relative;
       left: 0.5em;
@@ -354,7 +354,17 @@ body {
 }
 
 .news_table {
-  font-size: $type-size-55;
+  display: table;
+  min-width: 100%;
+  width: 100%;
+}
+
+.news_year {
+  margin: 2em 0 0.5em;
+  line-height: 1.2;
+  font-family: $header-font-family;
+  font-weight: bold;
+  font-size: $h-size-2;
 }
 
 .publication_map {
