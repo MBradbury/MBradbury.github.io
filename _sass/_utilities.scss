@@ -187,129 +187,63 @@ body:hover .visually-hidden button {
   .fas,
   .fab,
   .far,
-  .fal {
+  .fal,
+  .ai {
     color: $text-color;
   }
 
-  .fa-behance,
-  .fa-behance-square {
-    color: $behance-color;
-  }
-
-  .fa-bitbucket {
+  .si-bitbucket {
     color: $bitbucket-color;
   }
 
-  .fa-dribbble,
-  .fa-dribble-square {
-    color: $dribbble-color;
-  }
-
-  .fa-facebook,
-  .fa-facebook-square,
-  .fa-facebook-f {
-    color: $facebook-color;
-  }
-
-  .fa-flickr {
-    color: $flickr-color;
-  }
-
-  .fa-foursquare {
-    color: $foursquare-color;
-  }
-
-  .fa-github,
-  .fa-github-alt,
-  .fa-github-square {
+  .si-github,
+  .si-github-alt,
+  .si-github-square {
     color: $github-color;
   }
 
-  .fa-gitlab {
+  .si-gitlab {
     color: $gitlab-color;
   }
 
-  .fa-google-plus,
-  .fa-google-plus-square {
-    color: $google-plus-color;
-  }
-
-  .fa-instagram {
-    color: $instagram-color;
-  }
-
-  .fa-keybase {
+  .si-keybase {
     color: $keybase-color;
   }
 
-  .fa-lastfm,
-  .fa-lastfm-square {
-    color: $lastfm-color;
-  }
-
-  .fa-linkedin,
-  .fa-linkedin-square {
+  .si-linkedin,
+  .si-linkedin-square {
     color: $linkedin-color;
   }
 
-  .ai-orcid,
-  .ai-orcid-square {
+  .si-orcid,
+  .si-orcid-square {
     color: $orcid-color;
   }
 
-  .fa-pinterest,
-  .fa-pinterest-p,
-  .fa-pinterest-square {
-    color: $pinterest-color;
-  }
-
-  .fa-rss,
-  .fa-rss-square {
+  .si-rss,
+  .si-rss-square {
     color: $rss-color;
   }
 
-  .ai-scopus,
-  .ai-scopus-square {
+  .si-scopus,
+  .si-scopus-square {
     color: $scopus-color;
   }
 
-  .fa-soundcloud {
-    color: $soundcloud-color;
-  }
-
-  .fa-stack-exchange,
-  .fa-stack-overflow {
+  .si-stack-exchange,
+  .si-stack-overflow {
     color: $stackoverflow-color;
   }
 
-  .fa-tumblr,
-  .fa-tumblr-square {
-    color: $tumblr-color;
-  }
-
-  .fa-twitter,
-  .fa-twitter-square {
+  .si-twitter,
+  .si-twitter-square {
     color: $twitter-color;
   }
 
-  .fa-vimeo,
-  .fa-vimeo-square {
-    color: $vimeo-color;
-  }
-
-  .fa-vine {
-    color: $vine-color;
-  }
-
-  .fa-youtube,
-  .fa-youtube-square,
-  .fa-youtube-play {
+  .si-youtube,
+  .si-youtube-square,
+  .si-youtube-play {
     color: $youtube-color;
-  }
-
-  .fa-xing,
-  .fa-xing-square {
-    color: $xing-color;
   }
 }
 
