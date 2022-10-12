@@ -5,6 +5,7 @@ publishDate: 2022-11-07
 abstract: "Moving Target Defense (MTD) can eliminate the asymmetric advantage that attackers have in terms of time by changing a system's configuration dynamically to reduce the efficacy of reconnaissance and increase uncertainty and complexity for attackers. There are numerous MTDs proposed that target specific aspects of a system. However, deploying MTDs at different layers/components of the Cloud and assessing their effects on the overall security gains for the entire system is still challenging since the Cloud is a complex system entailing physical and virtual resources, and there exists a multitude of attack surfaces that an attacker can target. Thus, we explore the combination of different MTDs at different layers to maximize the security gains offered by the MTDs. We propose a quantification mechanism to evaluate the effectiveness of the MTDs against the attacks in the Cloud."
 file: https://raw.githubusercontent.com/MBradbury/publications/master/papers/CCS2022-MTD.pdf
 firstpage: https://raw.githubusercontent.com/MBradbury/publications/master/firstpages/CCS2022-MTD.svg
+poster: https://raw.githubusercontent.com/MBradbury/publications/master/posters/CCS2022-MTD.pdf
 bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/Manzoor_2022_Poster_EffectivenessMoving.bib
 type: paper
 paper_type: workshop

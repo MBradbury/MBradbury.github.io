@@ -5,6 +5,7 @@ publishDate: 2022-11-07
 abstract: "A variety of Threat Analysis (TA) techniques exist that typically target exploring threats to discrete assets (e.g., services, data, etc.) and reveal potential attacks pertinent to these assets. Furthermore, these techniques assume that the interconnection among the assets is static. However, in the Cloud, resources can instantiate or migrate across physical hosts at run-time, thus making the Cloud a dynamic environment. Additionally, the number of attacks targeting multiple assets/layers emphasizes the need for threat analysis approaches developed for Cloud environments. Therefore, this proposal presents a threat analysis approach that addresses multi-layer attacks. The proposed approach facilitates threat analysis by developing a technology-agnostic information flow model. It contributes to exploring a threat's propagation across the operational stack of the Cloud and, consequently, assessing the security of the Cloud holistically."
 file: https://raw.githubusercontent.com/MBradbury/publications/master/papers/CCS2022-Cloud.pdf
 firstpage: https://raw.githubusercontent.com/MBradbury/publications/master/firstpages/CCS2022-Cloud.svg
+poster: https://raw.githubusercontent.com/MBradbury/publications/master/posters/CCS2022-Cloud.pdf
 bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/Manzoor_2022_Poster_MultiLayer.bib
 type: paper
 paper_type: workshop

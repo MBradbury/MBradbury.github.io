@@ -61,24 +61,24 @@ layout: default
         {{ content }}
 
         {% if page.poster %}
-          <h2>Poster</h2>
+          <h2 id="Poster">Poster</h2>
           {% capture fixed_poster_link %}{{ page.poster | replace_first:"https://raw.githubusercontent.com","https://rawcdn.githack.com" }}{% endcapture %}
 
           {% include embed-presentation link=fixed_poster_link %}
         {% endif %}
 
         {% if page.extended_by %}
-          <h2>Extended By</h2>
+          <h2 id="ExtendedBy">Extended By</h2>
           An extended version of the article has been <a href="/publications/{{ page.extended_by }}">published</a>, so should be referred to instead.
         {% endif %}
 
         {% if page.extends %}
-          <h2>Extends</h2>
+          <h2 id="Extends">Extends</h2>
           This paper extends a previous shorter <a href="/publications/{{ page.extends }}">paper</a>.
         {% endif %}
 
         {% if page.presentation or page.video %}
-          <h2>Presentation</h2>
+          <h2 id="Presentation">Presentation</h2>
           {% if page.video %}
             {% include embed-presentation link=page.video %}
           {% endif %}
