@@ -78,10 +78,14 @@ layout: default
           <p>
           {% if publications_extends.size != 0 %}
             An extended version of the article has been <a href="{{ publications_extends.first.url }}">published</a>, so should be referred to instead:<br/>
+            <span itemprop="citation">
             {{ publications_extends.first.citation | markdownify | remove: "<p>" | remove: "</p>" }}
+            </span>
           {% else %}
             An extended version of the article has been published so should be referred to instead:<br/>
+            <span itemprop="citation">
             {{ publications_hidden_extends.first.citation | markdownify | remove: "<p>" | remove: "</p>" }}
+            </span>
           {% endif %}
           </p>
         {% endif %}
@@ -97,10 +101,14 @@ layout: default
 
           {% if publications_extends.size == 1 %}
             This paper extends a previous shorter <a href="{{ pub_extends_link }}">paper</a>:<br/>
+            <span itemprop="citation">
             {{ publications_extends.first.citation | markdownify | remove: "<p>" | remove: "</p>" }}
+            </span>
           {% else %}
             This paper extends a previous shorter paper:<br/>
+            <span itemprop="citation">
             {{ publications_hidden_extends.first.citation | markdownify | remove: "<p>" | remove: "</p>" }}
+            </span>
           {% endif %}
           </p>
         {% endif %}
