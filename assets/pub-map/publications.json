@@ -186,6 +186,16 @@
       "ident": "CCS 2022 (Cloud)",
       "family": "Cloud Security",
       "key": "Manzoor_2022_Poster_MultiLayer"
+    },
+    {
+      "ident": "STaR-IoT 2022",
+      "family": "Trust",
+      "key": "Bradbury_2022_AttributesDimensionsTrust"
+    },
+    {
+      "ident": "TIFS 2022",
+      "family": "Source Location Privacy",
+      "key": "Bradbury_2022_QuantifyingSourceLocation"
     }
   ],
 
@@ -234,7 +244,11 @@
 
     { "target": "ISSRE 2022", "source": "ISSREW 2022", "type": "Related To" },
 
-    { "target": "CCS 2022 (Cloud)", "source": "CCS 2022 (MTD)", "type": "Related To" }
+    { "target": "CCS 2022 (Cloud)", "source": "CCS 2022 (MTD)", "type": "Related To" },
+
+    { "target": "FGCS 2022", "source": "STaR-IoT 2022", "type": "Related To" },
+
+    { "target": "INFOCOM 2017", "source": "TIFS 2022", "type": "Extends" }
 
   ]
 }

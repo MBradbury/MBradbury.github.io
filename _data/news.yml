@@ -1,9 +1,31 @@
+- icon: si-file
+  month: November
+  year: 2022
+  name: "New paper"
+  link: /publications/Bradbury_2022_QuantifyingSourceLocation
+  description: 'Quantifying Source Location Privacy Routing Performance via Divergence and Information Loss. In <i>IEEE Transactions on Information Forensics and Security</i>'
+
+- icon: si-file
+  month: November
+  year: 2022
+  name: "New paper"
+  link: /publications/Bradbury_2022_AttributesDimensionsTrust
+  description: 'Attributes and Dimensions of Trust in Secure Systems. In <i>Proceedings of the 1st International Workshop on Socio-technical Cybersecurity and Resilience in the Internet of Things</i>'
+
 - icon: si-volume-up
   month: November
   year: 2022
   name: "Conference Presentation"
   link: /publications/Bradbury_2022_ThreatModellingGuided
   description: 'Presenting "Threat Modelling Guided Trust-based Task Offloading for Resource-constrained Internet of Things" at the <i>ACM Conference on Embedded Networked Sensor Systems (SenSys 2022)</i>'
+
+- icon: si-volume-up
+  month: October
+  year: 2022
+  name: "Article"
+  link: https://www.lancaster.ac.uk/lums/business/sme-programmes/business-insights/the-hackers-the-fish-tank-and-the-casino-how-smart-devices-could-be-a-hidden-flaw-in-your-businesss-cyber-security-measures
+  description: >-
+    Article for Lancaster University Management School: "The hackers, the fish tank and the casino: How smart devices could be a hidden flaw in your business's cyber security measures"
 
 - icon: si-users
   month: September
