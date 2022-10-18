@@ -25,7 +25,7 @@
             <span title="">
             {{ publication.citation | markdownify | remove: "<p>" | remove: "</p>" }}
 
-            {% if publication.bibtex or publication.file or publication.presentation or publication.dataset or publication.project or
+            {% if publication.bibtex or publication.file or publication.poster or publication.presentation or publication.dataset or publication.project or
             publication.collection == 'publications' %}
               <br />
             {% endif %}
