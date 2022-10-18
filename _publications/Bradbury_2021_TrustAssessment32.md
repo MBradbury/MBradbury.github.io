@@ -20,7 +20,7 @@ There is increasing interest in using highly resource-constrained IoT devices to
 
 ## Importance
 
-The key importance of this work is to understand exactly how much of the limited resources needs to be used to implement the middleware. This is because trust models that are used to assess which resource-rich device to offload a task to are typically very large. There is an assumption that "more information" = "better trust model", but the limited resources mean that there is not much space available to store a behavioural trust model. Our implementation investigated the required design decisions to fit such a system on these IoT devices.
+The key importance of this work is to understand exactly how much of the limited resources needs to be used to implement the middleware. This is because trust models that are used to assess which resource-rich device to offload a task to are typically very large. There is an assumption that "more information" equals "a better trust model", but the limited resources mean that there is not much space available to store a behavioural trust model. Our implementation investigated the required design decisions to fit such a system on these IoT devices.
 
 ## Perspectives
 
