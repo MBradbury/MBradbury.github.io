@@ -7,7 +7,6 @@ file: https://raw.githubusercontent.com/MBradbury/publications/master/papers/Tru
 firstpage: https://raw.githubusercontent.com/MBradbury/publications/master/firstpages/TrustCom2015.svg
 presentation: https://raw.githubusercontent.com/MBradbury/publications/master/presentations/TrustCom2015.pdf
 bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/Bradbury_2015_DynamicFakeSource.bib
-extended_by: Bradbury_2018_HybridOnlineProtocols
 project: project-1-PhD
 type: paper
 paper_type: conference

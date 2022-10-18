@@ -7,7 +7,6 @@ file: https://raw.githubusercontent.com/MBradbury/publications/master/papers/Tru
 firstpage: https://raw.githubusercontent.com/MBradbury/publications/master/firstpages/TrustCom2012.svg
 presentation: https://raw.githubusercontent.com/MBradbury/publications/master/presentations/TrustCom2012.pdf
 bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/Jhumka_2012_TowardsUnderstandingSource.bib
-extended_by: Jhumka_2015_Fakesourcebased
 project: project-1-PhD
 type: paper
 paper_type: conference

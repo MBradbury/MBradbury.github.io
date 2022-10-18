@@ -67,14 +67,42 @@ layout: default
           {% include embed-presentation link=fixed_poster_link %}
         {% endif %}
 
-        {% if page.extended_by %}
+
+        {% assign pub_extended_by = page.url | remove_first: "/publications" | remove: "/" %}
+
+        {% assign publications_extends = site.publications | where: "extends", pub_extended_by %}
+        {% assign publications_hidden_extends = site.publications_hidden | where: "extends", pub_extended_by %}
+
+        {% if publications_extends.size != 0 or publications_hidden_extends.size != 0 %}
           <h2 id="ExtendedBy">Extended By</h2>
-          An extended version of the article has been <a href="/publications/{{ page.extended_by }}">published</a>, so should be referred to instead.
+          <p>
+          {% if publications_extends.size != 0 %}
+            An extended version of the article has been <a href="{{ publications_extends.first.url }}">published</a>, so should be referred to instead:<br/>
+            {{ publications_extends.first.citation | markdownify | remove: "<p>" | remove: "</p>" }}
+          {% else %}
+            An extended version of the article has been published so should be referred to instead:<br/>
+            {{ publications_hidden_extends.first.citation | markdownify | remove: "<p>" | remove: "</p>" }}
+          {% endif %}
+          </p>
         {% endif %}
 
         {% if page.extends %}
           <h2 id="Extends">Extends</h2>
-          This paper extends a previous shorter <a href="/publications/{{ page.extends }}">paper</a>.
+          <p>
+          {% assign pub_extends_link = "/publications/" | append: page.extends | append: "/" %}
+          {% assign pub_hidden_extends_link = "/publications_hidden/" | append: page.extends | append: "/" %}
+
+          {% assign publications_extends = site.publications | where: "url", pub_extends_link %}
+          {% assign publications_hidden_extends = site.publications_hidden | where: "url", pub_hidden_extends_link %}
+
+          {% if publications_extends.size == 1 %}
+            This paper extends a previous shorter <a href="{{ pub_extends_link }}">paper</a>:<br/>
+            {{ publications_extends.first.citation | markdownify | remove: "<p>" | remove: "</p>" }}
+          {% else %}
+            This paper extends a previous shorter paper:<br/>
+            {{ publications_hidden_extends.first.citation | markdownify | remove: "<p>" | remove: "</p>" }}
+          {% endif %}
+          </p>
         {% endif %}
 
         {% if page.presentation or page.video %}
