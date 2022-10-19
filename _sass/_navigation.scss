@@ -14,10 +14,8 @@
   padding-left: 2em;
   padding-right: 2em;
   font-family: $sans-serif;
-  -webkit-animation: $intro-transition;
-          animation: $intro-transition;
-  -webkit-animation-delay: 0.30s;
-          animation-delay: 0.30s;
+  animation: $intro-transition;
+  animation-delay: 0.30s;
 
   @include breakpoint($large) {
     padding-left: 1em;
@@ -234,17 +232,12 @@
         height: 4px;
         background: $primary-color;
         width: 100%;
-        -webkit-transition: $global-transition;
-                transition: $global-transition;
-        -webkit-transform: scaleX(0);
-            -ms-transform: scaleX(0);
-                transform: scaleX(0); /* hide*/
+        transition: $global-transition;
+        transform: scaleX(0); /* hide*/
       }
 
       &:hover:before {
-        -webkit-transform: scaleX(1);
-            -ms-transform: scaleX(1);
-                transform: scaleX(1); /* reveal*/
+        transform: scaleX(1); /* reveal*/
       }
     }
   }
