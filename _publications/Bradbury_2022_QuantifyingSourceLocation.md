@@ -17,7 +17,7 @@ There has been much work investigating [Source Location Privacy](/projects/proje
 <!-- readmore -->
 
 <figure>
-    <img src="/images/TIFS-1.svg" alt="..." style="width:100%">
+    <img src="/images/TIFS-1.svg" alt="Protectionless Routing Protocol is transformed by Algorithm 2 into a Protectionless Routing Matrix, which is tranformed by Algorithms 3 and 4 to an SLP Routing Matrix, which needs to be manually tranformed into an SLP Routing Protocol." style="width:100%">
     <figcaption>Methodology developed in the paper. Transform the protectionless routing protocol into protectionless routing matrix and the protectionless routing matrix into a SLP routing matrix. However, the transformation of the SLP routing matrix back into an SLP routing protocol needs to be performed manually.</figcaption>
 </figure>
 
@@ -26,25 +26,25 @@ This technique allowed for the transformation of the below protectionless routin
 <div style="display: flex;">
   <div style="flex: 25%; padding: 5px;">
     <figure>
-        <img src="/images/TIFS-P.svg" alt="..." style="width:100%">
+        <img src="/images/TIFS-P.svg" alt="A protectionless routing protocol demonstrated on a 3 by 3 grid. The source is at the top left and the sink in the centre. Messages take the shortest path from source to sink." style="width:100%">
         <figcaption>Protectionless Routing Matrix</figcaption>
     </figure>
   </div>
   <div style="flex: 25%; padding: 5px;">
     <figure>
-        <img src="/images/TIFS-PA.svg" alt="..." style="width:100%">
+        <img src="/images/TIFS-PA.svg" alt="Attacker movement in response to the protectionless routing protocol shown on a 3 by 3 grid. The attacker takes the shortest path from sink to source." style="width:100%">
         <figcaption>Attacker movement for Protectionless Routing Matrix [Capture time=2]</figcaption>
     </figure>
   </div>
   <div style="flex: 25%; padding: 5px;">
     <figure>
-        <img src="/images/TIFS-S.svg" alt="..." style="width:100%">
+        <img src="/images/TIFS-S.svg" alt="An SLP routing protocol demonstrated on a 3 by 3 grid. The source is at the top left and the sink in the centre. Messages take a long path from source to sink by following nodes around the edge of the network before being delivered at the sink." style="width:100%">
         <figcaption>SLP-aware Routing Matrix</figcaption>
     </figure>
   </div>
   <div style="flex: 25%; padding: 5px;">
     <figure>
-        <img src="/images/TIFS-SA.svg" alt="..." style="width:100%">
+        <img src="/images/TIFS-SA.svg" alt="Attacker movement in response to the SLP routing protocol shown on a 3 by 3 grid. The attacker takes the long path around the edge of the network from sink to source caused by the SLP routing protocol." style="width:100%">
         <figcaption>Attacker movement for SLP-aware Routing Matrix [Capture time=6]</figcaption>
     </figure>
   </div>
@@ -53,23 +53,23 @@ This technique allowed for the transformation of the below protectionless routin
 Using the measures of entropy and divergence we can see that while there is no uncertainty in the route taken in the SLP-aware routing matrix, the divergence when the adversary starts at the sink (node 5) is maximal for six steps. This is longer than the safety period.
 
 <div>
-<img src="/images/TIFS-legend.svg" alt="..." style="width:100%">
+<img src="/images/TIFS-legend.svg" alt="Legend showing the line style for the 9 potential starting locations." style="width:100%">
 <div style="display: flex;">
   <div style="flex: 33%; padding: 5px;">
     <figure>
-        <img src="/images/TIFS-HN.svg" alt="..." style="width:100%">
+        <img src="/images/TIFS-HN.svg" alt="Entropy of the protectionless routing matrix showing that when the adversary starts at the sink or nodes far from the source, then there is uncertainty for the first few steps before the entropy drops to 0." style="width:100%">
         <figcaption>Entropy of Protectionless Routing Matrix</figcaption>
     </figure>
   </div>
   <div style="flex: 33%; padding: 5px;">
     <figure>
-        <img src="/images/TIFS-HS.svg" alt="..." style="width:100%">
+        <img src="/images/TIFS-HS.svg" alt="Entropy of the protectionless routing matrix showing that there is no entropy for all adversary start locations." style="width:100%">
         <figcaption>Entropy of SLP-aware Routing Matrix</figcaption>
     </figure>
   </div>
   <div style="flex: 33%; padding: 5px;">
     <figure>
-        <img src="/images/TIFS-JSD.svg" alt="..." style="width:100%">
+        <img src="/images/TIFS-JSD.svg" alt="Divergence between the protectionless and SLP routing matrices. When the adversary starts at the sink the routing protocols diverge for 6 steps, which is the longest period of time the matrices diverge for any start locations." style="width:100%">
         <figcaption>Divergence between the two</figcaption>
     </figure>
   </div>
