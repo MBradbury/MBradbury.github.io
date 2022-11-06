@@ -7,6 +7,7 @@ file: https://raw.githubusercontent.com/MBradbury/publications/master/papers/TOS
 firstpage: https://raw.githubusercontent.com/MBradbury/publications/master/firstpages/TOSN2022.svg
 bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/Bradbury_2022_ThreatModellingGuided.bib
 dataset: https://doi.org/10.5281/zenodo.4568700
+presentation: https://raw.githubusercontent.com/MBradbury/publications/master/presentations/SenSys2022.pdf
 extends: Bradbury_2021_TrustAssessment32
 project: project-6-TEAM
 type: paper
