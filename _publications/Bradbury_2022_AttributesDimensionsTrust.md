@@ -6,6 +6,7 @@ abstract: "What is it to be trusted? This is an important question as trust is i
 file: https://raw.githubusercontent.com/MBradbury/publications/master/papers/STaR-IoT2022.pdf
 firstpage: https://raw.githubusercontent.com/MBradbury/publications/master/firstpages/STaR-IoT2022.svg
 bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/Bradbury_2022_AttributesDimensionsTrust.bib
+presentation: https://raw.githubusercontent.com/MBradbury/publications/master/presentations/STaR-IoT2022.pdf
 type: paper
 paper_type: workshop
 ---
