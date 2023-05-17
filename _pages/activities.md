@@ -43,6 +43,7 @@ sitemap: true
  * Vehicular Communications ([VEHCOM](https://www.journals.elsevier.com/vehicular-communications))
  * IEEE Transactions on Software Engineering ([TSE](https://www.computer.org/csdl/journal/ts))
  * [Scientific Reports](https://www.nature.com/srep/)
+ * IEEE Transactions on Network and Service Management ([TNSM](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4275028))
 
 {% comment %}
 ## Outreach
