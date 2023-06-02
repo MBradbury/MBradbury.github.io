@@ -4,8 +4,8 @@ excerpt: "In March 2017 the UK's Office for Nuclear Regulation (ONR) introduced 
 duration: "August 2022 &ndash; March 2023"
 location: "School of Computing and Communications, Lancaster University"
 image:
-  src: "..."
-  alt: "..."
+  src: /images/onr-hat.jpg
+  alt: "A hard hat with the ONR logo on it, in an office."
 collection: projects
 ---
 
