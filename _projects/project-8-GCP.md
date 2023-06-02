@@ -9,7 +9,7 @@ image:
 collection: projects
 ---
 
-Connectivity and automation are increasingly being introduced to physical systems that previously lacked them. This introduces new threats to these systems, including by revealing sensitive information to an adversary making observations on the system and the *context* in which the system takes *actions*. Many domains (e.g., [wireless sensor networks](/projects/project-1-PhD), [vehicles](/publications/Bradbury_2020_PrivacyChallengesProtecting)) have independently had context privacy preserving techniques developed for these threats (e.g., [onion routing](https://doi.org/10.1109/49.668972), [change in identity](https://doi.org/10.1109/VNC.2009.5416380), [change in behaviour]https://doi.org/10.1145/1029102.1029117)).
+Connectivity and automation are increasingly being introduced to physical systems that previously lacked them. This introduces new threats to these systems, including by revealing sensitive information to an adversary making observations on the system and the *context* in which the system takes *actions*. Many domains (e.g., [wireless sensor networks](/projects/project-1-PhD), [vehicles](/publications/Bradbury_2020_PrivacyChallengesProtecting)) have independently had context privacy preserving techniques developed for these threats (e.g., [onion routing](https://doi.org/10.1109/49.668972), [change in identity](https://doi.org/10.1109/VNC.2009.5416380), [change in behaviour](https://doi.org/10.1145/1029102.1029117)).
 
 ![Example privacy threats at various stages of an arbitrary system performing actions](/images/gcp-contextprivacy.svg)
 
