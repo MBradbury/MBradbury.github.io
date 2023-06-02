@@ -41,7 +41,7 @@ This research project will address how controls should be introduced on actions 
 
 Role: Project Lead ([previously called](https://www.ukri.org/news/ukri-revises-project-role-types) Principle Investigator)
 
-Funder: [Engineering and Physical Sciences Research Council [EP/X040038/1]](https://epsrc.ukri.org)
+Funder: [Engineering and Physical Sciences Research Council](https://epsrc.ukri.org) [EP/X040038/1]
 
 Duration: {{ page.duration }}
 
