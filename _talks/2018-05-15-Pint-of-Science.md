@@ -17,7 +17,3 @@ image:
 <!-- readmore -->
 
 ![Pint of Science Website](/images/pint-of-science-Website.webp)
-
-{% comment %}
-![Pint of Science Giving Presentation](/images/pint-of-science-presentation.jpg)
-{% endcomment %}
