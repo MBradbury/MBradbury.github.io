@@ -14,6 +14,8 @@ I am a Lecturer (~Assistant Professor) in the [Security Systems Research Group](
 
 If you are interested in undertaking a PhD on investigating technical privacy or security challenges in resource-constrained/autonomous cyber physical systems, please contact me by email.
 
+I currently have a funded Postdoc position and PhD position (for UK home students) to undertake a project on [Generalised Context Privacy](/projects/project-8-GCP), please contact me for more information.
+
 ## Research
 
 My research has explored a variety of issues involving security, context privacy and trust assessment in resource-constrained systems. This has ranged from context privacy issues in [vehicles](/publications/Bradbury_2020_PrivacyChallengesProtecting) and [wireless sensor networks](/projects/project-1-PhD/), and security of different aspects of vehicular systems (including: [system analysis](/projects/project-2-CAPRI), [real-world testing](/projects/project-3-IoT-TRaM) and [PNT](/projects/project-5-PNT)). I am interested in developing and testing practical solutions to security issues based on theoretical foundations.
