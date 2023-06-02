@@ -1,6 +1,6 @@
 ---
 title: "IoT Transport and Mobility Demonstrator"
-excerpt: "With the vehicle-to-vehicle communications being used to facilitated new functionality, there is a need for new security mechanisms to protect this communication. Much work has already been undertaken to develop these mechanisms, but they are rarely tested in real-world environments. This project took existing security and privacy technqiues and performed a deployment at three sites in the UK to test their efficacy."
+excerpt: "With the vehicle-to-vehicle communications being used to facilitated new functionality, there is a need for new security mechanisms to protect this communication. Much work has already been undertaken to develop these mechanisms, but they are rarely tested in real-world environments. This project took existing security and privacy techniques and performed a deployment at three sites in the UK to test their efficacy."
 duration: "August 2018 &ndash; May 2019"
 location: "WMG, University of Warwick"
 image:
@@ -38,6 +38,8 @@ In this video a privacy preserving group signature scheme is shown. Group signat
 # Information
 
 Role: Research Fellow
+
+Funder: [Lloyd's Register Foundation](https://www.lrfoundation.org.uk/en/) grant [GA\100186]
 
 Duration: {{ page.duration }}
 

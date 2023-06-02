@@ -19,6 +19,8 @@ Thus far the project has delivered a [prototype middleware](https://github.com/M
 
 Role: Research Co-Investigator
 
+Funder: [The PETRAS National Centre of Excellence for IoT Systems Cybersecurity](petras-iot.org/) [[EPSRC Grant EP/S035362/1](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/S035362/1)]
+
 Duration: {{ page.duration }}
 
 People:

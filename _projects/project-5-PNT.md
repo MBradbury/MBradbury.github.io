@@ -17,6 +17,8 @@ For PNT Cyber Resilience, WMG researchers, led by [Dr Matthew Higgins](https://w
 
 Role: Research Fellow
 
+Funder: [Zenzic](https://zenzic.io) and [Innovate UK](https://gtr.ukri.org/projects?ref=133896)
+
 Duration: {{ page.duration }}
 
 People:

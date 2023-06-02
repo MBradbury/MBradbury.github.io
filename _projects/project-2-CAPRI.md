@@ -17,6 +17,8 @@ As part of the [CAPRI project](https://caprimobility.com/about/support) I worked
 
 Role: Research Fellow
 
+Funder: [Innovate UK CAPRI Project](https://gtr.ukri.org/projects?ref=103288#/tabOverview) [TS/P012264/1]
+
 Duration: {{ page.duration }}
 
 People:
