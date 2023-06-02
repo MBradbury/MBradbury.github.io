@@ -7,7 +7,7 @@ venue: "PETRAS' At The Edge series"
 publishDate: 2021-10-27
 location: "Online Podcast"
 image:
-  src: /images/PETRAS-at-the-edge.jpg
+  src: /images/PETRAS-at-the-edge.webp
   alt: "PETRAS At the Edge Podcast"
 ---
 
