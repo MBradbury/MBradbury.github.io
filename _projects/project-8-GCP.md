@@ -11,7 +11,13 @@ collection: projects
 
 Connectivity and automation are increasingly being introduced to physical systems that previously lacked them. This introduces new threats to these systems, including by revealing sensitive information to an adversary making observations on the system and the *context* in which the system takes *actions*. Many domains (e.g., [wireless sensor networks](/projects/project-1-PhD), [vehicles](/publications/Bradbury_2020_PrivacyChallengesProtecting)) have independently had context privacy preserving techniques developed for these threats (e.g., [onion routing](https://doi.org/10.1109/49.668972), [change in identity](https://doi.org/10.1109/VNC.2009.5416380), [change in behaviour](https://doi.org/10.1145/1029102.1029117)).
 
-![Example privacy threats at various stages of an arbitrary system performing actions](/images/gcp-contextprivacy.svg)
+
+<figure class="fig-align-center half">
+<img src="/images/gcp-contextprivacy.svg" alt="Different privacy threats at different stages conveying information to an adversary. Context privacy threat via direct observations. Content privacy threats to data." />
+<figcaption>
+Example privacy threats at various stages of an arbitrary system performing actions.
+</figcaption>
+</figure>
 
 ## Importance
 
@@ -27,7 +33,12 @@ This project will:
 
 By doing so, when novel context privacy threats are identified, only domain-specific translators need to be developed. This allows for faster and more agile responses to novel context privacy threats, thus minimising information conveyed by system actions to an adversary &mdash; protecting both the system and its users.
 
-![Using context privacy solutions for the general model and applying them to specific applications](/images/gcp-solution.svg)
+<figure class="fig-align-center half">
+<img src="/images/gcp-solution.svg" alt="Using domain specific translators to apply generalised context privacy controls for various applications." />
+<figcaption>
+Using context privacy solutions for the general model and applying them to specific applications.
+</figcaption>
+</figure>
 
 ## Research Questions
 
