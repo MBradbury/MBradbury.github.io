@@ -15,7 +15,7 @@ As part of my [PhD](/projects/project-1-PhD/) I investigated approaches to reduc
 
 <!-- readmore -->
 
-<iframe src="https://open.spotify.com/embed/episode/10bKScFTl23FunPireEwY8?utm_source=generator&theme=0" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="encrypted-media; picture-in-picture"></iframe>
+<iframe src="https://open.spotify.com/embed/episode/10bKScFTl23FunPireEwY8?utm_source=generator&theme=0" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="encrypted-media; picture-in-picture" loading="lazy"></iframe>
 
 This is part of a [series of podcasts](https://petras-iot.org/update/at-the-edge-podcast/) produced by PETRAS in the lead up to [COP26](https://ukcop26.org/).
 
