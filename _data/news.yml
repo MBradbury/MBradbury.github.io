@@ -1,3 +1,10 @@
+- icon: si-volume-up
+  month: June
+  year: 2023
+  name: "Outreach"
+  link: /talks/2023-06-30-CyberBriefing
+  description: 'Podcast on privacy threats to cyber physical systems'
+
 - icon: si-desktop
   month: June
   year: 2023
