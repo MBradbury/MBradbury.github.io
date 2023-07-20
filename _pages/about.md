@@ -14,8 +14,8 @@ I am a Lecturer (~Assistant Professor) in the [Security Systems Research Group](
 
 If you are interested in undertaking a PhD on investigating technical privacy or security challenges in resource-constrained/autonomous cyber physical systems, please contact me by email.
 
-* Senior Research Associate (18 Months) researching formal specification and verification in cyber physical systems. We are interested in properties involving the information revealed to an adversary. [Apply here](https://hr-jobs.lancs.ac.uk/Vacancy.aspx?ref=0228-23), closing date: 14th July 2023.
-* Senior Research Associate (3 Years) researching [Generalised Context Privacy](/projects/project-8-GCP) in cyber physical systems. Application link to be provided shortly.
+* Senior Research Associate (18 Months) researching formal specification and verification in cyber physical systems. We are interested in properties involving the information revealed to an adversary. [Apply here](https://hr-jobs.lancs.ac.uk/Vacancy.aspx?ref=0228-23), closing date: 18th August 2023.
+* Senior Research Associate (3 Years) researching [Generalised Context Privacy](/projects/project-8-GCP) in cyber physical systems. [Apply here](https://hr-jobs.lancs.ac.uk/Vacancy.aspx?ref=0726-23), closing date: 11th August 2023.
 * PhD (fully funded for students with UK home fee status) on [Generalised Context Privacy](/projects/project-8-GCP) in cyber physical systems. [Apply here](https://www.lancaster.ac.uk/scc/study/phd/phd-opportunities/), expected start October 2023 (flexible later start also available).
 
 ## Research
