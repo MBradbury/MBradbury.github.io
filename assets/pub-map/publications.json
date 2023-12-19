@@ -196,6 +196,12 @@
       "ident": "TIFS 2022",
       "family": "Source Location Privacy",
       "key": "Bradbury_2022_QuantifyingSourceLocation"
+    },
+
+    {
+      "ident": "TDSC 2023",
+      "family": "Vehicle Security",
+      "key": "Farrell_2023_SecurityMindedVerification"
     }
   ],
 
@@ -248,7 +254,10 @@
 
     { "target": "FGCS 2022", "source": "STaR-IoT 2022", "type": "Related To" },
 
-    { "target": "INFOCOM 2017", "source": "TIFS 2022", "type": "Extends" }
+    { "target": "INFOCOM 2017", "source": "TIFS 2022", "type": "Extends" },
+
+    { "target": "SEFM 2019", "source": "TDSC 2023", "type": "Extends" },
+    { "target": "IoT-TRaM 2019", "source": "TDSC 2023", "type": "Related To" }
 
   ]
 }

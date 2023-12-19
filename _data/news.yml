@@ -1,3 +1,17 @@
+- icon: si-file
+  month: December
+  year: 2023
+  name: "New paper"
+  link: /publications/Farrell_2023_SecurityMindedVerification
+  description: 'Security-Minded Verification of Cooperative Awareness Messages. In <i>IEEE Transactions on Dependable and Secure Computing</i>'
+
+- icon: si-volume-up
+  month: November
+  year: 2023
+  name: "Invited Talk"
+  link: /talks/2023-11-15-Lancashire-Cyber-Festival
+  description: 'Invited talk at the Lancashire Cyber Festival hosted by UCLAN'
+
 - icon: si-volume-up
   month: June
   year: 2023
