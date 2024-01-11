@@ -1,7 +1,7 @@
 ---
 title: "Generalised Context Privacy"
 excerpt: "This project will develop techniques to reduce information adversaries can gain from observing cyber physical systems. Using this the capability to develop new context privacy techniques for new systems and scenarios faster will be provided so novel context privacy threats can be rapidly addressed. Theoretical foundations will be used to support practical deployments."
-duration: "3 Years (Dates TBA)"
+duration: "January 2024 &ndash; December 2026"
 location: "School of Computing and Communications, Lancaster University"
 image:
   src: /images/gcp-action.svg
