@@ -1,4 +1,11 @@
 - icon: si-file
+  month: February
+  year: 2024
+  name: "New paper"
+  link: /publications/Manzoor_2024_EnablingMultiLayer
+  description: 'Enabling Multi-Layer Threat Analysis in Dynamic Cloud Environments. In <i>IEEE Transactions on Cloud Computing</i>'
+
+- icon: si-file
   month: December
   year: 2023
   name: "New paper"

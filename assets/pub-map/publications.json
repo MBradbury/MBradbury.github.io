@@ -202,6 +202,12 @@
       "ident": "TDSC 2023",
       "family": "Vehicle Security",
       "key": "Farrell_2023_SecurityMindedVerification"
+    },
+
+    {
+      "ident": "TCC 2024",
+      "family": "Cloud Security",
+      "key": "Manzoor_2024_EnaqblingMultiLayer"
     }
   ],
 
@@ -257,7 +263,9 @@
     { "target": "INFOCOM 2017", "source": "TIFS 2022", "type": "Extends" },
 
     { "target": "SEFM 2019", "source": "TDSC 2023", "type": "Extends" },
-    { "target": "IoT-TRaM 2019", "source": "TDSC 2023", "type": "Related To" }
+    { "target": "IoT-TRaM 2019", "source": "TDSC 2023", "type": "Related To" },
+
+    { "target": "CCS 2022 (Cloud)", "source": "TCC 2024", "type": "Extends" }
 
   ]
 }
