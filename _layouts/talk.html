@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% include base_path %}
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
@@ -32,9 +33,15 @@ layout: default
             {% elsif page.publishDate %}
               <i class="fas si-calendar" aria-hidden="true"></i> <strong>Date:</strong> <time datetime="{{ page.publishDate | date_to_xmlschema }}">{{ page.publishDate | date: site.date_format }}</time>
             {% endif %}
-            <br />
             {% if page.type %}
+              <br />
               <i class="fas si-map-marker" aria-hidden="true"></i> <strong>{{page.type}}</strong> at <span itemprop="contentLocation">{{ page.venue }}, {{page.location}}</span>
+            {% endif %}
+            {% if page.project %}
+              {% assign project_url = "_projects/" | append: page.project | append: ".md" %}
+              {% assign project = site.projects | where: "relative_path", project_url | first %}
+              <br />
+              <i class="fas si-project-diagram" aria-hidden="true"></i> <strong>Project:</strong> <a href="{{ project.url }}">{{ project.title }}</a>
             {% endif %}
           </p>
 

@@ -55,6 +55,12 @@ layout: default
         {% include publication-list publications=publications %}
         {% endif %}
 
+        {% assign talks = site.talks | where: "project", page_basename | sort: 'publishDate' %}
+        {% if talks.size > 0 %}
+        <h2 id="Talks">Talks</h2>
+        {% include talk-list talks=talks %}
+        {% endif %}
+
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 

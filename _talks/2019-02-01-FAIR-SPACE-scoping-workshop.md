@@ -9,6 +9,7 @@ location: "London, UK"
 image:
   src: /images/SpaceSecurityWorkshop.webp
   alt: Workshop venue
+project: project-4-FAIR-SPACE
 ---
 
 As part of the [FAIR-SPACE](/projects/project-4-FAIR-SPACE) project a workshop was held with members of academia and industry to identify cyber-security issue with robotic systems deployed in space and to scope out which of these issues were of high priority. [Dr. Marie Farell](https://www.research.manchester.ac.uk/portal/marie.farrell.html) and myself led the discussion with the attendees after introductory talks from [Prof. Michael Fisher](https://www.research.manchester.ac.uk/portal/michael.fisher.html) and [Prof. Carsten Maple](https://warwick.ac.uk/fac/sci/wmg/people/profile/?wmgid=1102).
