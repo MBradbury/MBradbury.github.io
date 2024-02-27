@@ -39,6 +39,9 @@ layout: default
             {% if page.file %}
              [<a href="{{ page.file }}"><i class="fas si-file-pdf"></i> file</a>] 
             {% endif %}
+            {% if page.supplemental %}
+             [<a href="{{ page.supplemental }}"><i class="fas si-file-pdf"></i> supplemental</a>] 
+            {% endif %}
             {% if page.poster %}
              [<a href="{{ page.poster }}"><i class="fas si-file-image"></i> poster</a>] 
             {% endif %}

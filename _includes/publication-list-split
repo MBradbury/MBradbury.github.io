@@ -48,6 +48,9 @@
             {% if publication.file %}
              [<a href="{{ publication.file }}"><i class="fas si-file-pdf" aria-hidden="true"></i> file</a>] 
             {% endif %}
+            {% if publication.supplemental %}
+             [<a href="{{ publication.supplemental }}"><i class="fas si-file-pdf"></i> supplemental</a>] 
+            {% endif %}
             {% if publication.poster %}
              [<a href="{{ publication.poster }}"><i class="fas si-file-image" aria-hidden="true"></i> poster</a>] 
             {% endif %}
