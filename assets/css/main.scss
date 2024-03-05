@@ -10,6 +10,8 @@
  *
 */
 
+$base-path : "{{ '/' | absolute_url }}";
+
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
 @import "mixins";

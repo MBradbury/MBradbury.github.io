@@ -1,10 +1,10 @@
 @font-face {
 	font-family: "fontite optimized icon pack";
-	src: url(/assets/fonts/site-icons.woff2) format("woff2"),
-	     url(/assets/fonts/site-icons.woff) format("woff"),
-	     url(/assets/fonts/site-icons.ttf) format("truetype"),
-	     url(/assets/fonts/site-icons.svg) format("svg"),
-	     url(/assets/fonts/site-icons.eot) format("embedded-opentype");
+	src: url(#{$base-path}/assets/fonts/site-icons.woff2) format("woff2"),
+	     url(#{$base-path}/assets/fonts/site-icons.woff) format("woff"),
+	     url(#{$base-path}/assets/fonts/site-icons.ttf) format("truetype"),
+	     url(#{$base-path}/assets/fonts/site-icons.svg) format("svg"),
+	     url(#{$base-path}/assets/fonts/site-icons.eot) format("embedded-opentype");
 }
 
 .icon {
