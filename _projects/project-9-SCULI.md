@@ -17,5 +17,13 @@ Funder: [Engineering and Physical Sciences Research Council](https://epsrc.ukri.
 
 Duration: {{ page.duration }}
 
+People:
+ * [Prof. Awais Rashid](https://research-information.bris.ac.uk/en/persons/awais-rashid)
+ * [Prof. Sadie Creese](https://www.cs.ox.ac.uk/people/sadie.creese/)
+ * [Prof. Neeraj Suri](https://www.lancaster.ac.uk/scc/about-us/people/neeraj-suri)
+ * [Dr. Ivan Flechais](https://www.cs.ox.ac.uk/people/ivan.flechais/)
+ * [Dr. Sana Belguith](https://research-information.bris.ac.uk/en/persons/sana-belguith)
+ * [Dr. Sridhar Adepu](https://research-information.bris.ac.uk/en/persons/sridhar-adepu)
+
 Links:
  * [Announcement](https://www.lancaster.ac.uk/news/lancaster-researchers-to-help-lead-the-way-in-making-future-digital-infrastructures-cyber-secure)
