@@ -62,6 +62,7 @@ icons = [
     'book',
     'check-square',
     'desktop',
+    'code',
 ]
 
 #[sources.fonts.fa-regular]
