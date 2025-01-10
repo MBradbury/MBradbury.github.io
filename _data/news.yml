@@ -1,3 +1,23 @@
+- icon: si-file
+  month: January
+  year: 2025
+  name: "New paper"
+  link: /publications/Rashid_2025_SecuringCompromisedSystem
+  description: '<del>Security-by-design</del> Securing a compromised system. In <i>Rossfest Symposium</i>'
+
+- icon: si-file
+  month: January
+  year: 2025
+  name: "New paper"
+  link: /publications/Cannizzaro_2025_NewSpaceNewThreats
+  description: 'NewSpace, New Threats -- Exploring the Influence of New Entrants to the Space Industry on Cybersecurity. In <i>IEEE AeroConf</i>'
+
+- icon: si-briefcase
+  month: July
+  year: 2024
+  name: "Promotion"
+  description: 'Promotion to Senior Lecturer'
+
 - icon: si-desktop
   month: April
   year: 2024

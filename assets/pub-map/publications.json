@@ -208,6 +208,18 @@
       "ident": "TCC 2024",
       "family": "Cloud Security",
       "key": "Manzoor_2024_EnaqblingMultiLayer"
+    },
+
+    {
+      "ident": "AeroConf 2025",
+      "family": "Space Security",
+      "key": "Cannizzaro_2025_NewSpaceNewThreats"
+    },
+
+    {
+      "ident": "Rossfest 2025",
+      "family": "System Security",
+      "key": "Rashid_2025_SecuringCompromisedSystem"
     }
   ],
 

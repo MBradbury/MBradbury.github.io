@@ -8,7 +8,7 @@ redirect_from:
 sitemap: true
 ---
 
-I am a Lecturer (~Assistant Professor) in the [Security Systems Research Group](https://ssg.lancs.ac.uk/) of the [Lancaster University](https://www.lancaster.ac.uk) [School of Computing and Communications](https://www.lancaster.ac.uk/scc/).
+I am a Senior Lecturer (~Associate Professor) in the [Security Systems Research Group](https://ssg.lancs.ac.uk/) of the [Lancaster University](https://www.lancaster.ac.uk) [School of Computing and Communications](https://www.lancaster.ac.uk/scc/).
 
 ## My Open Positions
 
