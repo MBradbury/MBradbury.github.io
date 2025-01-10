@@ -3,6 +3,9 @@ title: "Securing Convergent Ultra-large Scale Infrastructures Programme"
 excerpt: "The SCULI programme will draw on a unique mix of expertise, spanning sociotechnical approaches, theoretical and applied computer science, to transform the way we conceptualise and deliver cyber security in a world with connectivity at unprecedented scale, prevalence of legacy and non-legacy systems, complex technology stacks, complicated supply chains and myriad intersections of humans and technologies."
 duration: "July 2024 &ndash; June 2029"
 location: "School of Computing and Communications, Lancaster University"
+image:
+  src: /images/SCULI_rgb_with-strap-1-300x229.jpg
+  alt: ""
 collection: projects
 ---
 
