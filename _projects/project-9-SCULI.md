@@ -4,7 +4,7 @@ excerpt: "The SCULI programme will draw on a unique mix of expertise, spanning s
 duration: "July 2024 &ndash; June 2029"
 location: "School of Computing and Communications, Lancaster University"
 image:
-  src: /images/SCULI_rgb_with-strap-1-300x229.jpg
+  src: /images/SCULI_cmyk_with_strap.svg
   alt: ""
 collection: projects
 ---
