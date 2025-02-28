@@ -9,7 +9,7 @@ image:
 collection: projects
 ---
 
-Large critical infrastructures are subject to serious disruptions due to cyber attacks, so improving their security is of significant importance. However, it is also important to move past viewing critical infrastructure as isolated, communication, timing, power, water, transport, smart cities, smart farming and many others are all interconnected. This interconnectivity is vital to consider when attemtping to secure this infrasturcture. The Securing Convergent Ultra-large Scale Infrastructures (SCULI) programme will investigate what guarantees can be provided and how to orchestrate interactions under the assumption of partially trusted and partially compromised infrastructures.
+Large critical infrastructures are subject to serious disruptions due to cyber attacks, so improving their security is of significant importance. However, it is also important to move past viewing critical infrastructure as isolated, communication, timing, power, water, transport, smart cities, smart farming and many others are all interconnected. This interconnectivity is vital to consider when attempting to secure this infrastructure. The Securing Convergent Ultra-large Scale Infrastructures (SCULI) programme will investigate what guarantees can be provided and how to orchestrate interactions under the assumption of partially trusted and partially compromised infrastructures.
 
 
 ## Information
@@ -26,7 +26,10 @@ People:
  * [Prof. Neeraj Suri](https://www.lancaster.ac.uk/scc/about-us/people/neeraj-suri)
  * [Dr. Ivan Flechais](https://www.cs.ox.ac.uk/people/ivan.flechais/)
  * [Dr. Sana Belguith](https://research-information.bris.ac.uk/en/persons/sana-belguith)
- * [Dr. Sridhar Adepu](https://research-information.bris.ac.uk/en/persons/sridhar-adepu)
+
+Lancaster Research Team:
+ * [Dr. Sourav Saha](https://www.lancaster.ac.uk/scc/about-us/people/sourav-saha)
+ * [Dr. Luis Araujo Rodriguez](https://www.lancaster.ac.uk/scc/about-us/people/luis-araujo-rodriguez)
 
 Links:
  * [Announcement](https://www.lancaster.ac.uk/news/lancaster-researchers-to-help-lead-the-way-in-making-future-digital-infrastructures-cyber-secure)
