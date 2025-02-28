@@ -209,7 +209,7 @@ li ol {
 
 figure {
   display: flex;
-  flex-flow: column;
+  flex-flow: row;
   justify-content: flex-start;
   flex-wrap: wrap;
   margin: 1em 0;
@@ -221,9 +221,15 @@ figure {
   }
 
   img {
+    object-fit: contain;
     width: 100%;
     border-radius: $border-radius;
     transition: $global-transition;
+  }
+
+  figcaption {
+    align-self: flex-start;
+    width: 100%;
   }
 
   > a {
@@ -237,13 +243,6 @@ figure {
         width: calc(75% - 0.5em);
       }
     }
-
-    figcaption {
-      align-self: flex-start;
-      @include breakpoint($small) {
-        width: calc(75% - 0.5em);
-      }
-    }
   }
 
   &.half {
@@ -253,25 +252,11 @@ figure {
         width: calc(50% - 0.5em);
       }
     }
-
-    figcaption {
-      align-self: flex-start;
-      @include breakpoint($small) {
-        width: calc(50% - 0.5em);
-      }
-    }
   }
 
   &.third {
     > a,
     > img {
-      @include breakpoint($small) {
-        width: calc(33.3333% - 0.5em);
-      }
-    }
-
-    figcaption {
-      align-self: flex-start;
       @include breakpoint($small) {
         width: calc(33.3333% - 0.5em);
       }
