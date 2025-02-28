@@ -12,6 +12,13 @@
   link: /publications/Cannizzaro_2025_NewSpaceNewThreats
   description: 'NewSpace, New Threats -- Exploring the Influence of New Entrants to the Space Industry on Cybersecurity. In <i>IEEE AeroConf</i>'
 
+- icon: si-volume-up
+  month: September
+  year: 2024
+  name: "Invited Talk"
+  link: /talks/2024-09-05-security-teaching
+  description: 'Invited talk on Teaching Penetration Testing'
+
 - icon: si-briefcase
   month: July
   year: 2024
@@ -24,6 +31,13 @@
   name: "Funding Awarded"
   link: /projects/project-9-SCULI
   description: 'EPSRC Programme Grant: Securing Convergent Ultra-large Scale Infrastructures'
+
+- icon: si-volume-up
+  month: February
+  year: 2024
+  name: "Invited Talk"
+  link: /talks/2024-02-26-Manchester
+  description: 'Invited guest lecture at Manchester on Context Privacy'
 
 - icon: si-file
   month: February
