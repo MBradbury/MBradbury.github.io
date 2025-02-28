@@ -25,7 +25,7 @@ Two of the implemented techniques were tested at Millbrook Proving Ground during
 
 ## Authentication Prioritisation
 
-In this video a priority value is calculated for each messages received. These received messages are then inserted into a priority queue, and messages with a higher priority have their digital signature verified first.
+In this video a priority value is calculated for each message received. These received messages are then inserted into a priority queue, and messages with a higher priority have their digital signature verified first.
 
 <video controls="" style="max-width: 100%; max-height: 100%;"><source src="/videos/millbrook-oppauth-2019-04-12-am-txrx.webm" type="video/webm"/></video>
 

@@ -29,7 +29,7 @@ This project will:
 
 1. develop a suite of context privacy controls for an arbitrary system,
 2. demonstrate their efficacy via suitable quantification, and then
-3. using example systems, develop domain-specific translators such that the general context privacy techniques can applied to real-world systems.
+3. using example systems, develop domain-specific translators such that the general context privacy techniques can be applied to real-world systems.
 
 By doing so, when novel context privacy threats are identified, only domain-specific translators need to be developed. This allows for faster and more agile responses to novel context privacy threats, thus minimising information conveyed by system actions to an adversary &mdash; protecting both the system and its users.
 
@@ -50,7 +50,7 @@ This research project will address how controls should be introduced on actions 
 
 ## Information
 
-Role: Principle Investigator
+Role: Principal Investigator
 
 Funder: [Engineering and Physical Sciences Research Council](https://epsrc.ukri.org) [[EP/X040038/1](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/X040038/1)]
 

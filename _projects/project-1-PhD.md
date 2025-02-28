@@ -13,7 +13,7 @@ collection: projects
 
 A wireless sensor is a basic computer with some sensors and a wireless radio. You can think of it in a similar way to a phone. Your phone has a wireless radio that lets it talk to a base station, this communication link is where your phone calls and internet access come from. The difference is that a sensor node doesn't have a similar range, instead they just use this radio to talk to each of the close by nodes. Using this wireless link the nodes then send interesting data gathered about light or temperature or humidity back to someone who can analyse this information.
 
-The image shows what these nodes look like. In reality they are very small and the largest part of them are the two AA batteries that are required to power the nodes. An interesting thing about developing software for sensor networks is that nodes are expected to run on small batteries for a long period of time. So software being developed for these nodes needs to take energy into consideration.
+The image shows what these nodes look like. In reality, they are very small and the largest part of them are the two AA batteries that are required to power the nodes. An interesting thing about developing software for sensor networks is that nodes are expected to run on small batteries for a long period of time. So software being developed for these nodes needs to take energy into consideration.
 
 ## Source Location Privacy
 
