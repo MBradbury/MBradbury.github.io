@@ -29,4 +29,4 @@ Using ILP to identify an optimal solution led to the discovery of an approach th
 
 ## Perspectives
 
-Techniques such as ILP are useful in understanding what the optimal behaviour of a system could be, however, in practise the assumptions needed to obtain this optimal result (such as reliable wireless links) or global knowledge are unlikely to be present. This does not make technqiues to obtain unusable, but care must be taken in translating optimal results into algorithms that aim to replicate them closely.
+Techniques such as ILP are useful in understanding what the optimal behaviour of a system could be, however, in practise the assumptions needed to obtain this optimal result (such as reliable wireless links) or global knowledge are unlikely to be present. This does not make techniques to obtain unusable, but care must be taken in translating optimal results into algorithms that aim to replicate them closely.

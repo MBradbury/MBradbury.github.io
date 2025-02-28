@@ -12,7 +12,7 @@ type: paper
 paper_type: journal
 ---
 
-There has been much work investigating [Source Location Privacy](/projects/project-1-PhD) (SLP), including the analysis of techniques. However, one area in which there is a lack of analysis is against adversaries in the network. These adversaries can be cheaply equipped with a laptop, directional antenna and a [cheap software defined radio](https://www.rtl-sdr.com/about-rtl-sdr/) to effectively locate the sources of valuable assets. In this work we investigated how to quantify the amount of information a non-SLP-aware routing matrix reveals to an adversary compared to a SLP-aware routing matrix via a measure of [divergence](https://en.wikipedia.org/wiki/Jensen%E2%80%93Shannon_divergence). Using this measure an algorithm was developed to *transform* a non-SLP-aware routing matrix into an SLP-aware routing matrix.
+There has been much work investigating [Source Location Privacy](/projects/project-1-PhD) (SLP), including the analysis of techniques. However, one area in which there is a lack of analysis is against adversaries in the network. These adversaries can be cheaply equipped with a laptop, directional antenna and a [cheap software defined radio](https://www.rtl-sdr.com/about-rtl-sdr/) to effectively locate the sources of valuable assets. In this work we investigated how to quantify the amount of information a non-SLP-aware routing matrix reveals to an adversary compared to an SLP-aware routing matrix via a measure of [divergence](https://en.wikipedia.org/wiki/Jensen%E2%80%93Shannon_divergence). Using this measure an algorithm was developed to *transform* a non-SLP-aware routing matrix into an SLP-aware routing matrix.
 
 <!-- readmore -->
 
