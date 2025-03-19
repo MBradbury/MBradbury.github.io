@@ -17,7 +17,7 @@ The [FAIR-SPACE](https://fairspacehub.org/) hub aimed to further the use of AI a
 
 Role: Research Fellow
 
-Funder: Future AI and Robotics Hub for Space (FAIR-SPACE) [[EP/R026092/1](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/R026092/1)] through UKRI under the Industry Strategic Challenge Fund (ISCF) for [Robotics and AI Hubs in Extreme and Hazardous Environments](https://iuk.ktn-uk.org/wp-content/uploads/2020/09/ISCF-Robotics-Brochure-2020.pdf)
+Funder: Future AI and Robotics Hub for Space (FAIR-SPACE) [[EP/R026092/1](https://gtr.ukri.org/projects?ref=EP/R026092/1)] through UKRI under the Industry Strategic Challenge Fund (ISCF) for [Robotics and AI Hubs in Extreme and Hazardous Environments](https://iuk.ktn-uk.org/wp-content/uploads/2020/09/ISCF-Robotics-Brochure-2020.pdf)
 
 Duration: {{ page.duration }}
 

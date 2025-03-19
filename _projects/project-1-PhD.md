@@ -49,7 +49,7 @@ This problem is usually introduced as the panda-hunter game. Where a wireless se
 
 Role: PhD Student
 
-Funder: [Engineering and Physical Sciences Research Council](https://epsrc.ukri.org) Doctoral Training Grant [[EP/M506679/1](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/M506679/1)]
+Funder: [Engineering and Physical Sciences Research Council](https://epsrc.ukri.org) Doctoral Training Grant [[EP/M506679/1](https://gtr.ukri.org/projects?ref=EP/M506679/1)]
 
 Duration: {{ page.duration }}
 
