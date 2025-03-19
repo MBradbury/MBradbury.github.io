@@ -16,7 +16,7 @@ Large critical infrastructures are subject to serious disruptions due to cyber a
 
 Role: Co-Investigator
 
-Funder: [Engineering and Physical Sciences Research Council](https://epsrc.ukri.org) [[EP/Z531315/1](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/Z531315/1)]
+Funder: [Engineering and Physical Sciences Research Council](https://epsrc.ukri.org) [[EP/Z531315/1](https://gtr.ukri.org/projects?ref=EP/Z531315/1)]
 
 Duration: {{ page.duration }}
 
