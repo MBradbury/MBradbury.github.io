@@ -1,4 +1,11 @@
 - icon: si-file
+  month: March
+  year: 2026
+  name: "New paper"
+  link: /publications/Kalutharage_2026_ClassesCPSObservation
+  description: "Classes of Cyber Physical System Observation Privacy Techniques. In <i>12th ACM Cyber-Physical System Security Workshop</i>"
+
+- icon: si-file
   month: January
   year: 2025
   name: "New paper"
