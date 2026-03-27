@@ -28,8 +28,9 @@ People:
  * [Dr. Sana Belguith](https://research-information.bris.ac.uk/en/persons/sana-belguith)
 
 Lancaster Research Team:
- * [Dr. Sourav Saha](https://www.lancaster.ac.uk/scc/about-us/people/sourav-saha)
  * [Dr. Luis Araujo Rodriguez](https://www.lancaster.ac.uk/scc/about-us/people/luis-araujo-rodriguez)
+ * [Dr. Sangeeta Kakati](https://www.lancaster.ac.uk/scc/about-us/people/sangeeta-kakati)
+ * [Dr. Muhammad Awais](https://www.lancaster.ac.uk/scc/about-us/people/muhammad-awais)
 
 Links:
  * [Announcement](https://www.lancaster.ac.uk/news/lancaster-researchers-to-help-lead-the-way-in-making-future-digital-infrastructures-cyber-secure)
