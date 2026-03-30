@@ -8,7 +8,7 @@ firstpage: https://raw.githubusercontent.com/MBradbury/publications/master/first
 bibtex: https://raw.githubusercontent.com/MBradbury/publications/master/bibtex/Rashid_2025_SecuringCompromisedSystem.bib
 project: project-9-SCULI
 type: paper
-paper_type: workshop
+paper_type: other
 ---
 
 There has been a large effort to sell a concept of secure-by-design by both the [UK](https://www.security.gov.uk/policy-and-guidance/secure-by-design/principles/), [USA](https://www.cisa.gov/securebydesign) and others. The reality is that being secure-by-design is not realistic.
