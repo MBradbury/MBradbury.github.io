@@ -2,6 +2,13 @@
   month: March
   year: 2026
   name: "New paper"
+  link: /publications/Smith_2026_NuclearCyberSecurityEducation
+  description: "Nuclear Cybersecurity Education: A Collaborative, Multi-Format Approach Using the Asherah Nuclear Power Plant Simulator 2.0. In <i>IAEA International Conference on Computer Security in the Nuclear World: Securing the Future</i>"
+
+- icon: si-file
+  month: March
+  year: 2026
+  name: "New paper"
   link: /publications/Kalutharage_2026_ClassesCPSObservation
   description: "Classes of Cyber Physical System Observation Privacy Techniques. In <i>12th ACM Cyber-Physical System Security Workshop</i>"
 
