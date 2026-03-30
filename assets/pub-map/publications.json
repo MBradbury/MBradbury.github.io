@@ -220,6 +220,18 @@
       "ident": "Rossfest 2025",
       "family": "System Security",
       "key": "Rashid_2025_SecuringCompromisedSystem"
+    },
+
+    {
+      "ident": "CyberCon 2026",
+      "family": "System Security",
+      "key": "Smith_2026_NuclearCyberSecurityEducation"
+    },
+
+    {
+      "ident": "CPSS 2026",
+      "family": "System Security",
+      "key": "Kalutharage_2026_ClassesCPSObservation"
     }
   ],
 
@@ -277,7 +289,13 @@
     { "target": "SEFM 2019", "source": "TDSC 2023", "type": "Extends" },
     { "target": "IoT-TRaM 2019", "source": "TDSC 2023", "type": "Related To" },
 
-    { "target": "CCS 2022 (Cloud)", "source": "TCC 2024", "type": "Extends" }
+    { "target": "CCS 2022 (Cloud)", "source": "TCC 2024", "type": "Extends" },
 
+    { "target": "PhD Thesis", "source": "CPSS 2026", "type": "Related To" },
+
+    { "target": "PhD Thesis", "source": "CPSS 2026", "type": "Related To" },
+    { "target": "Access 2020", "source": "CPSS 2026", "type": "Related To" },
+
+    { "target": "AerospaceASA 2020", "source": "AeroConf 2025", "type": "Related To" }
   ]
 }
