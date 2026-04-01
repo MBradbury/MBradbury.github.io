@@ -10,9 +10,11 @@ sitemap: true
 
 Module Convenor for:
  - 2021 &ndash; current SCC.442 Penetration Testing
- - 2021 &ndash; 2025 SCC.306 Internet Applications Engineering
  - 2025 &ndash; current SCC.253 Applied Security Methods
  - 2025 &ndash; current SCC.352 Secure Cyber Physical Systems
+
+Previously Module Convenor for:
+ - 2021 &ndash; 2025 SCC.306 Internet Applications Engineering
 
 ### SCC.442 Penetration Testing and SCC.253 Applied Security Methods
 
