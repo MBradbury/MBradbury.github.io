@@ -89,10 +89,22 @@ function make_graph(svg_id, types, color, data, height, width) {
     const svg = d3.select("#" + svg_id).append("svg")
         .attr("viewBox", [0, 0, width, height])
         .attr("class", "publication_map")
-        .attr("xlink", "http://www.w3.org/1999/xlink");
+        .attr("xlink", "http://www.w3.org/1999/xlink")
+        .attr("xmlns", "http://www.w3.org/2000/svg");
+
+    svg.append("style").text(`
+.node_stroke {
+    stroke: #fff;
+}
+@media (prefers-color-scheme: dark) {
+    .node_stroke {
+        stroke: #222831;
+    }
+}
+`);
 
     // Per-type markers, as they don't inherit styles.
-    svg.append("defs").selectAll("marker")
+    defs = svg.append("defs").selectAll("marker")
         .data(types)
         .join("marker")
             .attr("id", d => `arrow-${d}`)
@@ -133,8 +145,8 @@ function make_graph(svg_id, types, color, data, height, width) {
             .text(d => d.id)
         .clone(true).lower()
             .attr("fill", "none")
-            .attr("stroke", "white")
-            .attr("stroke-width", 5);
+            .attr("class", "node_stroke")
+            .attr("stroke-width", 8);
 
     simulation.on("tick", () => {
         link.attr("d", linkArc);
