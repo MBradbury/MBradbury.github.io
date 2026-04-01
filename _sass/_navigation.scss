@@ -356,3 +356,76 @@
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
 }
+
+@media (prefers-color-scheme: dark) {
+  .greedy-nav {
+    background: $dark-background-color;
+    a {
+      color: $dark-text-color;
+      &:hover {
+        color: $dark-muted-text-color;
+      }
+    }
+    button {
+      color: $dark-text-color;
+      &:hover {
+        color: $dark-muted-text-color;
+      }
+      &.close {
+        color: $dark-text-color;
+        &:hover {
+          color: #fff;
+          background-color: $dark-text-color;
+        }
+        .navicon {
+          background: transparent;
+          &:before,
+          &:after {
+            background: #fff;
+          }
+          &:before {
+            transform: rotate(-45deg);
+          }
+          &:after {
+            transform: rotate(45deg);
+          }
+        }
+      }
+    }
+    
+    &__toggle {
+      border-color: $dark-border-color;
+
+      span {
+        background-color: $dark-border-color;
+      }
+    }
+
+    .hidden-links {
+      background: $dark-background-color;
+      border-color: $dark-border-color;
+      box-shadow: 0 0 10px rgba(#000, 0.5);
+
+      a {
+        color: $dark-text-color;
+        
+        &:hover {
+          color: $dark-muted-text-color;
+          background: $dark-background-color-alt;
+        }
+      }
+
+      &:before {
+        border-color: $dark-border-color transparent;
+      }
+
+      &:after {
+        border-color: $dark-background-color transparent;
+      }
+
+      li {
+        border-bottom-color: $dark-border-color;
+      }
+    }
+  }
+}

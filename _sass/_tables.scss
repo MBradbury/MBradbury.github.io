@@ -26,6 +26,14 @@ thead {
   border-bottom: 2px solid $light-gray;
 }
 
+@media (prefers-color-scheme: dark) {
+  thead {
+    background-color: $dark-background-color-alt;
+    border-bottom: 2px solid $light-gray;
+  }
+}
+
+
 th {
   padding: 0.5em;
   font-weight: bold;

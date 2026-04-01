@@ -35,7 +35,7 @@
       {% endif %}
 
       <a href="{{ post.url | relative_url }}">
-        <span itemprop="image"><img src="{{ image_src }}" {% if post.image.alt %} alt="{{ post.image.alt }}" {% endif %} /></span>
+        <span itemprop="image"><img src="{{ image_src }}" {% if post.image.alt %} alt="{{ post.image.alt }}" {% endif %} style="background-color: white;" /></span>
       </a>
       {% endif %}
     </div>

@@ -263,6 +263,17 @@ body:hover .visually-hidden button {
   }
 }
 
+@media (prefers-color-scheme: dark) {
+  .social-icons {
+    .fas,
+    .fab,
+    .far,
+    .fal,
+    .ai {
+      color: $dark-text-color;
+    }
+  }
+}
 
 /*
    Navicons
@@ -440,4 +451,36 @@ a.reversefootnote {
 .required {
   color: $danger-color;
   font-weight: bold;
+}
+
+
+/*
+   Theme switching
+   ========================================================================== */
+
+:root {
+  --background-color: #{$background-color};
+  --text-color: #{$text-color};
+  --border-color: #{$border-color};
+  --code-background-color: #{$code-background-color};
+  --link-color: #{$link-color};
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  --background-color: #{$dark-background-color};
+  --text-color: #{$dark-text-color};
+  --border-color: #{$dark-border-color};
+  --code-background-color: #{$dark-code-background-color};
+  --link-color: #{$dark-link-color};
+  }
+}
+
+:root {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+a {
+  color: var(--link-color);
 }

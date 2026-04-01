@@ -241,3 +241,33 @@
     }
   }
 }
+
+@media (prefers-color-scheme: dark) and (max-width: 1023px) {
+  .author__urls {
+    background: $dark-background-color;
+    border-color: $dark-border-color;
+    box-shadow: 0 0 10px rgba(#000, 0.5);
+
+    a {
+      color: $dark-text-color;
+      
+      &:hover {
+        color: $dark-muted-text-color;
+        background: $dark-background-color-alt;
+      }
+    }
+
+    &:before {
+      border-color: $dark-border-color transparent;
+    }
+
+    &:after {
+      border-color: $dark-background-color transparent;
+    }
+
+    li {
+      border-bottom-color: $dark-border-color;
+    }
+
+  }
+}

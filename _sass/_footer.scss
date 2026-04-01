@@ -82,3 +82,16 @@
     }
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .page__footer {
+    background-color: $dark-footer-background-color;
+    color: $dark-text-color;
+    a {
+      color: $dark-text-color;
+      &:hover {
+        color: $dark-muted-text-color;
+      }
+    }
+  }
+}

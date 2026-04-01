@@ -273,6 +273,12 @@ body {
   }
 }
 
+@media (prefers-color-scheme: dark) {
+  .page__meta {
+    color: $dark-muted-text-color;
+  }
+}
+
 .page__meta-title {
   margin-bottom: 10px;
   font-size: $type-size-6;
