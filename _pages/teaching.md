@@ -38,8 +38,14 @@ In this module students were given insight into current work building internet a
 * Experience analysing historical data trends using [Google Big Query](https://cloud.google.com/bigquery/docs/introduction).
 * Learnt how to read and apply web standards such as the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG22/) to identify and fix accessibility issues in a broken website.
 
-### Other roles
- - 2022 &ndash; 2025 Year Two Tutor
+### Year Two Tutor
+
+I was the Year Two Tutor between 2022 &ndash; 2025. This was a student-facing role which entailed:
+ - Supporting students who were struggling with their education,
+ - Acting as the academic integrity officer for malpractice cases involving students in year two, and
+ - Allocating students to dissertation projects which will be undertaken in their third year of studies.
+
+Allocating students to dissertation projects was a large part of this role. To simplify this task I automated the solicitation of project proposals from other academic staff and using this information a PDF brochure and a website were automatically generated. Students ranked their preferences in the proposed projects and a Integer Linear Programming problem was formulated and solved using [PuLP](github.com/coin-or/pulp) with [Gurobi](https://www.gurobi.com/faqs/gurobipy/) as the backend. Manual checks and adjustments were then performed on the allocation to validate the suitability. The implementation of the website and solver were provided to students as a learning opportunity, this received engagement from a small number of students to add new functionality to the website (a dark mode, a dynamic filter to be able to view the most relevant projects).
 
 ## University of Warwick, UK
 
