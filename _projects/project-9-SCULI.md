@@ -5,7 +5,8 @@ duration: "July 2024 &ndash; June 2029"
 location: "School of Computing and Communications, Lancaster University"
 image:
   src: /images/SCULI_cmyk_with_strap.svg
-  alt: ""
+  src_dark: /images/SCULI_cmyk_white_with_strap.svg
+  alt: "Securing Convergent Ultra-large Scale Infrastructures Programme"
 collection: projects
 ---
 

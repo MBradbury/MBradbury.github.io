@@ -34,8 +34,30 @@
         {% capture image_src %}{{ post.image }}{% endcapture %}
       {% endif %}
 
+      {% if post.image.alt %}
+        {% capture image_alt %}alt="{{ post.image.alt }}"{% endcapture %}
+      {% else %}
+        {% capture image_alt %}{% endcapture %}
+      {% endif %}
+
       <a href="{{ post.url | relative_url }}">
-        <span itemprop="image"><img src="{{ image_src }}" {% if post.image.alt %} alt="{{ post.image.alt }}" {% endif %} style="background-color: white;" /></span>
+        <span itemprop="image">
+          <picture>
+            <!-- Light mode image -->
+            <source srcset="{{ image_src }}" media="(prefers-color-scheme: light)" />
+
+            <!-- Dark mode image -->
+            {% if post.image.src_dark %}
+              <source srcset="{{ post.image.src_dark }}" media="(prefers-color-scheme: dark)" />
+              {% capture image_style %}{% endcapture %}
+            {% else %}
+              {% capture image_style %}style="background-color: white;"{% endcapture %}
+            {% endif %}
+
+            <!-- Fallback (if prefers-color-scheme isn't supported) -->
+            <img src="{{ image_src }}" {{ image_alt }} {{ image_style }} />
+          </picture>
+        </span>
       </a>
       {% endif %}
     </div>
