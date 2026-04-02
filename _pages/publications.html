@@ -38,3 +38,7 @@ sitemap: true
 <h2 id="TechnicalReports">Technical Reports</h2>
 {%- assign publications = site.publications | concat: site.publications_hidden | where: "type", "techreport" | sort: 'publishDate' -%}
 {%- include publication-list publications=publications -%}
+
+<h2 id="EventReports">Event Reports</h2>
+{%- assign publications = site.publications | concat: site.publications_hidden | where: "type", "eventreport" | sort: 'publishDate' -%}
+{%- include publication-list publications=publications -%}
