@@ -45,6 +45,11 @@ sitemap: true
  * [Scientific Reports](https://www.nature.com/srep/)
  * IEEE Transactions on Network and Service Management ([TNSM](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4275028))
 
+Research proposals have been reviewed for these funders:
+ * Engineering and Physical Sciences Research Council
+ * Royal Academy of Engineering
+ * Lancaster University's [Cyber Focus](https://www.lancaster.ac.uk/cybersecurity/cyber-focus/) Project
+
 {% comment %}
 ## Outreach
 
