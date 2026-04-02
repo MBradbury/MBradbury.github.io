@@ -30,5 +30,5 @@ People:
  * [Victoria Marcinkiewicz](https://www.cardiff.ac.uk/people/research-students/view/2565045-)
 
 Links:
- * [Announcement of Review](https://news.onr.org.uk/2022/08/independent-review-of-onrs-security-assessment-principles/)
- * [Announcement of Completed Review](https://news.onr.org.uk/2023/04/independent-review-completed-of-onrs-security-assessment-principles-syaps/)
+ * [Announcement of Review](https://www.onr.org.uk/news/all-news/2022/08/independent-review-of-onrs-security-assessment-principles)
+ * [Announcement of Completed Review](https://www.onr.org.uk/news/all-news/2023/04/independent-review-completed-of-onrs-security-assessment-principles-syaps)
