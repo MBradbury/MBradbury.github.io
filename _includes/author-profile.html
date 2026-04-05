@@ -6,7 +6,13 @@
   {% if author.avatar %}
     <div class="author__avatar">
       <a href="{{ author.home | default: '/' | absolute_url }}">
-        <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}" itemprop="image">
+        <picture>
+          {% if author.avatar %}
+          <source srcset="{{ author.avatar_webp | relative_url }}" type="image/webp" />
+          {% endif %}
+
+          <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}" itemprop="image">
+        </picture>
       </a>
     </div>
   {% endif %}
