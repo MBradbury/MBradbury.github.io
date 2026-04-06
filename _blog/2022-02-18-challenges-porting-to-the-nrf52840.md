@@ -7,7 +7,7 @@ modified: 2022-06-13
 sitemap: true
 ---
 
-I have been working with [Giovanni](https://www.lancaster.ac.uk/sci-tech/about-us/people/giovanni-stanco) (a visiting PhD student) to port [code](https://github.com/mbradbury/iot-trust-task-alloc) from a previous [project](/projects/project-6-TEAM/) from the [Zolertia RE-Mote](https://zolertia.io/product/re-mote/) platform to new [nRF52840 DK](https://www.nordicsemi.com/Products/Development-hardware/nrf52840-dk) boards. These boards are much more capable than the Zolertia RE-Motes, not just in terms of computational capability, but also in terms of the ability to debug and instrument them. While we expected to encounter some challenges with the port, the most problematic and time consuming issues ended up being entirely unexpected.
+I have been working with Giovanni Stanco (a visiting PhD student) to port [code](https://github.com/mbradbury/iot-trust-task-alloc) from a previous [project](/projects/project-6-TEAM/) from the [Zolertia RE-Mote](https://zolertia.io/product/re-mote/) platform to new [nRF52840 DK](https://www.nordicsemi.com/Products/Development-hardware/nrf52840-dk) boards. These boards are much more capable than the Zolertia RE-Motes, not just in terms of computational capability, but also in terms of the ability to debug and instrument them. While we expected to encounter some challenges with the port, the most problematic and time consuming issues ended up being entirely unexpected.
 
 <!-- readmore -->
 

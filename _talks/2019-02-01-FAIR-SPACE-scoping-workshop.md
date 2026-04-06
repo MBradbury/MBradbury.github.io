@@ -12,14 +12,14 @@ image:
 project: project-4-FAIR-SPACE
 ---
 
-As part of the [FAIR-SPACE](/projects/project-4-FAIR-SPACE) project a workshop was held with members of academia and industry to identify cyber-security issue with robotic systems deployed in space and to scope out which of these issues were of high priority. [Dr. Marie Farell](https://www.research.manchester.ac.uk/portal/marie.farrell.html) and myself led the discussion with the attendees after introductory talks from [Prof. Michael Fisher](https://www.research.manchester.ac.uk/portal/michael.fisher.html) and [Prof. Carsten Maple](https://warwick.ac.uk/fac/sci/wmg/people/profile/?wmgid=1102).
+As part of the [FAIR-SPACE](/projects/project-4-FAIR-SPACE) project a workshop was held with members of academia and industry to identify cyber-security issue with robotic systems deployed in space and to scope out which of these issues were of high priority. [Dr. Marie Farrell](https://mariefarrell.github.io/) and myself led the discussion with the attendees after introductory talks from [Prof. Michael Fisher](https://www.research.manchester.ac.uk/portal/michael.fisher.html) and [Prof. Carsten Maple](https://warwick.ac.uk/fac/sci/wmg/people/profile/?wmgid=1102).
 
 <!-- readmore -->
 
 A variety of interesting issues were highlighted including:
- * managing legacy code and updating software of satellies
+ * managing legacy code and updating software of satellites
  * managing changing security standards, such as more computationally expensive cryptographic requirements
- * the lifetime of satellies before deorbiting means that dormant satellites could potentially be revived and used for malicious purposes
+ * the lifetime of satellites before deorbiting means that dormant satellites could potentially be revived and used for malicious purposes
  * the impact of dual-use technology
  * satellite swarms and new ways of deploying technology in space leading to a larger attack surface
  * new entrants to the space industry being less aware of procedures compared to established organisations

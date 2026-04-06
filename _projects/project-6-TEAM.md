@@ -19,7 +19,7 @@ Thus far the project has delivered a [prototype middleware](https://github.com/M
 
 Role: Research Co-Investigator
 
-Funder: [The PETRAS National Centre of Excellence for IoT Systems Cybersecurity](https://petras-iot.org/) [[EPSRC Grant EP/S035362/1](https://gtr.ukri.org/projects?ref=EP/S035362/1)]
+Funder: [The PETRAS National Centre of Excellence for IoT Systems Cybersecurity](https://petras.cs.ucl.ac.uk) [[EPSRC Grant EP/S035362/1](https://gtr.ukri.org/projects?ref=EP/S035362/1)]
 
 Duration: {{ page.duration }}
 
@@ -28,6 +28,6 @@ People:
  * [Prof. Tim Watson](https://warwick.ac.uk/fac/sci/wmg/people/profile/?wmgid=1077) (CoI)
 
 Links:
- * [PETRAS Project Page](https://petras-iot.org/project/evaluating-trustworthiness-of-edge-based-multi-tenanted-iot-devices-team/)
+ * [PETRAS Project Page](https://petras.cs.ucl.ac.uk/project/evaluating-trustworthiness-of-edge-based-multi-tenanted-iot-devices-team/)
  * [Funding Announcement News Article](https://warwick.ac.uk/fac/sci/dcs/news/?newsItem=8a1785d8721768f401723d62f6e13f9f)
  * [Source Code](https://github.com/MBradbury/iot-trust-task-alloc)

@@ -32,7 +32,7 @@ The other half of the module focused on Industrial Control Systems in a Nuclear 
 
 ### SCC.306 Internet Applications Engineering
 
-In this module students were given insight into current work building internet applications that is performed in industry. This was achieved by guest lectures from organisations such as the [BBC](https://bbc.co.uk), [Tesco](https://tesco.co.uk), [AWS](https://aws.amazon.com/), and others.
+In this module students were given insight into current work building internet applications that is performed in industry. This was achieved by guest lectures from organisations such as the [BBC](https://bbc.co.uk), [Tesco](https://www.tesco.co.uk), [AWS](https://aws.amazon.com/), and others.
 
 * Learnt to analyse website performance using [Chrome Developer Tools](https://developer.chrome.com/docs/devtools).
 * Experience analysing historical data trends using [Google Big Query](https://cloud.google.com/bigquery/docs/introduction).
@@ -45,7 +45,7 @@ I was the Year Two Tutor between 2022 &ndash; 2025. This was a student-facing ro
  - Acting as the academic integrity officer for malpractice cases involving students in year two, and
  - Allocating students to dissertation projects which will be undertaken in their third year of studies.
 
-Allocating students to dissertation projects was a large part of this role. To simplify this task I automated the solicitation of project proposals from other academic staff and using this information a PDF brochure and a website were automatically generated. Students ranked their preferences in the proposed projects and a Integer Linear Programming problem was formulated and solved using [PuLP](https://github.com/coin-or/pulp) with [Gurobi](https://www.gurobi.com/faqs/gurobipy/) as the backend. Manual checks and adjustments were then performed on the allocation to validate the suitability. The implementation of the website and solver were provided to students as a learning opportunity, this received engagement from a small number of students to add new functionality to the website (a dark mode, a dynamic filter to be able to view the most relevant projects).
+Allocating students to dissertation projects was a large part of this role. To simplify this task I automated the solicitation of project proposals from other academic staff and using this information a PDF brochure and a website were automatically generated. Students ranked their preferences in the proposed projects and a Integer Linear Programming problem was formulated and solved using [PuLP](https://github.com/coin-or/pulp) with [Gurobi](https://www.gurobi.com/) as the backend. Manual checks and adjustments were then performed on the allocation to validate the suitability. The implementation of the website and solver were provided to students as a learning opportunity, this received engagement from a small number of students to add new functionality to the website (a dark mode, a dynamic filter to be able to view the most relevant projects).
 
 ## University of Warwick, UK
 
