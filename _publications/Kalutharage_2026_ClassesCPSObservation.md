@@ -22,11 +22,15 @@ Developing observation privacy techniques is challenging and time consuming. Exi
 ## Perspectives
 
 We classified observation privacy techniques into three classes:
+
 1. Add Noise --- Which introduces behavioural change that acts as noise to the adversary. For example, this may be to introduce unneeded actions in addition to the actions needed for the system to achieve its goals.
 2. Decorrelate --- Which try to break the link between observations made by an adversary and an underlying sensitive context. For example, this might be to break a correlation between cause and effect by delaying an actuation.
 3. Change Observability --- Which changes how the system acts to prevent it from being observed by the adversary. This tends to be challenging to achieve in practice.
 
-Additionally, we considered a foruth speculative class:
-4. Make Sensitive Commonplace --- Which has the system commonly perform sensitive actions alongside non-sensitive actions in order to obscure an underlying change in goal or motivation of the system. The intuition is that the *suprise* an adversary has in observing an event is decreased when it is more common, making it a less useful event to observe.
+Additionally, we considered a fourth speculative class:
+
+<ol start="4">
+    <li>Make Sensitive Commonplace --- Which has the system commonly perform sensitive actions alongside non-sensitive actions in order to obscure an underlying change in goal or motivation of the system. The intuition is that the *suprise* an adversary has in observing an event is decreased when it is more common, making it a less useful event to observe.</li>
+</ol>
 
 We saw that most techniques applied (i) Add Noise or (ii) Decorrelated and fewer considered (iii) Change Observability. No works considered (iv) Make Sensitive Commonplace, indicating that there is a potential for new scope of techniques here. We also identified that some domains were already using information from other CPS domains. For example, [UAVs](https://dl.acm.org/doi/10.1145/3479239.3485712) taking inspiration from [Connected Vehicles](https://doi.org/10.1109/VNC.2009.5416380).
