@@ -11,7 +11,7 @@ type: paper
 paper_type: workshop
 ---
 
-Across a wide range of different Cyber Physical System (CPS) domains there has been much work on addressing observation privacy threats to CPSs. However, an issue is that much of this work has been siloed in that specific domain and there has been little opportunity to take advantage of the approaches used in different domains. In this paper we present a classification of different observation privacy *techniques* to understand what work has been peformed and where gaps may exist across domains in underutilised classes of observation privacy techniques.
+Across a wide range of different Cyber Physical System (CPS) domains there has been much work on addressing observation privacy threats to CPSs. However, an issue is that much of this work has been siloed in that specific domain and there has been little opportunity to take advantage of the approaches used in different domains. In this paper we present a classification of different observation privacy *techniques* to understand what work has been performed and where gaps may exist across domains in underutilised classes of observation privacy techniques.
 
 <!-- readmore -->
 
@@ -30,7 +30,7 @@ We classified observation privacy techniques into three classes:
 Additionally, we considered a fourth speculative class:
 
 <ol start="4">
-    <li>Make Sensitive Commonplace --- Which has the system commonly perform sensitive actions alongside non-sensitive actions in order to obscure an underlying change in goal or motivation of the system. The intuition is that the *suprise* an adversary has in observing an event is decreased when it is more common, making it a less useful event to observe.</li>
+    <li>Make Sensitive Commonplace --- Which has the system commonly perform sensitive actions alongside non-sensitive actions in order to obscure an underlying change in goal or motivation of the system. The intuition is that the *surprise* an adversary has in observing an event is decreased when it is more common, making it a less useful event to observe.</li>
 </ol>
 
 We saw that most techniques applied (i) Add Noise or (ii) Decorrelated and fewer considered (iii) Change Observability. No works considered (iv) Make Sensitive Commonplace, indicating that there is a potential for new scope of techniques here. We also identified that some domains were already using information from other CPS domains. For example, [UAVs](https://dl.acm.org/doi/10.1145/3479239.3485712) taking inspiration from [Connected Vehicles](https://doi.org/10.1109/VNC.2009.5416380).

@@ -13,7 +13,7 @@ paper_type: techreport
 
 Global navigation satellite systems (GNSS) such as [GPS](https://www.gps.gov/) and [Galileo](https://www.gsa.europa.eu/european-gnss/galileo/galileo-european-global-satellite-based-navigation-system) are vital sources of positioning, navigation and timing (PNT) information for vehicles. This information is of critical importance for connected autonomous vehicles (CAVs) due to their dependence on this information for localisation, route planning, and situational awareness. A downside to solely relying on GNSS for PNT is that the signal strength arriving from navigation satellites in space is weak and currently there is no authentication included in the civilian GNSS adopted in the automotive industry. This means that cyber-attacks against the GNSS signal via jamming or spoofing are [attractive](https://www.gov.uk/government/publications/satellite-derived-time-and-position-blackett-review) to adversaries due to the potentially high impact they can achieve.
 
-This report reviews the vulnerabilities of GNSS services for CAVs, as well as detection and mitigation techniques, summarises the opinions on PNT cybertesting sourced from a select group of experts, and finishes with a description of the associated lab-based and real-world feasibility study and proposed research methodology.
+This report reviews the vulnerabilities of GNSS services for CAVs, as well as detection and mitigation techniques, summarises the opinions on PNT cyber testing sourced from a select group of experts, and finishes with a description of the associated lab-based and real-world feasibility study and proposed research methodology.
 
 <!-- readmore -->
 
