@@ -232,6 +232,12 @@
       "ident": "CPSS 2026",
       "family": "System Security",
       "key": "Kalutharage_2026_ClassesCPSObservation"
+    },
+
+    {
+      "ident": "MIST 2026",
+      "family": "System Security",
+      "key": "Kalutharage_2026_TradingApplianceLiveness"
     }
   ],
 
@@ -296,6 +302,8 @@
     { "target": "PhD Thesis", "source": "CPSS 2026", "type": "Related To" },
     { "target": "Access 2020", "source": "CPSS 2026", "type": "Related To" },
 
-    { "target": "AerospaceASA 2020", "source": "AeroConf 2025", "type": "Related To" }
+    { "target": "AerospaceASA 2020", "source": "AeroConf 2025", "type": "Related To" },
+
+    { "target": "CPSS 2026", "source": "MIST 2026", "type": "Related To" }
   ]
 }
