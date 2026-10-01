@@ -238,6 +238,12 @@
       "ident": "MIST 2026",
       "family": "System Security",
       "key": "Kalutharage_2026_TradingApplianceLiveness"
+    },
+
+    {
+      "ident": "Sensors 2026",
+      "family": "System Security",
+      "key": "Choobdar_2026_CybersecuritySmartSensing"
     }
   ],
 
