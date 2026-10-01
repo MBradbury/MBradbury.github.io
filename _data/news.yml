@@ -1,4 +1,18 @@
 - icon: si-file
+  month: October
+  year: 2026
+  name: "New paper"
+  link: /publications/Choobdar_2026_CybersecuritySmartSensing
+  description: "Cybersecurity of Smart Sensing Insole Systems: A Threat Modelling Approach to Understanding Security Vulnerabilities. In <i>MDPI Sensors</i>"
+
+- icon: si-file
+  month: July
+  year: 2026
+  name: "New paper"
+  link: /publications/Kalutharage_2026_TradingApplianceLiveness
+  description: "Trading Appliance Liveness for Home Electricity Consumption Privacy. In <i>Workshop on Mobile and IoT Security Technologies</i>"
+
+- icon: si-file
   month: March
   year: 2026
   name: "New paper"
